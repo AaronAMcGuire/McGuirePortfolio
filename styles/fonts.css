@@ -1,0 +1,14 @@
+  @font-face {
+    font-family: 'Lora-Regular';
+    src: url("../fonts/Lora-Regular.ttf");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Lora-Regular.ttf") format("embedded-opentype"), url("../fonts/Lora-Regular.ttf") format("truetype"); }
+
+
+    @font-face {
+      font-family: 'Omnes';
+      src: url("../fonts/Omnes.ttf");
+      /* IE9 Compat Modes */
+      src: url("../fonts/Omnes.ttf") format("embedded-opentype"), url("../fonts/Omnes.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */
