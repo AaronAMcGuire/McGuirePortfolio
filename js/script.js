@@ -1,5 +1,5 @@
 
-$(document).ready(function(){$(window).scroll(function(){$(window).scrollTop()>320&&$("header").addClass("header_fix"),$(window).scrollTop()<420&&$("header").removeClass("header_fix")})});
+$(document).ready(function(){$(window).scroll(function(){$(window).scrollTop()>220&&$("header").addClass("header_fix"),$(window).scrollTop()<220&&$("header").removeClass("header_fix")})});
 
 var $hamburger=$(".hamburger");
 $hamburger.on("click",function(a)

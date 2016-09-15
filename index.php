@@ -48,9 +48,7 @@
 <?php include_once("includes/analyticstracking.php") ?>
 <!-- Hero section-->
 <section class="hero webgl gradient">
-<div class='hero_content gradient'><object type="image/svg+xml" data="images/logo.svg" class="logo">
-<img src='images/logo.svg' alt='McGuire logo'>
-</object>
+<div class='hero_content gradient'><h2 class='xl'>McGuire</h2>
 <p>Aaron is a front end web developer currently studying BSc at Manchester Metropolitan University.</p>
 <a class='default_button' href='portfolio.php' title='See all of Aarons work '>View my work</a>
 </div>
@@ -69,9 +67,9 @@
 <!-- Start of about section -->
 <section class='about '>
 
-  <div class='left_panel'><div class=' fadeIn'><span class='sub_title'>A little about me</span><h2>Who I am and What I do</h2><span class='line'></span><p>I'm Aaron a 21 year old front end web developer, living just outside of Manchester in a little place called Stockport. Currently I am in my last year at University where i'm studying BSc Web Development. Once finished i'm hoping to get straight into a full time front end role. I'm also currently on placement at <a href='' title='Web development agency located in Manchester' class='default_link'>Supremo</a> which is awesome! </p><a href='about.php' title='Everything else there is to know!' class='default_button outline'>Full About</a>
-	</div></div>
-  <div class='right_panel fadeIn'></div>
+  <div class='container fadeIn'><span class='sub_title'>A little about me</span><h2>Who I am and What I do</h2><span class='line'></span><p>I'm Aaron a 21 year old front end web developer, living just outside of Manchester in a little place called Stockport. Currently I am in my last year at University where i'm studying BSc Web Development. Once finished i'm hoping to get straight into a full time front end role. I'm also currently on placement at <a href='' title='Web development agency located in Manchester' class='default_link'>Supremo</a> which is awesome! </p>
+		<a href='about.php' title='Everything else there is to know!' class='default_button outline'> Full About</a>
+	</div>
 
 </section>
 <!-- end of section -->
@@ -90,7 +88,7 @@
 
 						<div class='portfolio_item'><img src='images/mmuico.jpg' alt='Info comms website mockup'><a href='' title='full project specification of info comms website'><div class='overlay'><h3>Information Communications</h3><span class='tag'>Web, Design</span></div></a> </div>
 
-<a href='portfolio.php' title='Check out all of Aarons work' class='default_button outline-rv'>View more</a>
+<a href='portfolio.php' title='Check out all of Aarons work' class='default_button'>View more</a>
 </section>
 <!-- end of section -->
 <!-- Start of blog section -->
