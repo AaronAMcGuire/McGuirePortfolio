@@ -7,7 +7,8 @@ html {
   width: 100%;
   height: auto;
   font-family: 'Omnes';
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden; }
 
 /* Prevent user scrolling on mobile menu */
 .overflow {
@@ -22,7 +23,8 @@ h3 {
   font-size: 2.4rem; }
 
 ul, li,
-.default_button {
+.default_button,
+.tag {
   font-size: 1.7rem; }
 
 a {
@@ -124,6 +126,11 @@ h2 {
 
 /* END OF BUTTONS */
 /* START OF ANIMATION CLASSES */
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 1.5s; }
+
 .bounce-up .subject {
   opacity: 0;
   -moz-transition: all 700ms ease-out;
@@ -209,8 +216,12 @@ header {
   padding: 1rem 3rem;
   border-radius: 2rem; }
 
+.emp:before {
+  background-color: transparent; }
+
 .emp:hover {
-  border-radius: 2rem; }
+  border-radius: 2rem;
+  color: #ff425d; }
 
 .header_fix {
   top: 0;
@@ -260,7 +271,7 @@ header {
 
 .hero_content {
   width: 100%;
-  height: 800px;
+  height: 920px;
   position: absolute;
   z-index: 100;
   display: flex;
@@ -290,8 +301,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: 1200px; }
+    flex-direction: row;
+    width: 1100px; }
 
 .style2 {
   background: transparent;
@@ -374,10 +385,6 @@ header {
     display: none;
     transition: opacity 200ms ease-in-out;
     opacity: 0; }
-    .portfolio .overlay h3 {
-      font-size: 2rem; }
-    .portfolio .overlay .tag {
-      font-size: 1.3rem; }
   .portfolio .portfolio_item:hover .overlay {
     display: flex;
     animation: fadeIn 350ms ease-in-out;
@@ -390,6 +397,74 @@ header {
     transform: scale(1.1); }
 
 /* END OF PORTFOLIO */
+.swiper-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 4rem 0; }
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none; }
+
+.swiper-slide {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: column; }
+
+.swiper-slide img {
+  width: 100%;
+  height: auto; }
+
+.post_data {
+  position: relative;
+  bottom: 10px;
+  padding: 4rem 0;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  color: #323232;
+  width: 100%; }
+  .post_data a {
+    text-transform: uppercase; }
+  .post_data h2 {
+    font-size: 4rem;
+    color: #ff425d; }
+  .post_data p {
+    width: 100%;
+    font-size: 2.2rem;
+    text-align: justify;
+    color: #8c8c8c; }
+  .post_data .line {
+    margin: 1rem 0;
+    height: 1px;
+    width: 20px;
+    background: #e6e6e6; }
+  .post_data .default_button {
+    margin: 1rem 0;
+    width: 130px; }
+
+.blog_posts {
+  background: #f7f7f7;
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+  transition: 0.25s;
+  overflow: hidden; }
+
 footer {
   width: 100%;
   height: auto;
@@ -406,7 +481,6 @@ footer {
       position: relative;
       float: left; }
     footer .footer_content_box h3 {
-      font-size: 1.8rem;
       margin: 1rem 0;
       color: white; }
     footer .footer_content_box ul li {
@@ -427,85 +501,6 @@ footer {
   color: white;
   float: left;
   display: block; }
-
-.swiper-container {
-  width: 100%;
-  height: auto;
-  margin: 0 auto; }
-
-.swiper-button-prev,
-.swiper-button-next {
-  display: none; }
-
-.swiper-slide {
-  height: 800px;
-  width: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  flex-direction: column; }
-
-.swiper-slide img {
-  width: 100%;
-  height: auto;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px; }
-
-.post_data {
-  position: relative;
-  bottom: 10px;
-  background: white;
-  padding: 4rem;
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
-  color: #323232;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  -webkit-box-shadow: 14px 12px 37px -21px #787878;
-  -moz-box-shadow: 14px 12px 37px -21px #787878;
-  box-shadow: 14px 12px 37px -21px #787878; }
-  .post_data a {
-    text-transform: uppercase; }
-  .post_data h2 {
-    font-size: 2.3rem; }
-  .post_data p {
-    width: 100%;
-    font-size: 1.5rem;
-    text-align: justify;
-    color: #8c8c8c; }
-  .post_data .line {
-    margin: 1rem 0;
-    height: 1px;
-    width: 20px;
-    background: #e6e6e6; }
-  .post_data .default_button {
-    margin: 1rem 0;
-    width: 130px;
-    padding: 1rem 0; }
-
-.blog_posts {
-  background: #f7f7f7;
-  position: relative;
-  height: auto;
-  margin: 0 auto;
-  box-sizing: border-box;
-  transition: 0.25s;
-  overflow: hidden; }
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-  animation-duration: 1.5s; }
 
 /* ANIMATIONS START */
 @-webkit-keyframes fadeIn {
@@ -554,46 +549,6 @@ footer {
     .background p {
       padding: 0 2rem; }
 
-  main .portfolio .portfolio_item {
-    width: 45%; }
-
-  .container {
-    width: 900px; }
-
-  .blog {
-    display: flex;
-    justify-content: center; }
-    .blog .container {
-      display: flex;
-      justify-content: center; }
-    .blog .blog_post {
-      width: 50%; }
-    .blog .blog_left_panel {
-      width: 80%; }
-      .blog .blog_left_panel .blog_post {
-        width: 44%; }
-    .blog .blog_post:last-of-type {
-      display: none; } }
-@media screen and (max-width: 900px) {
-  .portfolio .portfolio_item {
-    width: 50%; }
-
-  .container {
-    width: 700px; }
-
-  .blog .blog_left_panel .blog_post {
-    width: 90%; }
-
-  .cv .content {
-    flex-wrap: wrap;
-    padding: 4rem 0; }
-
-  h1 {
-    display: none; } }
-@media screen and (max-width: 713px) {
-  .about .container {
-    padding: 4rem; }
-
   a,
   p,
   span,
@@ -602,6 +557,29 @@ footer {
 
   h2 {
     font-size: 5rem; }
+
+  .post_data p {
+    font-size: 2rem; }
+
+  .cv .content {
+    width: auto; }
+
+  .container {
+    width: 900px; } }
+@media screen and (max-width: 900px) {
+  .portfolio .portfolio_item {
+    width: 50%; }
+
+  .cv .content {
+    flex-wrap: wrap;
+    padding: 4rem 0;
+    z-index: 9999; }
+
+  h1 {
+    display: none; } }
+@media screen and (max-width: 713px) {
+  .about .container {
+    padding: 4rem; }
 
   .portfolio .portfolio_item {
     width: 48%; }
@@ -613,7 +591,7 @@ footer {
     height: auto;
     padding: 3rem 0; }
     .swiper-slide .post_data {
-      width: 100%; }
+      width: 90%; }
 
   .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
     bottom: 0; }
@@ -634,7 +612,7 @@ footer {
       padding: 0; }
       .cv .content .style2 {
         position: relative;
-        bottom: 55px;
+        bottom: 90px;
         color: white;
         background: #392071;
         border: 1px solid #392071; }
@@ -644,14 +622,12 @@ footer {
       .cv .content p {
         display: none; }
 
-  .blog {
-    padding: 4rem 0; }
-    .blog .container {
-      flex-wrap: wrap; }
-    .blog .blog_left_panel .blog_post {
-      width: 100%; }
-    .blog .blog_post {
-      width: 100%; }
+  .blog .post_data {
+    padding: 4rem;
+    box-sizing: border-box;
+    width: 90%; }
+  .blog .container {
+    flex-wrap: wrap; }
 
   footer .footer_content_box {
     width: 100%;
@@ -665,7 +641,6 @@ footer {
   body.menu_open {
     overflow: hidden; }
 
-  /* HEADER START*/
   header {
     background: rgba(50, 50, 50, 0.9);
     position: fixed;
@@ -704,22 +679,7 @@ footer {
     background: #ff425d;
     height: 50px;
     width: 100%;
-    z-index: 99999; }
-
-  h1 {
-    font-size: 3rem;
-    line-height: 1.5; }
-
-  .blog {
-    height: auto; }
-    .blog .blog_sidebar {
-      display: none; }
-    .blog .blog_left_panel {
-      width: 100%; }
-      .blog .blog_left_panel .blog_post {
-        width: 100%;
-        margin: 2rem 0;
-        box-sizing: border-box; } }
+    z-index: 99999; } }
 @media screen and (max-width: 400px) {
   h2 {
     font-size: 4rem; }

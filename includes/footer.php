@@ -19,7 +19,6 @@
 <script type="text/javascript" src="http://threejs.org/build/three.js"></script>
 <script type="text/javascript" src="http://threejs.org/examples/js/renderers/Projector.js"></script>
 <script type="text/javascript" src="http://threejs.org/examples/js/renderers/CanvasRenderer.js"></script>
-<script type="text/javascript" src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 <script src="js/main.js"></script>
 
 

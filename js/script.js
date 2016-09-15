@@ -18,21 +18,20 @@ var appendNumber = 4;
         prevButton: '.swiper-button-prev',
         scrollPerPage : false,
           itemsScaleUp : true,
-        slidesPerView: 3,
+        slidesPerView: 2,
         autoplay: 8000,
         loop: false,
         centeredSlides: false,
         paginationClickable: true,
-        spaceBetween: 50,
+        spaceBetween: 90,
         breakpoints: {
-    648: {
+    713: {
       slidesPerView: 1,
       spaceBetweenSlides: 10,
 
     },
 
     900: {
-      slidesPerView: 2,
       spaceBetweenSlides: 20
     }
   }
@@ -68,7 +67,7 @@ $window.trigger('scroll');
 
 $(document).ready(function() {
     $('.overlay').each(function () {
-      var colors = ["#D93663","#AFBF28","#5C0BB7","#FFC43A","#AB81CD","#0BB5B7"];
+      var colors = ["#B92E22","#252333","#C03220","#D46748","#930408"];
       var rand = Math.floor(Math.random()*colors.length);
         $(this).css("background-color", colors[rand]);
     });
@@ -209,8 +208,8 @@ if (screen && screen.width > 768) {
 
       function render() {
 
-        camera.position.x += ( mouseX - camera.position.x ) * .05;
-        camera.position.y += ( - mouseY - camera.position.y ) * .05;
+        camera.position.x += ( mouseX - camera.position.x ) * .01;
+        camera.position.y += ( - mouseY - camera.position.y ) * .01;
         camera.lookAt( scene.position );
 
         var i = 0;
