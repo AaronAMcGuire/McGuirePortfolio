@@ -19,6 +19,8 @@
 <script type="text/javascript" src="http://threejs.org/build/three.js"></script>
 <script type="text/javascript" src="http://threejs.org/examples/js/renderers/Projector.js"></script>
 <script type="text/javascript" src="http://threejs.org/examples/js/renderers/CanvasRenderer.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 <script src="js/main.js"></script>
 
 

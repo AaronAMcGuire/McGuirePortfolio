@@ -47,7 +47,7 @@
 <!-- Include Google Analytics -->
 <?php include_once("includes/analyticstracking.php") ?>
 <!-- Hero section-->
-<section class="hero webgl gradient">
+<section class=" hero webgl ">
 <div class='hero_content gradient'><h2 class='xl'>McGuire</h2>
 <p>Aaron is a front end web developer currently studying BSc at Manchester Metropolitan University.</p>
 <a class='default_button' href='portfolio.php' title='See all of Aarons work '>View my work</a>

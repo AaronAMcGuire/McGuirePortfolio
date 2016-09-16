@@ -47,40 +47,26 @@
 <!-- Include Google Analytics -->
 <?php include_once("includes/analyticstracking.php") ?>
 
-<section class='small_hero fadeIn'>
-	<div class='slide_objects'>
-		<img class='coffeecup' src='images/coffeecup.png' alt=''>
-		<img class='jsbook' src='images/javascriptbook.png' alt=''>
-		<img class='camera' src='images/camera.jpg' alt=''>
+<section class='small_hero fadeIn panel'>
+	<div class='hero_content'><h2 class='xl'>About Aaron</h2>
+	<p>Everything you could ever want to know about Aaron from his skill set the color of his shoes.</p>
+
 	</div>
+</section>
+<main>
+<section class='full_about'>
 	<div class='container'>
-	<h2>About Me</h2><div class='breadcrumb'><ul>
-		<li><a href='' title=''>Home</a></li>
-		<span class='seperator'>|</span>
-		<li> About</li>
-			</ul></div></div>
-
-</section>
-<section class='design_process'><div class='container'>
-
-	<div class='left_panel'><span class='sub_title'>What's my design process?</span><h2>Creativity is to Think More Efficiently</h2></div>
-
-	<div class='right_panel'>
+<div class='left_panel'><span class='line'></span><p class='intro'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<div class='about_content'>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-
-<div class='design_process_boxes'>
-<div class='design_box'><img src='images/blogpost1.jpg' alt=''><h3><span class='number'>01. </span>Competitive Analysis</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-<div class='design_box'><img src='images/processwireframe.jpg' alt=''><h3><span class='number'>02. </span>Wireframe design</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-<div class='design_box'><img src='images/usertesting.jpg' alt=''><h3><span class='number'>03. </span>User testing</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div>
+<div class='right_panel'><img src='images/aboutpp.jpg' alt=''><h3>Aaron McGuire</h3><h4>Front end web developer</h4>
+	<span class='line'></span>
+	<a href='mailto:aaron.mcguire0@gmail.com' title='Email Aaron directly'>Aaron.mcguire0@gmail.com</a>
 </div>
 </div>
 </section>
-
-
-<section class='about_main clear'><img src='images/aboutbg.jpg'><div class='about_content'><div class='container'><h2>Aaron McGuire</h2><span class=''>Front end Web Developer</span><p class='lead_paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></div></section>
+</main>
 <!-- Include footer-->
 
 

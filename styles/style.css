@@ -126,6 +126,13 @@ h2 {
 
 /* END OF BUTTONS */
 /* START OF ANIMATION CLASSES */
+.panel {
+  height: 100%;
+  width: 100%; }
+
+.panel.green {
+  margin-bottom: 400px; }
+
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -245,7 +252,7 @@ header {
 .hero {
   background: #dfdfdf;
   width: 100%;
-  height: 800px; }
+  height: 920px; }
   .hero h2 {
     color: white;
     z-index: 2;
@@ -279,6 +286,24 @@ header {
   align-items: center;
   flex-direction: column;
   text-align: center; }
+
+.small_hero {
+  height: 600px;
+  width: 100%;
+  background: url("../images/abouthero.jpg"); }
+  .small_hero .hero_content {
+    padding: 10rem 0;
+    height: 500px;
+    color: white; }
+
+.small_hero:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 600px;
+  background: rgba(123, 104, 238, 0.8); }
 
 /* END OF HEADER */
 /* START OF CV */
@@ -346,6 +371,47 @@ header {
     .about .container span {
       color: #646464; }
     .about .container h2 {
+      color: #ff425d; }
+
+.full_about {
+  width: 100%;
+  height: auto;
+  padding: 4rem 0;
+  background: white;
+  position: relative;
+  z-index: 222;
+  float: left; }
+  .full_about .container {
+    max-width: 1400px; }
+  .full_about .left_panel {
+    width: 70%;
+    float: left; }
+    .full_about .left_panel .line {
+      margin: 0;
+      float: left; }
+    .full_about .left_panel .intro {
+      color: #ff425d; }
+    .full_about .left_panel p {
+      margin: 2rem 0;
+      font-size: 2rem;
+      color: #969696;
+      text-align: justify; }
+    .full_about .left_panel .about_content {
+      width: 85%;
+      margin: 0 auto; }
+  .full_about .right_panel {
+    float: right;
+    width: 25%;
+    text-align: center; }
+    .full_about .right_panel h3 {
+      margin-top: 2rem;
+      color: #ff425d;
+      font-size: 3rem;
+      font-family: Lora-regular; }
+    .full_about .right_panel h4 {
+      color: #bebebe;
+      font-size: 2rem; }
+    .full_about .right_panel a {
       color: #ff425d; }
 
 /* END OF ABOUT */
@@ -470,7 +536,8 @@ footer {
   height: auto;
   float: left;
   padding: 4rem 0;
-  background: #2c3441; }
+  background: #2c3441;
+  position: relative; }
   footer .footer_content_box {
     color: #c8c8c8;
     width: 24%;
