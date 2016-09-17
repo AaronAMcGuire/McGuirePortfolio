@@ -19,7 +19,9 @@ html {
   font-size: 62.5%;
   box-sizing: border-box; }
 
-h3 {
+h3, p,
+.default_link,
+h1, span {
   font-size: 2.4rem; }
 
 ul, li,
@@ -29,11 +31,6 @@ ul, li,
 
 a {
   font-size: 2.1rem; }
-
-p,
-.default_link,
-h1, span {
-  font-size: 2.7rem; }
 
 p,
 span {
@@ -348,7 +345,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 4rem 0;
+  padding: 6rem 0;
   box-sizing: border-box;
   background: whitesmoke; }
   .about .container {
@@ -510,7 +507,7 @@ header {
     color: #ff425d; }
   .post_data p {
     width: 100%;
-    font-size: 2.2rem;
+    font-size: 2rem;
     text-align: justify;
     color: #8c8c8c; }
   .post_data .line {

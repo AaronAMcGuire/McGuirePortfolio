@@ -49,18 +49,10 @@
 
 
 <section class='small_hero fadeIn'>
-	<div class='slide_objects'>
-		<img class='coffeecup' src='images/coffeecup.png' alt=''>
-		<img class='jsbook' src='images/javascriptbook.png' alt=''>
-		<img class='camera' src='images/camera.jpg' alt=''>
-	</div>
-	<div class='container'>
-	<h2>Portfolio</h2><div class='breadcrumb'><ul>
-		<li><a href='' title=''>Home</a></li>
-		<span class='seperator'>|</span>
-		<li> Portfolio</li>
-			</ul></div></div>
+	<div class='hero_content'><h2 class='xl'>Aaron's Portfolio</h2>
+	<p>All of Aarons latest projects from actual clients to University set tasks.</p>
 
+	</div>
 </section>
 <main>
 <section class='portfolio clear'>

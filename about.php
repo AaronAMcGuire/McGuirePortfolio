@@ -47,7 +47,7 @@
 <!-- Include Google Analytics -->
 <?php include_once("includes/analyticstracking.php") ?>
 
-<section class='small_hero fadeIn panel'>
+<section class='small_hero fadeIn'>
 	<div class='hero_content'><h2 class='xl'>About Aaron</h2>
 	<p>Everything you could ever want to know about Aaron from his skill set the color of his shoes.</p>
 

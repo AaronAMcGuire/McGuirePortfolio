@@ -29,7 +29,9 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
-h3{
+h3,p,
+.default_link,
+h1,span,{
   font-size:2.4rem;
 }
 ul,li,
@@ -39,12 +41,6 @@ ul,li,
 }
 a{
   font-size: 2.1rem;
-}
-p,
-.default_link,
-h1,span,
-{
-font-size:2.7rem;
 }
 p,
 span {
@@ -421,7 +417,7 @@ background:url('../images/abouthero.jpg');
 .about {
         width: 100%;
         @include flex_center;
-        padding: 4rem 0;
+        padding: 6rem 0;
         box-sizing: border-box;
         background: rgb(245,245,245);
 
@@ -624,7 +620,7 @@ opacity:0;
     }
     p{
       width:100%;
-      font-size:2.2rem;
+      font-size:2rem;
       text-align: justify;
       color:rgb(140,140,140);
     }
