@@ -51,6 +51,7 @@
 <div class='hero_content gradient'><h2 class='xl'>McGuire</h2>
 <p>Aaron is a front end web developer currently studying BSc at Manchester Metropolitan University.</p>
 <a class='default_button' href='portfolio.php' title='See all of Aarons work '>View my work</a>
+<span class='arrow bounce'></span>
 </div>
   <div class="background">
   </div>
