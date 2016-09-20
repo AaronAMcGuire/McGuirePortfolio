@@ -93,28 +93,23 @@
 </section>
 <!-- end of section -->
 <!-- Start of blog section -->
-<section class='blog_posts'>
+<section class='blog_posts clear'>
 	<div class='container'>
-	<div class="swiper-container">
-			<div class="swiper-wrapper animation-element bounce-up">
-					<div class="swiper-slide subject"><a href='' title=''><img src='images/sortedhorsesthumbnail.jpg' alt='Sorted horses website on mobile'></a><div class='post_data'><h2>Gridset Report - 2014</h2><span class='line'></span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><a href='' title='' class='default_button outline-rv'>Read More</a></div></div>
-					<div class="swiper-slide subject"><a href='' title=''><img src='images/sortedhorsesthumbnail.jpg' alt='Sorted horses website on mobile'></a><div class='post_data'><h2>How did he do it!</h2><span class='line'></span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><a href='' title='' class='default_button outline-rv'>Read More</a></div></div>
-					<div class="swiper-slide subject"><a href='' title=''><img src='images/sortedhorsesthumbnail.jpg' alt='Sorted horses website on mobile'></a><div class='post_data'><h2>This is a blog post title</h2><span class='line'></span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><a href='' title='' class='default_button outline-rv'>Read More</a></div></div>
-					<div class="swiper-slide subject"><a href='' title=''><img src='images/sortedhorsesthumbnail.jpg' alt='Sorted horses website on mobile'></a><div class='post_data'><h2>This is a blog post Title</h2><span class='line'></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><a href='' title='' class='default_button outline-rv'>Read More</a></div></div>
+			<div class='latest_posts'><h2>Latest Posts</h2>
 
-
-
+				<div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div>
+				<div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div>
+				<div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div>
 
 			</div>
 
-									<!-- Add Pagination -->
-									        <div class="swiper-pagination"></div>
-									        <!-- Add Arrows -->
-									        <div class="swiper-button-next"></div>
-									        <div class="swiper-button-prev"></div>
+
+		<div class='popular_posts'><h2>Popular Posts</h2><div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div>
+		<div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div>
+		<div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div></div>
+
 	</div>
-</div>
+
 </section>
 <!-- end of section -->
 

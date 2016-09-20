@@ -27,7 +27,7 @@ module.exports = function(grunt){
   },
   target: {
     files: {
-      'styles/stylesheet.min.css': ['vendors/hamburgers.min.css', 'styles/fonts.css', 'vendors/swiper.min.css', 'styles/style.css']
+      'styles/stylesheet.min.css': ['vendors/hamburgers.min.css', 'styles/fonts.css', 'styles/style.css']
     }
   }
 }

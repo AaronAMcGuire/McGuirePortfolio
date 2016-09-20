@@ -9,34 +9,6 @@ $("menu_toggle").text("close"),
 $("body").toggleClass("overflow")
 });
 
-var appendNumber = 4;
-    var prependNumber = 1;
-    var swiper = new Swiper('.swiper-container', {
-        navigation : true,
-        pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        scrollPerPage : false,
-          itemsScaleUp : true,
-        slidesPerView: 2,
-        autoplay: 8000,
-        loop: false,
-        centeredSlides: false,
-        paginationClickable: true,
-        spaceBetween: 90,
-        breakpoints: {
-    713: {
-      slidesPerView: 1,
-      spaceBetweenSlides: 10,
-
-    },
-
-    900: {
-      spaceBetweenSlides: 20
-    }
-  }
-    });
-
 var $animation_elements = $('.animation-element');
 var $window = $(window);
 
@@ -234,53 +206,3 @@ if (screen && screen.width > 768) {
 
       }
 }
-
-
-
-$(function () { // wait for document ready
-		// init
-		var controller = new ScrollMagic.Controller({
-			globalSceneOptions: {
-				triggerHook: 'onLeave'
-			}
-		});
-
-		// get all slides
-		var slides = document.querySelectorAll("section.panel");
-
-		// create scene for every slide
-		for (var i=0; i<slides.length; i++) {
-			new ScrollMagic.Scene({
-					triggerElement: slides[i]
-				})
-				.setPin(slides[i])
-				.addIndicators() // add indicators (requires plugin)
-				.addTo(controller);
-		}
-	});
-
-
-
-
-
-	$(function () { // wait for document ready
-		// init
-		var controller = new ScrollMagic.Controller({
-			globalSceneOptions: {
-				triggerHook: 'onLeave'
-			}
-		});
-
-		// get all slides
-		var slides = document.querySelectorAll("section.panel");
-
-		// create scene for every slide
-		for (var i=0; i<slides.length; i++) {
-			new ScrollMagic.Scene({
-					triggerElement: slides[i]
-				})
-				.setPin(slides[i])
-				.addIndicators() // add indicators (requires plugin)
-				.addTo(controller);
-		}
-	});

@@ -8,7 +8,11 @@
 	<li>Tweet me <a href='' title=''>@_aaronmcguire</a></li>
 </ul></div>
 <div class='footer_content_box'><h3>Twitter</h3></div>
-<div class='footer_content_box'><h3>About Me</h3><p>Aaron McGuire, Front end web developer give me a shout!</p><img src='images/facebook.svg' width='90'><img src='images/twitter.svg' width='90'><img src='images/flickr.svg' width='90'></div></div>
+<div class='footer_content_box'><h3>About Me</h3><p>Aaron McGuire, Front end web developer give me a shout!</p>
+	<a href='https://www.facebook.com/AaronAndrewMcguire#' title='Aarons Facebook page'><img src='images/facebook.svg' width='90'></a>
+	<a href='https://twitter.com/_AaronMcguire' title='Aarons Twitter page'><img src='images/twitter.svg' width='90'></a>
+	<a href='https://www.flickr.com/photos/135412837@N06/' title='Aarons Flickr page'><img src='images/flickr.svg' width='90'></a>
+</div></div>
 
 	</footer>
 	<div class='legal'><div class='container'><div class='content'><p>Copyright &copy; 2016 Aaron McGuire All Rights Reserved.<p></div></div></div>
@@ -19,8 +23,6 @@
 <script type="text/javascript" src="http://threejs.org/build/three.js"></script>
 <script type="text/javascript" src="http://threejs.org/examples/js/renderers/Projector.js"></script>
 <script type="text/javascript" src="http://threejs.org/examples/js/renderers/CanvasRenderer.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 <script src="js/main.js"></script>
 
 
