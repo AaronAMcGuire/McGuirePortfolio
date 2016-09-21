@@ -79,7 +79,7 @@ if (screen && screen.width > 768) {
         var PI2 = Math.PI * 2;
         var material = new THREE.SpriteCanvasMaterial( {
 
-          color: 0x304268,
+          color: 0x948CCC,
           program: function ( context ) {
 
             context.beginPath();

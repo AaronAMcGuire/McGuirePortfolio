@@ -94,7 +94,7 @@
 <!-- end of section -->
 <!-- Start of blog section -->
 <section class='blog_posts clear'>
-	<div class='container'>
+	<div class='container clear'>
 			<div class='latest_posts'><h2>Latest Posts</h2>
 
 				<div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div>
