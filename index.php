@@ -63,7 +63,7 @@
 <!-- end of section -->
 
 <!-- Start of cv download -->
-<section class='cv animation-element bounce-up'><div class='content subject'><p>Don't want to scroll through the website? grab a copy of my CV instead!</p><a href='' title='View Aarons CV' class='default_button style2'>Download CV</a></div></section>
+<section class='cv'><div class='content subject'><p>Don't want to scroll through the website? grab a copy of my CV instead!</p><a href='' title='View Aarons CV' class='default_button style2'>Download CV</a></div></section>
 <!-- end of section -->
 <!-- Start of about section -->
 <section class='about '>
@@ -76,7 +76,7 @@
 <!-- end of section -->
 
 <!-- Start of portfolio section -->
-<section class='portfolio animation-element'>
+<section class='portfolio'>
 	<div class='portfolio_item'><img src='images/sortedhorsesthumbnail.jpg' alt='mobile phone version of sorted horses'><a href='' title=''><div class='overlay'><h3>Sorted Horses</h3><span class='tag'>Web</span></div></a> </div>
 
 		<div class='portfolio_item'><a href='' title=''><img src='images/g4digitalthumbnail.jpg' alt='g4 digital logo'><a href='' title='project specification for university work'><div class='overlay'><h3>G4 Digital</h3><span class='tag'>Web</span></div></a> </div>

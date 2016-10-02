@@ -30,17 +30,16 @@ html {
 }
 h3,p,
 .default_link,
-h1,span,{
-  font-size:2.4rem;
+h1,span,
+h4{
+  font-size:2rem;
   font-weight:300;
 }
 ul,li,
 .default_button,
-.tag{
+.tag,a,
+.meta_date{
   font-size:1.7rem;
-}
-a{
-  font-size: 2.1rem;
 }
 p,
 span {
@@ -84,8 +83,7 @@ h2 {
 .arrow {
  position: absolute;
  bottom: 2%;
-
-
+ left:50%;
  width: 20px;
  height: 20px;
  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
@@ -103,7 +101,6 @@ h2 {
     border-radius: 3rem;
     margin: 3rem auto;
     text-decoration: none;
-    text-transform: uppercase;
     letter-spacing: 1.5px;
     border: 1px solid transparent;
     transition: 0.25s;
@@ -163,42 +160,10 @@ h2 {
 .bounce {
  animation: bounce 2s infinite;
 }
-.panel {
-		height: 100%;
-		width: 100%;
-	}
-	.panel.green {
-		margin-bottom: 400px
-	}
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   animation-duration: 1.5s;
-}
-
-.bounce-up .subject {
-  opacity: 0;
-  -moz-transition: all 700ms ease-out;
-  -webkit-transition: all 700ms ease-out;
-  -o-transition: all 700ms ease-out;
-  transition: all 700ms ease-out;
-  -moz-transform: translate3d(0px, 200px, 0px);
-  -webkit-transform: translate3d(0px, 200px, 0px);
-  -o-transform: translate(0px, 200px);
-  -ms-transform: translate(0px, 200px);
-  transform: translate3d(0px, 200, 0px);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.bounce-up.in-view .subject {
-  opacity: 1;
-  -moz-transform: translate3d(0px, 0px, 0px);
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
 }
 /* END OF ANIMATION CLASSES */
 
@@ -218,6 +183,11 @@ header {
     height: auto;
     background:transparent;
     transition: 800ms;
+    animation-name: fadeIn;
+    animation-delay: 5.2s;
+    animation-duration:3s;
+    animation-fill-mode: forwards;
+    opacity:0;
 
     img {
         float: left;
@@ -227,7 +197,7 @@ header {
         float: left;
         color: $main_color;
         font-family: lora-Regular;
-        margin-top: 1.5rem;
+        margin-top: 0.5rem;
     }
 
     nav {
@@ -336,10 +306,22 @@ background-color: transparent;
     background:rgb(223,223,223);
     width: 100%;
     height: 100vh;
+    overflow:hidden;
+    animation: startingAnimation 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+
     h2 {
-        color: rgb(255,255,255);
+        color:rgb(255,255,255);
         z-index: 2;
         position: relative;
+        opacity:0;
+        animation-fill-mode: forwards;
+        animation-name: scaleTwo;
+        transform: scale(2);
+        animation-delay: 1s;
+        animation-duration:3s;
+        animation-fill-mode: forwards;
     }
 
     p {
@@ -348,6 +330,20 @@ background-color: transparent;
         color: rgb(255,255,255);
         z-index: 2;
         position: relative;
+        opacity:0;
+        animation-name: fadeIn;
+        animation-delay: 5s;
+        animation-duration:3s;
+        animation-fill-mode: forwards;
+
+
+    }
+    .default_button{
+      animation-name: fadeIn;
+      animation-delay: 5.1s;
+      animation-duration:3s;
+      animation-fill-mode: forwards;
+      opacity:0;
     }
 }
 .gradient{
@@ -359,8 +355,12 @@ background-color: transparent;
   position: relative;
   float:left;
   z-index: 99;
+
 }
 .hero_content{
+  animation: startingAnimation 1s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
   width:100%;
   height:100vh;
   position: absolute;
@@ -492,7 +492,7 @@ float:left;
     }
     p{
       margin:2rem 0;
-      font-size:2rem;
+
       color:rgb(150,150,150);
       text-align: justify;
     }
@@ -517,7 +517,7 @@ h3{
 }
 h4{
   color:rgb(190,190,190);
-  font-size:2rem;
+
 }
 a{
 color:$main_color;
@@ -624,7 +624,7 @@ opacity:0;
       color:#0273E5;
     }
     .meta_date{
-      font-size:1.7rem;
+
       color:rgb(200,200,200);
     }
     a{
@@ -711,6 +711,40 @@ float:left;
   }
   60% {
    transform: translateY(-15px);
+  }
+}
+
+@keyframes startingAnimation{
+
+
+  0%,10%,20%,30%{
+    height:100vh;
+  }
+  100%{
+    height:80vh;
+  }
+}
+@keyframes scaleTwo{
+0%{
+
+  opacity:0;
+  color:$main_color;
+}
+  20%{
+    opacity:1;
+  }
+  0%,10%,20%,30%{
+  transform: scale(2);
+  color:$main_color;
+
+  }
+  50%{
+    color:$main_color;
+  }
+  100%{
+    transform: scale(1);
+    opacity:1;
+
   }
 }
 
@@ -846,7 +880,6 @@ footer{
     ul {
         li {
             list-style: none;
-            font-size: 1.7rem;
             margin: 0.5rem 0;
 
 }
@@ -997,12 +1030,14 @@ p{
         height:100vh;
         overflow: auto;
 
+
         nav {
           display: flex;
           justify-content:center;
           align-items: center;
           flex-direction: column;
           height:100vh;
+
             ul {
                 width: 100%;
 
