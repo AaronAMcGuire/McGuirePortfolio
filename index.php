@@ -47,10 +47,10 @@
 <!-- Include Google Analytics -->
 <?php include_once("includes/analyticstracking.php") ?>
 <!-- Hero section-->
-<section class=" hero webgl ">
-<div class='hero_content gradient'><h2 class='xl'>McGuire</h2>
-<p>Aaron is a front end web developer currently studying BSc at Manchester Metropolitan University.</p>
-<a class='default_button' href='portfolio.php' title='See all of Aarons work '>View my work</a>
+<section class=" hero startingAnimation webgl ">
+<div class='hero_content startingAnimation gradient'><h2 class='xl scaleTwo'>McGuire</h2>
+<p class='fadeIn'>Aaron is a front end web developer currently studying BSc at Manchester Metropolitan University.</p>
+<a class='default_button fadeIn' href='portfolio.php' title='See all of Aarons work '>View my work</a>
 <span class='arrow bounce'></span>
 </div>
   <div class="background">
@@ -61,16 +61,23 @@
 
 </section>
 <!-- end of section -->
-
+<main role='main'>
 <!-- Start of cv download -->
 <section class='cv'><div class='content subject'><p>Don't want to scroll through the website? grab a copy of my CV instead!</p><a href='' title='View Aarons CV' class='default_button style2'>Download CV</a></div></section>
 <!-- end of section -->
 <!-- Start of about section -->
 <section class='about '>
+  <div class='container'>
+		<span class='sub_title'>A little about me</span><h2>Who I am and What I do</h2><span class='line'></span><p>I'm Aaron a 21 year old front end web developer, living just outside of Manchester in a little place called Stockport. Currently I am in my last year at University where i'm studying BSc Web Development. Once finished i'm hoping to get straight into a full time front end role. I'm also currently on placement at <a href='' title='Web development agency located in Manchester' class='default_link'>Supremo</a> which is awesome! </p>
+		<a href="about.php" title="Everything else there is to know!" class="default_button outline"> Full About</a>
 
-  <div class='container fadeIn'><span class='sub_title'>A little about me</span><h2>Who I am and What I do</h2><span class='line'></span><p>I'm Aaron a 21 year old front end web developer, living just outside of Manchester in a little place called Stockport. Currently I am in my last year at University where i'm studying BSc Web Development. Once finished i'm hoping to get straight into a full time front end role. I'm also currently on placement at <a href='' title='Web development agency located in Manchester' class='default_link'>Supremo</a> which is awesome! </p>
-		<a href='about.php' title='Everything else there is to know!' class='default_button outline'> Full About</a>
-	</div>
+		<pre class='code code-js'><label>JS</label><code>
+console.log(name);
+console.log(age);
+console.log(skills);
+</code></pre>
+</div>
+
 
 </section>
 <!-- end of section -->
@@ -97,21 +104,26 @@
 	<div class='container clear'>
 			<div class='latest_posts'><h2>Latest Posts</h2>
 
-				<div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div>
-				<div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div>
-				<div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div>
+				<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
+				<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
+				<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
 
 			</div>
 
 
-		<div class='popular_posts'><h2>Popular Posts</h2><div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div>
-		<div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div>
-		<div class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><a href='' title=''>Read More</a><span class='line'></span></div></div>
+		<div class='popular_posts'>
+			<h2>Popular Posts</h2>
+			<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
+
+		<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
+
+		<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article></div>
 
 	</div>
 
 </section>
 <!-- end of section -->
+</main>
 
 
 

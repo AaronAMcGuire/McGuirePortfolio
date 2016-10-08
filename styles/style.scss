@@ -5,15 +5,18 @@ $main_color: rgb(255, 66, 93);
   align-items: center;
   flex-direction: column;
 
-}
+} 
 * {
     margin: 0;
     padding: 0;
 }
-
+body{
+  background:rgb(245,245,245);
+}
 body,
 html {
-    width: 100%;
+    max-width: 2000px;
+    margin:0 auto;
     height: auto;
     font-family: 'Omnes';
     -webkit-font-smoothing: antialiased;
@@ -28,28 +31,38 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
+/* Skip links positioned off page */
+.hidden
+{position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;}
+
 h3,p,
 .default_link,
 h1,span,
-h4{
-  font-size:2rem;
-  font-weight:300;
-}
-ul,li,
+h4,ul,li,
 .default_button,
 .tag,a,
 .meta_date{
   font-size:1.7rem;
+  font-weight:300;
 }
 p,
 span {
 
     line-height: 1.8;
 }
+p{
+  margin-bottom:1rem;
+}
+
 
 
 h2 {
-    font-size: 6rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
       font-family: lora-Regular;
 }
@@ -78,6 +91,7 @@ h2 {
     display: inline;
     width: 80%;
 }
+
 /* END OF GLOBAL CONTAINER */
 /* START OF BUTTONS */
 .arrow {
@@ -94,12 +108,12 @@ h2 {
 .default_button {
     width: 200px;
     text-align: center;
-    padding: 2rem 3rem;
+    padding: 1.5rem;
     color: rgb(255,255,255);
     background: $main_color;
     display: block;
     border-radius: 3rem;
-    margin: 3rem auto;
+    margin: 3rem 0;
     text-decoration: none;
     letter-spacing: 1.5px;
     border: 1px solid transparent;
@@ -111,7 +125,6 @@ h2 {
     border: 1px solid $main_color;
     background: transparent;
     color: $main_color;
-    padding: 2rem 3rem;
 }
 
 
@@ -150,10 +163,10 @@ h2 {
 }
 .line {
     display: block;
-    width: 100px;
-    height: 1px;
+    width:90%;
+    height: 2px;
     background: rgb(200,200,200);
-    margin: 1rem auto;
+    margin: 1rem 0;
 }
 /* END OF BUTTONS */
 /* START OF ANIMATION CLASSES */
@@ -172,6 +185,13 @@ h2 {
 .mobile_menu{
   display: none;
 }
+header.fadeIn{
+  animation-name: fadeIn;
+  animation-delay: 2.2s;
+  animation-duration:3s;
+  animation-fill-mode: forwards;
+  opacity:0;
+}
 header {
     float: left;
     z-index: 9999;
@@ -183,11 +203,7 @@ header {
     height: auto;
     background:transparent;
     transition: 800ms;
-    animation-name: fadeIn;
-    animation-delay: 5.2s;
-    animation-duration:3s;
-    animation-fill-mode: forwards;
-    opacity:0;
+
 
     img {
         float: left;
@@ -302,26 +318,40 @@ background-color: transparent;
 
 
 /* HERO START*/
+.hero.startingAnimation,
+.hero_content.startingAnimation{
+  animation: startingAnimation 1s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+
+}
+.hero h2.scaleTwo{
+  animation-fill-mode: forwards;
+  animation-name: scaleTwo;
+  transform: scale(2);
+  animation-delay: 0;
+  animation-duration:3s;
+}
+.hero p.fadeIn{
+  opacity:0;
+  animation-name: fadeIn;
+  animation-delay: 2s;
+  animation-duration:3s;
+  animation-fill-mode: forwards;
+}
 .hero {
     background:rgb(223,223,223);
     width: 100%;
     height: 100vh;
     overflow:hidden;
-    animation: startingAnimation 1s ease-in-out;
-    animation-fill-mode: forwards;
-    animation-delay: 4s;
+
 
     h2 {
         color:rgb(255,255,255);
         z-index: 2;
         position: relative;
         opacity:0;
-        animation-fill-mode: forwards;
-        animation-name: scaleTwo;
-        transform: scale(2);
-        animation-delay: 1s;
-        animation-duration:3s;
-        animation-fill-mode: forwards;
+
     }
 
     p {
@@ -330,17 +360,13 @@ background-color: transparent;
         color: rgb(255,255,255);
         z-index: 2;
         position: relative;
-        opacity:0;
-        animation-name: fadeIn;
-        animation-delay: 5s;
-        animation-duration:3s;
-        animation-fill-mode: forwards;
+
 
 
     }
     .default_button{
       animation-name: fadeIn;
-      animation-delay: 5.1s;
+      animation-delay: 2.1s;
       animation-duration:3s;
       animation-fill-mode: forwards;
       opacity:0;
@@ -358,9 +384,7 @@ background-color: transparent;
 
 }
 .hero_content{
-  animation: startingAnimation 1s ease-in-out;
-  animation-fill-mode: forwards;
-  animation-delay: 4s;
+
   width:100%;
   height:100vh;
   position: absolute;
@@ -440,12 +464,11 @@ background:url('../images/abouthero.jpg');
         @include flex_center;
         padding: 6rem 0;
         box-sizing: border-box;
-        background: rgb(245,245,245);
+        background: rgb(245, 245, 245);
+        text-align: center;
 
 .container{
   max-width:700px;
-  text-align: center;
-  @include flex_center;
 
   .default_link {
     text-decoration: none;
@@ -456,19 +479,89 @@ background:url('../images/abouthero.jpg');
     text-decoration: underline;
   }
   p{
-      text-align: center;
-      color: rgb(150,150,150);
-      width:100%;
+        color:rgb(150,150,150);
+        max-width:800px;
   }
   span{
         color: rgb(100,100,100);
   }
   h2{
-    color:$main_color;
 
+color:$main_color;
+  }
+  .default_button{
+    margin:2rem auto;
   }
 }
+pre {
+    background: #fff;
+    white-space: pre;
+    word-wrap: break-word;
+    overflow: auto;
+    text-align: left;
 
+}
+
+pre.code {
+    margin: 20px 25px;
+
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(50,50,93,.1);
+}
+
+pre.code label {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color:rgb(66, 71, 112);
+    position: absolute;
+    left: 1px;
+    top: 16px;
+    text-align: center;
+    width: 60px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+}
+
+pre.code code {
+    font-family: "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+    display: block;
+    margin: 0 0 0 60px;
+    padding: 15px 16px 14px;
+    border-left: 1px solid rgb(245,245,245);
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 19px;
+    color: #444;
+}
+
+pre::after {
+    content: "Copy the code into your console.";
+    padding: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 18px;
+    top: 14px;
+    font-size: 12px;
+    color: #aaa;
+    line-height: 20px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+pre:hover::after {
+    opacity: 0;
+    visibility: visible;
+}
+
+pre.code-js code {
+    color:rgb(66, 71, 112);
+}
 }
 .full_about{
   width:100%;
@@ -588,9 +681,13 @@ opacity:0;
   height:auto;
   padding:8rem 0;
   background:url(../images/crossword.png);
+
+  p{
+    color:rgb(50,50,50);
+  }
   h2{
     color:$main_color;
-    font-size:4rem;
+    font-size:3rem;
     text-align: left;
   }
   .latest_posts{
@@ -602,38 +699,43 @@ opacity:0;
     width:45%;
     margin:0 1rem;
     float:right;
+  }
     .post_data{
+      margin-bottom:5rem;
+      a{
+        text-align: right;
+      }
+      h3{
+        font-size:2.2rem;
+        text-align: left;
+      }
       h3,a{
-        color:#02E582;
+        color:#0273E5;
+        transition:0.25s;
+      }
+      h3:hover,
+      a:hover{
+        color:#084a8c;
+      }
+      .meta_date{
+
+        color:rgb(200,200,200);
+      }
+      a{
+        text-decoration: none;
+        display: block;
+        font-size:1.4rem;
+      }
+      .line{
+        width:100%;
+        float:left;
       }
     }
-  }
+
   .container{
     max-width:1180px;
   }
-  .post_data{
-    width:100%;
-    height:auto;
-    margin-bottom:5rem;
-    display: block;
-    .line{
-      width:100%;
-      float:left;
-    }
-    h3{
-      color:#0273E5;
-    }
-    .meta_date{
 
-      color:rgb(200,200,200);
-    }
-    a{
-      text-decoration: none;
-      color:#0273E5;
-      display: block;
-      font-size:1.4rem;
-    }
-  }
 }
 footer {
     width: 100%;
@@ -669,7 +771,6 @@ float:left;
         ul {
             li {
                 list-style: none;
-                font-size: 2rem;
                 margin: 0.5rem 0;
 
                 a {
@@ -677,10 +778,6 @@ float:left;
                     color: rgb(20,150,255);
                 }
             }
-        }
-
-        p {
-            font-size: 2rem;
         }
     }
 }
@@ -851,18 +948,11 @@ canvas,
     box-sizing: border-box;
   }
 }
-a,
-p,
-span,
-.default_link,
-.default_button {
-    font-size: 1.7rem;
-}
 .xl{
   font-size:6rem;
 }
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .cv{
   .content{
@@ -937,7 +1027,9 @@ h1 {
         display: none;
     }
     .gradient{
-  background:url(../images/diagmonds.png);
+  background:url(../images/mobilehero.jpg);
+  background-position: center;
+  background-size: cover;
     }
   .background{
     display:none;
@@ -974,30 +1066,19 @@ p{
         padding: 4rem 1rem;
     }
     .cv {
-        padding: 0;
-        height:0;
+        padding: 1rem;
         background: rgb(240,240,240);
         position: relative;
+        box-sizing: border-box;
         .content {
             padding: 0;
-
-            .style2 {
-                position: relative;
-                    bottom: 110px;
-                    color:rgb(255,255,255);
-                    background:rgb(57,32,113);
-                    border:1px solid rgb(57,32,113);
-            }
-            .style2:hover{
-              background: transparent;
-              border:1px solid rgb(57,32,113);
-
-            }
 
             p {
                 display: none;
              }
         }
+
+
     }
     footer {
       .container{
@@ -1048,7 +1129,6 @@ p{
                         color: rgb(255,255,255);
                         text-align: center;
                         display: block;
-                        font-size: 2.5rem;
                         padding:0;
                     }
 
@@ -1107,10 +1187,4 @@ header
     width:100%;
     text-align: justify;
   }
-
-.filters{
-ul li a{
-  font-size:1.5rem;}
-}
-
 }
