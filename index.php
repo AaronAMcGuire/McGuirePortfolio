@@ -39,6 +39,16 @@
 				<link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
 				<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
 				<link rel="manifest" href="images/favicons/manifest.json">
+				<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+				<script>
+				// Script stops elements loading twice better UX
+      window.sr = ScrollReveal();
+      if (sr.isSupported()) {
+        document.documentElement.classList.add('sr');
+      }
+
+    </script>
+
 <!-- Main stylesheet -->
 				<link rel="stylesheet" href="styles/stylesheet.min.css">
 </head>
@@ -47,13 +57,13 @@
 <!-- Include Google Analytics -->
 <?php include_once("includes/analyticstracking.php") ?>
 <!-- Hero section-->
-<section class=" hero startingAnimation webgl ">
-<div class='hero_content startingAnimation gradient'><h2 class='xl scaleTwo'>McGuire</h2>
-<p class='fadeIn'>Aaron is a front end web developer currently studying BSc at Manchester Metropolitan University.</p>
-<a class='default_button fadeIn' href='portfolio.php' title='See all of Aarons work '>View my work</a>
+<section class="hero webgl">
+<div class='hero_content gradient'><h2 class='xl'>McGuire</h2>
+<p >Aaron is a front end web developer currently studying BSc at Manchester Metropolitan University.</p>
+<a class='default_button' href='portfolio.php' title='See all of Aarons work '>View my work</a>
 <span class='arrow bounce'></span>
 </div>
-  <div class="background">
+  <div class="background fadeIn">
   </div>
 
 </section>
@@ -104,9 +114,9 @@ console.log(skills);
 	<div class='container clear'>
 			<div class='latest_posts'><h2>Latest Posts</h2>
 
+				<article role='article' class='post_data'><a href='' title=''><h3>Digital Industry: Drowning in a sea of new tech</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
 				<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
-				<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
-				<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
+
 
 			</div>
 
@@ -117,7 +127,7 @@ console.log(skills);
 
 		<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
 
-		<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article></div>
+		</div>
 
 	</div>
 

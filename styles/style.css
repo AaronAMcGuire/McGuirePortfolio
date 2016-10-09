@@ -3,7 +3,7 @@
   padding: 0; }
 
 body {
-  background: whitesmoke; }
+  background: #1D1C28; }
 
 body,
 html {
@@ -30,6 +30,12 @@ html {
   width: 1px;
   height: 1px;
   overflow: hidden; }
+
+.sr header,
+.sr .hero_content p,
+.sr .hero_content h2,
+.sr .hero_content .default_button {
+  visibility: hidden; }
 
 h3, p,
 .default_link,
@@ -156,13 +162,6 @@ h2 {
 .mobile_menu {
   display: none; }
 
-header.fadeIn {
-  animation-name: fadeIn;
-  animation-delay: 2.2s;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
-  opacity: 0; }
-
 header {
   float: left;
   z-index: 9999;
@@ -173,7 +172,7 @@ header {
   width: 100%;
   height: auto;
   background: transparent;
-  transition: 800ms; }
+  animation-duration: 0.25s; }
   header img {
     float: left; }
   header h1 {
@@ -250,48 +249,21 @@ header {
 
 /* HEADER END */
 /* HERO START*/
-.hero.startingAnimation,
-.hero_content.startingAnimation {
-  animation: startingAnimation 1s ease-in-out;
-  animation-fill-mode: forwards;
-  animation-delay: 1.5s; }
-
-.hero h2.scaleTwo {
-  animation-fill-mode: forwards;
-  animation-name: scaleTwo;
-  transform: scale(2);
-  animation-delay: 0;
-  animation-duration: 3s; }
-
-.hero p.fadeIn {
-  opacity: 0;
-  animation-name: fadeIn;
-  animation-delay: 2s;
-  animation-duration: 3s;
-  animation-fill-mode: forwards; }
-
 .hero {
   background: #dfdfdf;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden; }
   .hero h2 {
     color: white;
     z-index: 2;
-    position: relative;
-    opacity: 0; }
+    position: relative; }
   .hero p {
     max-width: 500px;
     margin: 0 auto;
     color: white;
     z-index: 2;
     position: relative; }
-  .hero .default_button {
-    animation-name: fadeIn;
-    animation-delay: 2.1s;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0; }
 
 .gradient {
   background: rgba(37, 35, 51, 0.8);
@@ -304,7 +276,7 @@ header {
 
 .hero_content {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   position: absolute;
   z-index: 100;
   display: flex;
@@ -496,7 +468,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  background: whitesmoke; }
   .portfolio .portfolio_item {
     width: 33.33%;
     height: auto;
@@ -561,7 +534,7 @@ header {
     .blog_posts .post_data a {
       text-align: right; }
     .blog_posts .post_data h3 {
-      font-size: 2.2rem;
+      font-size: 2.5rem;
       text-align: left; }
     .blog_posts .post_data h3, .blog_posts .post_data a {
       color: #0273E5;
@@ -633,25 +606,6 @@ footer {
     transform: translateY(-30px); }
   60% {
     transform: translateY(-15px); } }
-@keyframes startingAnimation {
-  0%,10%,20%,30% {
-    height: 100vh; }
-  100% {
-    height: 80vh; } }
-@keyframes scaleTwo {
-  0% {
-    opacity: 0;
-    color: #ff425d; }
-  20% {
-    opacity: 1; }
-  0%,10%,20%,30% {
-    transform: scale(2);
-    color: #ff425d; }
-  50% {
-    color: #ff425d; }
-  100% {
-    transform: scale(1);
-    opacity: 1; } }
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0; }
@@ -673,17 +627,6 @@ footer {
     transform: matrix(1, 0, 0, 1, 0, 0);
     -ms-transform: matrix(1, 0, 0, 1, 0, 0);
     -webkit-transform: matrix(1, 0, 0, 1, 0, 0); } }
-@keyframes drop_down {
-  0% {
-    top: 0;
-    transform: scaleX(1); }
-  100% {
-    top: 20%; } }
-@keyframes slide_in {
-  0% {
-    bottom: -1000px; }
-  100% {
-    bottom: 0; } }
 /* ANIMATION END */
 @media screen and (max-width: 1200px) {
   .blog_posts .latest_posts, .blog_posts .popular_posts {
@@ -715,9 +658,6 @@ footer {
 
   .xl {
     font-size: 6rem; }
-
-  h2 {
-    font-size: 2rem; }
 
   .cv .content {
     width: auto; }
@@ -863,6 +803,12 @@ footer {
   .blog_posts .popular_posts {
     width: 90%; } }
 @media screen and (max-width: 400px) {
+  .code {
+    display: none; }
+
+  .blog_posts .popular_posts {
+    display: none; }
+
   h2 {
     font-size: 4rem; }
 

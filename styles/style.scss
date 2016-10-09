@@ -5,13 +5,13 @@ $main_color: rgb(255, 66, 93);
   align-items: center;
   flex-direction: column;
 
-} 
+}
 * {
     margin: 0;
     padding: 0;
 }
 body{
-  background:rgb(245,245,245);
+  background:#1D1C28;
 }
 body,
 html {
@@ -39,6 +39,11 @@ top:auto;
 width:1px;
 height:1px;
 overflow:hidden;}
+
+.sr header,
+.sr .hero_content p,
+.sr .hero_content h2,
+.sr .hero_content .default_button { visibility: hidden; }
 
 h3,p,
 .default_link,
@@ -185,13 +190,6 @@ h2 {
 .mobile_menu{
   display: none;
 }
-header.fadeIn{
-  animation-name: fadeIn;
-  animation-delay: 2.2s;
-  animation-duration:3s;
-  animation-fill-mode: forwards;
-  opacity:0;
-}
 header {
     float: left;
     z-index: 9999;
@@ -202,7 +200,7 @@ header {
     width: 100%;
     height: auto;
     background:transparent;
-    transition: 800ms;
+    animation-duration: 0.25s;
 
 
     img {
@@ -318,31 +316,10 @@ background-color: transparent;
 
 
 /* HERO START*/
-.hero.startingAnimation,
-.hero_content.startingAnimation{
-  animation: startingAnimation 1s ease-in-out;
-  animation-fill-mode: forwards;
-  animation-delay: 1.5s;
-
-}
-.hero h2.scaleTwo{
-  animation-fill-mode: forwards;
-  animation-name: scaleTwo;
-  transform: scale(2);
-  animation-delay: 0;
-  animation-duration:3s;
-}
-.hero p.fadeIn{
-  opacity:0;
-  animation-name: fadeIn;
-  animation-delay: 2s;
-  animation-duration:3s;
-  animation-fill-mode: forwards;
-}
 .hero {
     background:rgb(223,223,223);
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     overflow:hidden;
 
 
@@ -350,7 +327,6 @@ background-color: transparent;
         color:rgb(255,255,255);
         z-index: 2;
         position: relative;
-        opacity:0;
 
     }
 
@@ -363,13 +339,6 @@ background-color: transparent;
 
 
 
-    }
-    .default_button{
-      animation-name: fadeIn;
-      animation-delay: 2.1s;
-      animation-duration:3s;
-      animation-fill-mode: forwards;
-      opacity:0;
     }
 }
 .gradient{
@@ -386,7 +355,7 @@ background-color: transparent;
 .hero_content{
 
   width:100%;
-  height:100vh;
+  height:80vh;
   position: absolute;
   z-index: 100;
   @include flex_center;
@@ -628,6 +597,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
+background:rgb(245,245,245);
 
   .portfolio_item{
     width:33.33%;
@@ -684,6 +654,7 @@ opacity:0;
 
   p{
     color:rgb(50,50,50);
+
   }
   h2{
     color:$main_color;
@@ -706,8 +677,9 @@ opacity:0;
         text-align: right;
       }
       h3{
-        font-size:2.2rem;
+        font-size:2.5rem;
         text-align: left;
+
       }
       h3,a{
         color:#0273E5;
@@ -811,40 +783,6 @@ float:left;
   }
 }
 
-@keyframes startingAnimation{
-
-
-  0%,10%,20%,30%{
-    height:100vh;
-  }
-  100%{
-    height:80vh;
-  }
-}
-@keyframes scaleTwo{
-0%{
-
-  opacity:0;
-  color:$main_color;
-}
-  20%{
-    opacity:1;
-  }
-  0%,10%,20%,30%{
-  transform: scale(2);
-  color:$main_color;
-
-  }
-  50%{
-    color:$main_color;
-  }
-  100%{
-    transform: scale(1);
-    opacity:1;
-
-  }
-}
-
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -883,26 +821,6 @@ float:left;
   }
 }
 
-
-@keyframes drop_down {
-    0% {
-        top: 0;
-        transform: scaleX(1);
-    }
-
-    100% {
-        top: 20%;
-    }
-}
-@keyframes slide_in {
-    0% {
-        bottom: -1000px;
-    }
-
-    100% {
-        bottom: 0;
-    }
-}
 /* ANIMATION END */
 
 @media screen and (max-width:1200px) {
@@ -950,9 +868,6 @@ canvas,
 }
 .xl{
   font-size:6rem;
-}
-h2 {
-    font-size: 2rem;
 }
 .cv{
   .content{
@@ -1175,6 +1090,15 @@ header
 }
 @media screen and ( max-width:400px)
 {
+  .code{
+    display: none;
+  }
+  .blog_posts{
+    .popular_posts{
+      display: none;
+    }
+    }
+
   h2 {
       font-size: 4rem;
   }

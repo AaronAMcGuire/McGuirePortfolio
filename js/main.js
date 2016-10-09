@@ -206,3 +206,26 @@ if (screen && screen.width > 768) {
 
       }
 }
+
+//animation configurations
+
+
+
+
+
+var inReveal = {
+  delay : 200,
+  useDelay: 'always',
+  easing : 'ease-in-out',
+  scale : 0.9,
+  origin: 'left'
+
+};
+
+$(window).scroll(function(){
+    $(".hero").css("opacity", 1 - $(window).scrollTop() / 390);
+  });
+window.sr = ScrollReveal().reveal('h2, p,.default_button', { container: '.hero_content', duration:200}, 400);
+sr.reveal('.sub_title,.code,h2, p,.default_button', { container: '.about', duration:200 }, 250);
+sr.reveal('.portfolio_item', inReveal);
+sr.reveal('header,.cv', 100);
