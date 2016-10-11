@@ -46,8 +46,47 @@
 <?php include_once "includes/header.php"; ?>
 <!-- Include Google Analytics -->
 <?php include_once("includes/analyticstracking.php") ?>
+<section class="hero small">
+<div class='hero_content gradient'><h2 class='xl'>Blog</h2>
+<p>From how this very website was made to coping in the digital industry, Aaron discusses all in his blog posts!</p>
+<span class='arrow bounce'></span>
+</div>
 
 
+</section>
+<div class='breadcrumb'><div class='container'><ul>
+<li><a href='' title=''>Home</a></li><span class='bread_arrow'></span>
+<li>Blog</li>
+</ul></div></div>
+
+
+<main>
+	<section class='blog_container clear '>
+		<div class='container'>
+
+<article class='new'><span class='new_tag'>New</span> <span class='timestamp'>WEDNESDAY, DECEMBER 17, 2014</span>
+<a href='' title=''><h2>Digital Industry: Staying relevant as a student</h2></a><span class='line'></span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus turpis eros, a ullamcorper tortor laoreet sed. Nullam risus mauris, eleifend sit amet orci ac, rhoncus pellentesque lectus. Phasellus sit amet massa ultrices, ultricies elit eu, egestas quam. Duis eget bibendum ante. Phasellus ornare pellentesque finibus. Aliquam at nisl arcu. Aliquam volutpat purus felis, sed maximus turpis ornare convallis.</p><p>Etiam mi lacus, molestie feugiat bibendum nec, cursus a dui. Nam a ligula efficitur, dignissim massa a, lacinia diam. Phasellus felis odio, condimentum id ante nec, elementum hendrerit dui. Sed vehicula lectus felis, id viverra sem pellentesque vitae. Praesent euismod tempor tristique. Curabitur eget ante et augue rhoncus pharetra congue at felis. Aenean sit amet tincidunt nulla. Cras sit amet justo sit amet erat posuere finibus. Cras faucibus, lacus sit amet posuere gravida, lacus odio tristique quam, id vulputate neque ligula sit amet diam. Ut rutrum volutpat quam vitae tempus.</p><a href='' title=''>Read More</a></article>
+<aside><div class='widget'><h3>Social Media</h3>
+	<a href='https://www.facebook.com/AaronAndrewMcguire#' title='Aarons Facebook page'><img src='images/facebook.svg' width='40'></a>
+	<a href='https://twitter.com/_AaronMcguire' title='Aarons Twitter page'><img src='images/twitter.svg' width='40'></a>
+	<a href='https://www.flickr.com/photos/135412837@N06/' title='Aarons Flickr page'><img src='images/flickr.svg' width='40'></a>
+</div>
+<div class='widget'>
+	<a class="twitter-timeline"  href="https://twitter.com/_AaronMcguire" data-widget-id="655833910983720960"></a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+</aside>
+
+
+
+<article><span class='timestamp'>WEDNESDAY, DECEMBER 17, 2014</span>
+<a href='' title=''><h2>Digital Industry: Staying relevant as a student</h2></a><span class='line'></span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus turpis eros, a ullamcorper tortor laoreet sed. Nullam risus mauris, eleifend sit amet orci ac, rhoncus pellentesque lectus. Phasellus sit amet massa ultrices, ultricies elit eu, egestas quam. Duis eget bibendum ante. Phasellus ornare pellentesque finibus. Aliquam at nisl arcu. Aliquam volutpat purus felis, sed maximus turpis ornare convallis.</p><p>Etiam mi lacus, molestie feugiat bibendum nec, cursus a dui. Nam a ligula efficitur, dignissim massa a, lacinia diam. Phasellus felis odio, condimentum id ante nec, elementum hendrerit dui. Sed vehicula lectus felis, id viverra sem pellentesque vitae. Praesent euismod tempor tristique. Curabitur eget ante et augue rhoncus pharetra congue at felis. Aenean sit amet tincidunt nulla. Cras sit amet justo sit amet erat posuere finibus. Cras faucibus, lacus sit amet posuere gravida, lacus odio tristique quam, id vulputate neque ligula sit amet diam. Ut rutrum volutpat quam vitae tempus.</p><a href='' title=''>Read More</a></article>
+<article><span class='timestamp'>WEDNESDAY, DECEMBER 17, 2014</span>
+<a href='' title=''><h2>Digital Industry: Staying relevant as a student</h2></a><span class='line'></span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus turpis eros, a ullamcorper tortor laoreet sed. Nullam risus mauris, eleifend sit amet orci ac, rhoncus pellentesque lectus. Phasellus sit amet massa ultrices, ultricies elit eu, egestas quam. Duis eget bibendum ante. Phasellus ornare pellentesque finibus. Aliquam at nisl arcu. Aliquam volutpat purus felis, sed maximus turpis ornare convallis.</p><p>Etiam mi lacus, molestie feugiat bibendum nec, cursus a dui. Nam a ligula efficitur, dignissim massa a, lacinia diam. Phasellus felis odio, condimentum id ante nec, elementum hendrerit dui. Sed vehicula lectus felis, id viverra sem pellentesque vitae. Praesent euismod tempor tristique. Curabitur eget ante et augue rhoncus pharetra congue at felis. Aenean sit amet tincidunt nulla. Cras sit amet justo sit amet erat posuere finibus. Cras faucibus, lacus sit amet posuere gravida, lacus odio tristique quam, id vulputate neque ligula sit amet diam. Ut rutrum volutpat quam vitae tempus.</p><a href='' title=''>Read More</a></article>
+
+</div>
+</section></main>
 
 
 <!-- Include footer-->

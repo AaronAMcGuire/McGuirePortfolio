@@ -178,7 +178,7 @@ header {
   header h1 {
     float: left;
     color: #ff425d;
-    font-family: lora-Regular;
+    font-size: 3rem;
     margin-top: 0.5rem; }
   header nav ul {
     float: right; }
@@ -269,6 +269,16 @@ header {
   background: rgba(37, 35, 51, 0.8);
   z-index: 100; }
 
+.small {
+  height: 500px;
+  overflow: hidden;
+  position: relative; }
+  .small .gradient {
+    background: url("../images/herostatic.png");
+    background-attachment: fixed; }
+  .small .hero_content {
+    height: 500px; }
+
 .background {
   position: relative;
   float: left;
@@ -284,6 +294,28 @@ header {
   align-items: center;
   flex-direction: column;
   text-align: center; }
+
+.breadcrumb {
+  text-align: center;
+  background: white; }
+  .breadcrumb ul li {
+    display: inline-block;
+    color: #646464;
+    margin: 0 0.5  rem; }
+    .breadcrumb ul li a {
+      color: #ff425d;
+      text-decoration: none; }
+    .breadcrumb ul li a:hover {
+      text-decoration: underline; }
+  .breadcrumb .bread_arrow {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #c8c8c8;
+    position: relative;
+    bottom: 2px;
+    border-radius: 50%;
+    margin: 0 0.5rem; }
 
 .small_hero {
   height: 600px;
@@ -510,6 +542,59 @@ header {
 
 /* END OF PORTFOLIO */
 /* START OF BLOG POSTS */
+.blog_container {
+  width: 100%;
+  height: auto;
+  background: #F1F1F1; }
+  .blog_container aside {
+    width: 30%;
+    height: 80vh;
+    float: right; }
+    .blog_container aside .widget {
+      background: white;
+      -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+      width: 100%;
+      height: auto;
+      margin-bottom: 2rem;
+      text-align: center; }
+      .blog_container aside .widget img {
+        height: auto;
+        margin: 1rem  0.5rem; }
+      .blog_container aside .widget h3 {
+        text-align: left;
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+        box-sizing: border-box;
+        -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); }
+  .blog_container article {
+    width: 65%;
+    height: auto;
+    background: white;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    padding: 5rem;
+    margin-bottom: 5rem;
+    box-sizing: border-box;
+    float: left; }
+    .blog_container article p {
+      color: #787878;
+      margin-bottom: 2rem; }
+    .blog_container article a {
+      color: #ff425d;
+      text-decoration: none;
+      transition: 0.25s; }
+    .blog_container article a:hover {
+      color: #d12e43; }
+  .blog_container .new {
+    width: 100%; }
+    .blog_container .new .new_tag {
+      display: block;
+      width: 70px;
+      text-align: center;
+      border-radius: 2rem;
+      background: #ff425d;
+      color: white; }
+
 .blog_posts {
   width: 100%;
   height: auto;
@@ -646,9 +731,6 @@ footer {
   .full_about .right_panel {
     display: none; }
 
-  header h1 {
-    margin-top: 0.5rem; }
-
   .hero p,
   .hero_content p,
   canvas p,
@@ -661,8 +743,6 @@ footer {
 
   .cv .content {
     width: auto; }
-  .cv .twitter_feed {
-    display: none; }
 
   footer .footer_content_box {
     width: 33%; }
@@ -678,6 +758,14 @@ footer {
     padding: 0;
     box-sizing: border-box; } }
 @media screen and (max-width: 900px) {
+  .blog_container aside {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0; }
+  .blog_container article {
+    width: 100%;
+    padding: 3rem; }
+
   .gradient {
     background: url(../images/diagmonds.png); }
 

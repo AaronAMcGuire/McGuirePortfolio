@@ -9,9 +9,9 @@
 </ul></div>
 <div class='footer_content_box twitter_feed'><h3>Twitter</h3></div>
 <div class='footer_content_box'><h3>About Me</h3><p>Aaron McGuire, Front end web developer give me a shout!</p>
-	<a href='https://www.facebook.com/AaronAndrewMcguire#' title='Aarons Facebook page'><img src='images/facebook.svg' width='90'></a>
-	<a href='https://twitter.com/_AaronMcguire' title='Aarons Twitter page'><img src='images/twitter.svg' width='90'></a>
-	<a href='https://www.flickr.com/photos/135412837@N06/' title='Aarons Flickr page'><img src='images/flickr.svg' width='90'></a>
+	<a href='https://www.facebook.com/AaronAndrewMcguire#' title='Aarons Facebook page'><img src='images/facebook.svg' width='40'></a>
+	<a href='https://twitter.com/_AaronMcguire' title='Aarons Twitter page'><img src='images/twitter.svg' width='40'></a>
+	<a href='https://www.flickr.com/photos/135412837@N06/' title='Aarons Flickr page'><img src='images/flickr.svg' width='40'></a>
 </div></div>
 
 	</footer>
@@ -20,9 +20,9 @@
 
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 
-<script type="text/javascript" src="http://threejs.org/build/three.js"></script>
-<script type="text/javascript" src="http://threejs.org/examples/js/renderers/Projector.js"></script>
-<script type="text/javascript" src="http://threejs.org/examples/js/renderers/CanvasRenderer.js"></script>
+<script type="text/javascript" src="vendors/three.js"></script>
+<script type="text/javascript" src="vendors/Projector.js"></script>
+<script type="text/javascript" src="vendors/CanvasRenderer.js"></script>
 <script src="js/main.js"></script>
 
 
