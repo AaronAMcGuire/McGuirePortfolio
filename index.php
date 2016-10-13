@@ -115,7 +115,8 @@ console.log(skills);
 			<div class='latest_posts'><h2>Latest Posts</h2>
 
 				<article role='article' class='post_data'><a href='' title=''><h3>Digital Industry: Drowning in a sea of new tech</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
-				<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
+				<article role='article' class='post_data'><a href='' title=''><h3>A look under the hood: Website perfomance and optimisation</h3></a><span class='meta_date'>26th September 2016</span><p>
+There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression </p><a href='' title=''>Read More</a><span class='line'></span></article>
 
 
 			</div>
@@ -125,7 +126,8 @@ console.log(skills);
 			<h2>Popular Posts</h2>
 			<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
 
-		<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
+			<article role='article' class='post_data'><a href='' title=''><h3>A look under the hood: Website perfomance and optimisation</h3></a><span class='meta_date'>26th September 2016</span><p>
+There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression </p><a href='' title=''>Read More</a><span class='line'></span></article>
 
 		</div>
 
