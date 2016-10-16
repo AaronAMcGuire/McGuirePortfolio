@@ -276,6 +276,9 @@ header {
   .small .hero_content {
     height: 500px; }
 
+.p_static .gradient {
+  background: url("../images/portfolioherostatic.jpg"); }
+
 .background {
   position: relative;
   z-index: 99; }
@@ -455,6 +458,7 @@ header {
 .portfolio {
   width: 100%;
   height: auto;
+  padding: 6rem 0;
   position: relative;
   display: flex;
   justify-content: center;
@@ -543,6 +547,20 @@ header {
       transition: 0.25s; }
     .blog_container article a:hover {
       color: #d12e43; }
+    .blog_container article .default_button {
+      color: white;
+      float: right;
+      width: 120px; }
+  .blog_container .full_article {
+    width: 80%;
+    margin: 4rem auto;
+    float: none; }
+    .blog_container .full_article h2 {
+      color: #ff425d; }
+    .blog_container .full_article h3 {
+      font-size: 3rem;
+      color: #1D1C28;
+      margin-bottom: 1rem; }
   .blog_container .new_tag {
     display: block;
     width: 70px;

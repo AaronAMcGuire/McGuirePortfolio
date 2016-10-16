@@ -46,29 +46,21 @@
 <?php include_once "includes/header.php"; ?>
 <!-- Include Google Analytics -->
 <?php include_once("includes/analyticstracking.php") ?>
-
-<section class='small_hero fadeIn'>
-	<div class='hero_content'><h2 class='xl'>About Aaron</h2>
-	<p>Everything you could ever want to know about Aaron from his skill set the color of his shoes.</p>
-
-	</div>
+<section class="hero small">
+<div class='hero_content gradient'><h2 class='xl'>About Me</h2>
+<p>Where I'm from, what I do, where I go and lots of other personal facts about me!</p>
+<span class='arrow bounce'></span>
+</div>
 </section>
+<div class='breadcrumb'><div class='container'><ul>
+<li><a href='index.php' title=''>Home</a></li><span class='bread_arrow'></span>
+<li>About</li>
+</ul></div></div>
+
+
 <main>
-<section class='full_about'>
-	<div class='container'>
+	</main>
 
-<div class='right_panel'><img src='images/aboutpp.jpg' alt=''><h3>Aaron McGuire</h3><h4>Front end web developer</h4>
-	<span class='line'></span>
-	<a href='mailto:aaron.mcguire0@gmail.com' title='Email Aaron directly'>Aaron.mcguire0@gmail.com</a>
-</div>
-<div class='left_panel'><p class='intro'>I'm Aaron a 21 year old front end web developer, living just outside of Manchester in a little place called Stockport. Currently I am in my last year at University where i'm studying BSc Web Development. Once finished i'm hoping to get straight into a full time front end role. I'm also currently on placement at Supremo which is awesome!</p>
-	<div class='about_content'>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div>
-</div>
-</section>
-</main>
+
 <!-- Include footer-->
-
-
 <?php include_once "includes/footer.php"; ?>

@@ -5,7 +5,7 @@
 				<title>Aaron McGuire | Front end Website developer</title>
 
 <!-- standard meta-->
-				<meta name="description" content="Portfolio of Front end web developer Aaron McGuire, with personal work and interersting blog posts ">
+				<meta name="description" content="Portfolio of Front end web developer Aaron McGuire, with personal work and interesting blog posts ">
 				<meta name="keywords" content="Web Developer, Ux, Ui, Photography, Aaron McGuire, Mcg, Aaron, Front end, photography, horses, sorted, article, detailing ">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <!--  social media meta-->
@@ -18,7 +18,7 @@
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@_aaronmcguire" />
 				<meta name="twitter:title" content="Aaron McGuire Portfolio" />
-				<meta name="twitter:description" content="Portfolio of Front end web developer Aaron McGuire, with personal work and interersting blog posts " />
+				<meta name="twitter:description" content="Portfolio of Front end web developer Aaron McGuire, with personal work and interesting blog posts " />
 				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metabg.jpg" />
 <!-- Chrome frame color-->
 				<meta name="theme-color" content="#ff425d">
@@ -39,7 +39,7 @@
 				<link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
 				<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
 				<link rel="manifest" href="images/favicons/manifest.json">
-				<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+				<script async src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
 				<script>
 				// Script stops elements loading twice better UX
       window.sr = ScrollReveal();
@@ -50,7 +50,7 @@
     </script>
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" href="styles/stylesheet.min.css">
+<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css"/>
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -67,9 +67,6 @@
   </div>
 
 </section>
-
-
-</section>
 <!-- end of section -->
 <main role='main'>
 <!-- Start of cv download -->
@@ -79,7 +76,7 @@
 <section class='about '>
   <div class='container'>
 		<span class='sub_title'>A little about me</span><h2>Who I am and What I do</h2><span class='line'></span><p>I'm Aaron a 21 year old front end web developer, living just outside of Manchester in a little place called Stockport. Currently I am in my last year at University where i'm studying BSc Web Development. Once finished i'm hoping to get straight into a full time front end role. I'm also currently on placement at <a href='' title='Web development agency located in Manchester' class='default_link'>Supremo</a> which is awesome! </p>
-		<a href="about.php" title="Everything else there is to know!" class="default_button outline"> Full About</a>
+
 
 		<pre class='code code-js'><label>JS</label><code>
 console.log(name);
@@ -96,9 +93,9 @@ console.log(skills);
 <section class='portfolio'>
 	<div class='portfolio_item'><img src='images/sortedhorsesthumbnail.jpg' alt='mobile phone version of sorted horses'><a href='' title=''><div class='overlay'><h3>Sorted Horses</h3><span class='tag'>Web</span></div></a> </div>
 
-		<div class='portfolio_item'><a href='' title=''><img src='images/g4digitalthumbnail.jpg' alt='g4 digital logo'><a href='' title='project specification for university work'><div class='overlay'><h3>G4 Digital</h3><span class='tag'>Web</span></div></a> </div>
+		<div class='portfolio_item'><img src='images/g4digitalthumbnail.jpg' alt='g4 digital logo'><a href='' title='project specification for university work'><div class='overlay'><h3>G4 Digital</h3><span class='tag'>Web</span></div></a> </div>
 
-			<div class='portfolio_item'><a href='' title=''><img src='images/pokegothumbnail.jpg' alt='ipad showing pokemon go website'><a href='' title='Personally initiated project'><div class='overlay'><h3>AngularJs Pokedex</h3><span class='tag'>Web</span></div> </a></div>
+			<div class='portfolio_item'><img src='images/pokegothumbnail.jpg' alt='ipad showing pokemon go website'><a href='' title='Personally initiated project'><div class='overlay'><h3>AngularJs Pokedex</h3><span class='tag'>Web</span></div> </a></div>
 
 				<div class='portfolio_item'><img src='images/horsecarriagethumbnail.jpg' alt='horse and carriage mockup'><a href='' title='Project specification for university project'><div class='overlay'><h3>Horse &amp; Carriage</h3><span class='tag'>Web</span></div></a> </div>
 
