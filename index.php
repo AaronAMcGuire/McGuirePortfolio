@@ -70,7 +70,7 @@
 <!-- end of section -->
 <main role='main'>
 <!-- Start of cv download -->
-<section class='cv'><div class='content subject'><p>Don't want to scroll through the website? grab a copy of my CV instead!</p><a href='' title='View Aarons CV' class='default_button style2'>Download CV</a></div></section>
+<section class='small_section'><div class='content subject'><p>Don't want to scroll through the website? grab a copy of my CV instead!</p><a href='' title='View Aarons CV' class='default_button style2'>Download CV</a></div></section>
 <!-- end of section -->
 <!-- Start of about section -->
 <section class='about '>
@@ -91,19 +91,18 @@ console.log(skills);
 
 <!-- Start of portfolio section -->
 <section class='portfolio'>
-	<div class='portfolio_item'><img src='images/sortedhorsesthumbnail.jpg' alt='mobile phone version of sorted horses'><a href='' title=''><div class='overlay'><h3>Sorted Horses</h3><span class='tag'>Web</span></div></a> </div>
+	<div class='portfolio_item'><img src='images/sortedhorsesthumbnail.jpg' alt='mobile phone version of sorted horses'><a href='portfolio/sortedhorses.php' title='Case study for Sortedhorses website'><div class='overlay'><h3>Sorted Horses</h3><span class='tag'>Web</span></div></a> </div>
 
-		<div class='portfolio_item'><img src='images/g4digitalthumbnail.jpg' alt='g4 digital logo'><a href='' title='project specification for university work'><div class='overlay'><h3>G4 Digital</h3><span class='tag'>Web</span></div></a> </div>
+		<div class='portfolio_item'><img src='images/g4digitalthumbnail.jpg' alt='g4 digital logo'><a href='portfolio/g4digital.php' title='project specification for university work'><div class='overlay'><h3>G4 Digital</h3><span class='tag'>Web</span></div></a> </div>
 
-			<div class='portfolio_item'><img src='images/pokegothumbnail.jpg' alt='ipad showing pokemon go website'><a href='' title='Personally initiated project'><div class='overlay'><h3>AngularJs Pokedex</h3><span class='tag'>Web</span></div> </a></div>
+			<div class='portfolio_item'><img src='images/pokegothumbnail.jpg' alt='ipad showing pokemon go website'><a href='portfolio/pokego.php' title='Personally initiated project'><div class='overlay'><h3>AngularJs Pokedex</h3><span class='tag'>Web</span></div> </a></div>
 
-				<div class='portfolio_item'><img src='images/horsecarriagethumbnail.jpg' alt='horse and carriage mockup'><a href='' title='Project specification for university project'><div class='overlay'><h3>Horse &amp; Carriage</h3><span class='tag'>Web</span></div></a> </div>
+				<div class='portfolio_item'><img src='images/horsecarriagethumbnail.jpg' alt='horse and carriage mockup'><a href='portfolio/horseandcarriage.php' title='Javascript Project for university'><div class='overlay'><h3>Horse &amp; Carriage</h3><span class='tag'>Web</span></div></a> </div>
 
-					<div class='portfolio_item'><img src='images/h20logo.jpg' alt='h20 logo mockup'><a href='' title='Information about h20 logo'><div class='overlay'><h3>H20 Logo</h3><span class='tag'>Graphic</span></div></a> </div>
+					<div class='portfolio_item'><img src='images/h20logo.jpg' alt='h20 logo mockup'><a href='portfolio/h20.php' title='Information about h20 logo'><div class='overlay'><h3>H20 Logo</h3><span class='tag'>Graphic</span></div></a> </div>
 
-						<div class='portfolio_item'><img src='images/mmuico.jpg' alt='Info comms website mockup'><a href='' title='full project specification of info comms website'><div class='overlay'><h3>Information Communications</h3><span class='tag'>Web, Design</span></div></a> </div>
+						<div class='portfolio_item'><img src='images/mmuico.jpg' alt='Info comms website mockup'><a href='portfolio/mmuico.php' title='full project specification of info comms website'><div class='overlay'><h3>Information Communications</h3><span class='tag'>Web, Design</span></div></a> </div>
 
-<a href='portfolio.php' title='Check out all of Aarons work' class='default_button'>View more</a>
 </section>
 <!-- end of section -->
 <!-- Start of blog section -->
