@@ -1,4 +1,4 @@
-<body role='document'>
+<body class='fadeIn' role='document'>
 <a class='hidden' href="#maincontent">Skip to main content</a>
 <a class='hidden' href="#mainnav">Skip to main navigation</a>
 <div class='global_container'>
@@ -8,7 +8,7 @@
 		<span class="hamburger-inner"></span>
 	</span>
 </button></div>
-	<header role='banner' class='clear'><div class='container'><h1>Aaron McGuire</h1><nav id='mainnav'><ul role='list'>
+	<header role='banner' class='clear'><div class='container'><a href='../index.php' title='Back to Aarons homepage'><h1>Aaron McGuire</h1></a><nav id='mainnav'><ul role='list'>
 	  <li><a href='../index.php' title='' class="<?php echo ($_SERVER['REQUEST_URI'] == "/new/index.php" ? "active" : "");?>">Home</a></li>
 	  <li><a href='../portfolio.php' class="<?php echo ($_SERVER['REQUEST_URI'] == "/new/portfolio.php" ? "active" : "");?>" title='A showcase of work Aaron has contributed to.'>Portfolio</a></li>
 	  <li><a href='../blog.php' class="<?php echo ($_SERVER['REQUEST_URI'] == "/new/blog.php" ? "active" : "");?>" title='Latest blog posts from Aaron'>Blog</a></li>

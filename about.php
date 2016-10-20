@@ -39,8 +39,10 @@
 				<link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
 				<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
 				<link rel="manifest" href="images/favicons/manifest.json">
+
+				
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.3">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>

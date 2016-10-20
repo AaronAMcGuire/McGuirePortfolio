@@ -39,18 +39,11 @@
 				<link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
 				<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
 				<link rel="manifest" href="images/favicons/manifest.json">
-				<script async src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
-				<script>
-				// Script stops elements loading twice better UX
-      window.sr = ScrollReveal();
-      if (sr.isSupported()) {
-        document.documentElement.classList.add('sr');
-      }
 
-    </script>
+
 
 <!-- Main stylesheet -->
-<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css"/>
+<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.3"/>
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -59,7 +52,7 @@
 <!-- Hero section-->
 <section class="hero webgl">
 <div class='hero_content gradient'><h2 class='xl'>McGuire</h2>
-<p >Aaron is a front end web developer currently studying BSc at Manchester Metropolitan University.</p>
+<p >Aaron is a front end web developer currently studying at Manchester Metropolitan University.</p>
 <a class='default_button' href='portfolio.php' title='See all of Aarons work '>View my work</a>
 <span class='arrow bounce'></span>
 </div>
@@ -75,7 +68,7 @@
 <!-- Start of about section -->
 <section class='about '>
   <div class='container'>
-		<span class='sub_title'>A little about me</span><h2>Who I am and What I do</h2><span class='line'></span><p>I'm Aaron a 21 year old front end web developer, living just outside of Manchester in a little place called Stockport. Currently I am in my last year at University where i'm studying BSc Web Development. Once finished i'm hoping to get straight into a full time front end role. I'm also currently on placement at <a href='' title='Web development agency located in Manchester' class='default_link'>Supremo</a> which is awesome! </p>
+		<span class='sub_title'>A little about me</span><h2>Who I am and What I do</h2><span class='line'></span><p>I'm Aaron a 21 year old front end web developer, living just outside of Manchester in a little place called Stockport. Currently I am in my last year at University where i'm studying BSc Web Development. Once finished i'm hoping to get straight into a full time front end role. I'm also currently working at <a href='http://www.supremo.tv' title='Web development agency located in Manchester' class='default_link'>Supremo</a> which is awesome! </p>
 
 
 		<pre class='code code-js'><label>JS</label><code>
@@ -110,9 +103,9 @@ console.log(skills);
 	<div class='container clear'>
 			<div class='latest_posts'><h2>Latest Posts</h2>
 
-				<article role='article' class='post_data'><a href='' title=''><h3>Digital Industry: Drowning in a sea of new tech</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
-				<article role='article' class='post_data'><a href='' title=''><h3>A look under the hood: Website perfomance and optimisation</h3></a><span class='meta_date'>26th September 2016</span><p>
-There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression </p><a href='' title=''>Read More</a><span class='line'></span></article>
+				<article role='article' class='post_data'><a href='blog/keepupdigital.php' title='Aarons struggle keeping up in the digital industry'><h3>Digital Industry: Drowning in a sea of new tech</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='blog/keepupdigital.php' title='Aarons struggle keeping up in the digital industry'>Read More</a><span class='line'></span></article>
+				<article role='article' class='post_data'><a href='blog/underthehood.php' title='Aarons approach to website performance optimization.'><h3>A look under the hood: Website perfomance and optimisation</h3></a><span class='meta_date'>26th September 2016</span><p>
+There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression </p><a href='blog/underthehood.php' title='Aarons approach to website performance optimization.'>Read More</a><span class='line'></span></article>
 
 
 			</div>
@@ -120,10 +113,10 @@ There’s a range of things I’ve done to keep my page optimized. You too could
 
 		<div class='popular_posts'>
 			<h2>Popular Posts</h2>
-			<article role='article' class='post_data'><a href='' title=''><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='' title=''>Read More</a><span class='line'></span></article>
+			<article role='article' class='post_data'><a href='blog/developmentprocess.php' title='Aarons process of development.'><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='blog/developmentprocess.php' title='Aarons process of development.'>Read More</a><span class='line'></span></article>
 
-			<article role='article' class='post_data'><a href='' title=''><h3>A look under the hood: Website perfomance and optimisation</h3></a><span class='meta_date'>26th September 2016</span><p>
-There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression </p><a href='' title=''>Read More</a><span class='line'></span></article>
+			<article role='article' class='post_data'><a href='blog/underthehood.php' title='Aarons approach to website performance optimization.'><h3>A look under the hood: Website perfomance and optimisation</h3></a><span class='meta_date'>26th September 2016</span><p>
+There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression </p><a href='blog/underthehood.php' title='Aarons approach to website performance optimization.'>Read More</a><span class='line'></span></article>
 
 		</div>
 

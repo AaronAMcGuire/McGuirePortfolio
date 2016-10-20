@@ -39,15 +39,16 @@
 				<link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
 				<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
 				<link rel="manifest" href="images/favicons/manifest.json">
+
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.3">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
 <!-- Include Google Analytics -->
 <?php include_once("../includes/analyticstracking.php") ?>
 <section class="sortedhorses hero small ">
-<div class='hero_content gradient'><h2 class='xl'>H20</h2>
+<div class='hero_content gradient'><h2>H20</h2>
 <p>An A-level Graphic design assignment to create branding for a water bottle. </p>
 <span class='arrow bounce'></span>
 </div>

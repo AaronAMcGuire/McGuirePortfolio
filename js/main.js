@@ -1,6 +1,7 @@
 
 $(document).ready(function(){$(window).scroll(function(){$(window).scrollTop()>220&&$("header").addClass("header_fix"),$(window).scrollTop()<220&&$("header").removeClass("header_fix")})});
 
+
 var $hamburger=$(".hamburger");
 $hamburger.on("click",function(a)
 {$hamburger.toggleClass("is-active"),
@@ -50,45 +51,29 @@ $(document).ready(function() {
 if (screen && screen.width > 768) {
 
       var SEPARATION = 100, AMOUNTX = 50, AMOUNTY = 50;
-
       var container;
       var camera, scene, renderer;
-
       var particles, particle, count = 0;
-
       var mouseX = 0, mouseY = 0;
-
       var windowHalfX = window.innerWidth / 2;
       var windowHalfY = window.innerHeight / 2;
-
       init();
       animate();
-
       function init() {
 
         container = $('.webgl .background');
-
         camera = new THREE.PerspectiveCamera( 55, window.innerWidth / window.innerHeight, 1, 10000 );
         camera.position.z = 800;
         camera.position.y = 400;
-
         scene = new THREE.Scene();
-
         particles = new Array();
-
         var PI2 = Math.PI * 2;
         var material = new THREE.SpriteCanvasMaterial( {
-
           color: 0x948CCC,
           program: function ( context ) {
-
             context.beginPath();
-            context.arc( 0, 0, 0.5, 0, PI2, true );
-            context.fill();
-
-          }
-
-        } );
+            context.arc( 0, 0, 0.3, 0, PI2, true );
+            context.fill();}} );
 
         var i = 0;
 
@@ -109,30 +94,15 @@ if (screen && screen.width > 768) {
         renderer.setPixelRatio( window.devicePixelRatio );
         renderer.setSize( window.innerWidth, window.innerHeight );
         $(container).append( renderer.domElement );
-
         document.addEventListener( 'mousemove', onDocumentMouseMove, false );
-        document.addEventListener( 'touchstart', onDocumentTouchStart, false );
-        document.addEventListener( 'touchmove', onDocumentTouchMove, false );
-
-        //
-
-        window.addEventListener( 'resize', onWindowResize, false );
-
       }
-
+// re-render on resize fixes sizing issue
       function onWindowResize() {
-
-        windowHalfX = window.innerWidth / 2;
         windowHalfY = window.innerHeight / 2;
-
         camera.aspect = window.innerWidth / window.innerHeight;
         camera.updateProjectionMatrix();
-
         renderer.setSize( window.innerWidth, window.innerHeight );
-
       }
-
-      //
 
       function onDocumentMouseMove( event ) {
 
@@ -140,34 +110,6 @@ if (screen && screen.width > 768) {
         mouseY = event.clientY - windowHalfY;
 
       }
-
-      function onDocumentTouchStart( event ) {
-
-        if ( event.touches.length === 1 ) {
-
-          event.preventDefault();
-
-          mouseX = event.touches[ 0 ].pageX - windowHalfX;
-          mouseY = event.touches[ 0 ].pageY - windowHalfY;
-
-        }
-
-      }
-
-      function onDocumentTouchMove( event ) {
-
-        if ( event.touches.length === 1 ) {
-
-          event.preventDefault();
-
-          mouseX = event.touches[ 0 ].pageX - windowHalfX;
-          mouseY = event.touches[ 0 ].pageY - windowHalfY;
-
-        }
-
-      }
-
-      //
 
       function animate() {
 
@@ -206,26 +148,3 @@ if (screen && screen.width > 768) {
 
       }
 }
-
-//animation configurations
-
-
-
-
-
-var inReveal = {
-  delay : 200,
-  useDelay: 'always',
-  easing : 'ease-in-out',
-  scale : 0.9,
-  origin: 'left'
-
-};
-
-$(window).scroll(function(){
-    $(".hero").css("opacity", 1 - $(window).scrollTop() / 390);
-  });
-window.sr = ScrollReveal().reveal('h2, p,.default_button', { container: '.hero_content', duration:200}, 400);
-sr.reveal('.sub_title,.code,h2, p,.default_button', { container: '.about', duration:200 }, 250);
-sr.reveal('.portfolio_item', inReveal);
-sr.reveal('header,.cv', 100);

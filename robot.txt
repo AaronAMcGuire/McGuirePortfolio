@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /sortedhorses/
+Disallow: /hac/
+Disallow: /kasa/
+Disallow: /PokemonGoGuide/
+Disallow: /group4/
+Disallow: /enc/
