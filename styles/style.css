@@ -139,7 +139,7 @@ h2 {
   width: 90%;
   height: 2px;
   background: #c8c8c8;
-  margin: 1rem 0; }
+  margin: 1rem auto; }
 
 /* END OF BUTTONS */
 /* START OF ANIMATION CLASSES */
@@ -729,6 +729,36 @@ footer {
   float: left;
   display: block; }
 
+#map {
+  width: 100%;
+  height: 500px; }
+
+.contact {
+  width: 100%;
+  height: auto; }
+  .contact .input_items {
+    display: inline-block;
+    margin: 1rem;
+    text-align: left; }
+  .contact label {
+    font-size: 2.2rem;
+    color: #ff425d;
+    text-align: left;
+    margin: 0.5rem 0; }
+  .contact .default_button {
+    border: 1px solid #ff425d;
+    width: 250px; }
+  .contact input {
+    width: 100%; }
+  .contact textarea {
+    width: 100%; }
+  .contact input, .contact textarea {
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: 'Omnes';
+    border: 1px solid #969696;
+    box-sizing: border-box; }
+
 /* ANIMATIONS START */
 @keyframes bounce {
   0%,
@@ -827,8 +857,7 @@ footer {
     width: 100%; }
     header nav ul {
       width: 100%;
-      display: flex;
-      justify-content: center; }
+      display: block; }
 
   a h1 {
     display: none; }
@@ -955,6 +984,15 @@ footer {
     flex-wrap: wrap;
     justify-content: center; } }
 @media screen and (max-width: 400px) {
+  .contact .input_items {
+    width: 100%;
+    margin: 0; }
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    box-sizing: border-box; }
+
   .code {
     display: none; }
 

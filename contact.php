@@ -40,14 +40,50 @@
 				<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
 				<link rel="manifest" href="images/favicons/manifest.json">
 
-			
+
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.3">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.4">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
 <!-- Include Google Analytics -->
 <?php include_once("includes/analyticstracking.php") ?>
+<section class="p_static hero small ">
+<div class='hero_content gradient'><h2 class='xl'>Get in touch</h2>
+<p>Have a question? or maybe you have an interesting project you need help on! drop me a line.</p>
+<span class='arrow bounce'></span>
+</div>
+</section>
+<div class='breadcrumb'><div class='container'><ul>
+<li><a href='index.php' title=''>Home</a></li>
+<li><span class='bread_arrow'></span></li>
+<li>Get in touch</li>
+</ul></div></div>
+<main>
+	<section class='about '>
+	  <div class='container'>
+		<h2>Message me directly</h2><span class='line'></span><p>If your interested in getting in touch feel free to use the form below to do so</p>
+		<form class='contact'>
+			<div class='input_items'>
+			<label for='name'>Name:</label>
+			<input name="name" placeholder="Enter your name" required/>
+		</div>
+		<div class='input_items'>
+			<label for='email'>Email:</label>
+			<input name="emailaddress" placeholder="Enter your email" type="email" required/>
+		</div>
+		<div class='input_items'>
+			<label for='message'>Message:</label>
+	    <textarea rows="4" cols="50" name="subject" placeholder="Please enter your message" class="message" required></textarea>
+		</div>
+	    <input class='default_button' name="submit" type="submit" value="Send" />
+	</form>
+	</div>
+
+
+	</section>
+	<section><div id='map'></div></section>
+</main>
 
 
 

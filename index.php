@@ -43,7 +43,7 @@
 
 
 <!-- Main stylesheet -->
-<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.3"/>
+<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.4"/>
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -68,7 +68,7 @@
 <!-- Start of about section -->
 <section class='about '>
   <div class='container'>
-		<span class='sub_title'>A little about me</span><h2>Who I am and What I do</h2><span class='line'></span><p>I'm Aaron a 21 year old front end web developer, living just outside of Manchester in a little place called Stockport. Currently I am in my last year at University where i'm studying BSc Web Development. Once finished i'm hoping to get straight into a full time front end role. I'm also currently working at <a href='http://www.supremo.tv' title='Web development agency located in Manchester' class='default_link'>Supremo</a> which is awesome! </p>
+		<span class='sub_title'>A little about me</span><h2>Who I am and What I do</h2><span class='line'></span><p>I'm Aaron a 22 year old front end web developer, living just outside of Manchester in a little place called Stockport. Currently I am in my last year at University where i'm studying BSc Web Development. Once finished i'm hoping to get straight into a full time front end role. I'm also currently working at <a href='http://www.supremo.tv' title='Web development agency located in Manchester' class='default_link'>Supremo</a> which is awesome! </p>
 
 
 		<pre class='code code-js'><label>JS</label><code>

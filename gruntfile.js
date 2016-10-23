@@ -57,7 +57,13 @@ module.exports = function(grunt) {
                     threshold: 80
                 }
             }
-        }
+        },
+        pa11y: {
+    options: {
+      url: 'aaronmcguire.co.uk'
+    }
+  }
+
 
     });
     grunt.loadNpmTasks('grunt-contrib-concat');
@@ -65,6 +71,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-criticalcss');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-pagespeed');
+    grunt.loadNpmTasks('grunt-pa11y');
+
+
+
 
 
     grunt.registerTask('default', []);

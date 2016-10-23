@@ -168,7 +168,7 @@ bottom:2%;
     width:90%;
     height: 2px;
     background: rgb(200,200,200);
-    margin: 1rem 0;
+    margin: 1rem auto;
 }
 /* END OF BUTTONS */
 /* START OF ANIMATION CLASSES */
@@ -949,8 +949,47 @@ footer {
     float: left;
     display: block;
 }
+#map {
+    width: 100%;
+    height: 500px;
+}
+.contact{
+  width:100%;
+  height:auto;
+  .input_items{
+    display: inline-block;
+margin:1rem;
+  text-align: left;
+  }
+label{
+  font-size:2.2rem;
+  color:$main_color;
+  text-align: left;
+  margin:0.5rem 0;
+}
+.default_button{
+  border:1px solid $main_color;
+  width:250px;
+}
+  input{
+    width:100%;
 
 
+
+
+
+  }
+  textarea{
+    width:100%;
+  }
+  input,textarea{
+    font-size:2rem;
+    padding:1rem;
+    font-family: 'Omnes';
+    border:1px solid rgb(150,150,150);
+    box-sizing: border-box;
+  }
+}
 
 /* ANIMATIONS START */
 @keyframes bounce {
@@ -1124,8 +1163,8 @@ background:url(../images/diagmonds.png);
         width:100%;
       ul{
         width:100%;
-        display: flex;
-        justify-content: center;  
+        display: block;
+
 
         li{
 
@@ -1327,6 +1366,21 @@ header
 }
 @media screen and ( max-width:400px)
 {
+
+  .contact{
+
+  .input_items{
+    width:100%;
+    margin:0;
+  }
+  input,
+  textarea{
+    width:100%;
+    margin:0.5rem 0;
+    box-sizing: border-box;
+    }
+  }
+
   .code{
     display: none;
   }

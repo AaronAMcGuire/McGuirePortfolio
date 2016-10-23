@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.3">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.4">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
@@ -65,7 +65,7 @@
 
 <main class='project_sortedhorses'>
   <section class='intro'><div class='container'><h2>Project Initiation</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sem porttitor, iaculis tellus eget, placerat tortor. Integer quis augue fermentum metus molestie volutpat. Donec mollis, tellus pellentesque hendrerit dictum, nibh lorem convallis ante, id fermentum ante diam eu lectus. Aenean suscipit finibus varius. Cras sagittis at ligula aliquet dictum. Curabitur vel pretium quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum vitae dui aliquet, porta ipsum sed, sollicitudin massa. Etiam imperdiet, nunc quis pharetra convallis, tellus nibh maximus lorem, quis accumsan risus lectus sed nisl. Donec a finibus tortor. Mauris mollis tempor odio vel dictum. Vestibulum orci nunc, posuere vitae interdum et, venenatis tempus justo.</p><a href='http://www.aaronmcguire.co.uk/sortedhorses' class='default_button style3' title=''>View live website</a></div></section>
+  <p>Mark from SortedHorses came to Aaron with an idea; he had identified a gap in an existing market that he believed could be greatly improved upon. Aaron conducted a competitor analysis to see the possible problems that may be faced entering the market and identify good and bad competitors. The primary problem identified was a lot of websites were very data heavy.  Mark’s idea was to improve on these data heavy website by generating colourful and interactive charts. It was up-to Aaron to implement these in a way that looked professional but were accessible.</p><a href='http://www.aaronmcguire.co.uk/sortedhorses' class='default_button style3' title=''>View live website</a></div></section>
   <section class='evidence'>
     <div><img src='../images/evidence/sortedhorseswireframe.jpg' alt='website wireframes drawn in black ink on paper'></div>
       <div><img src='../images/evidence/sortedhorsessite.jpg' alt='SortedHorses website showing the introduction'></div>
@@ -73,7 +73,7 @@
 
         </section>
         <section class='intro altstyle'><div class='container'><h2>Design Process</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sem porttitor, iaculis tellus eget, placerat tortor. Integer quis augue fermentum metus molestie volutpat. Donec mollis, tellus pellentesque hendrerit dictum, nibh lorem convallis ante, id fermentum ante diam eu lectus. Aenean suscipit finibus varius. Cras sagittis at ligula aliquet dictum. Curabitur vel pretium quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum vitae dui aliquet, porta ipsum sed, sollicitudin massa. Etiam imperdiet, nunc quis pharetra convallis, tellus nibh maximus lorem, quis accumsan risus lectus sed nisl. Donec a finibus tortor. Mauris mollis tempor odio vel dictum. Vestibulum orci nunc, posuere vitae interdum et, venenatis tempus justo.</p></div></section>
+        <p>Aaron’s design process started once he had all of his research completed, Identifying a target market was the first step, in this case it was decided people aged over 25 would be the ideal target market. Despite being a large target market the use of personas identified possible pit-falls to overcome. Upon completing Aaron then started sketching paper wireframes to identify layouts. Once done the paper wireframes were made into high-fidelity wireframes. Once other aspects were in place and agreed with the client Aaron began to code the website in iterations making sure to get in touch with the client every step.</p></div></section>
 <section class='casestudy small_section '><div class='content subject'><p>Feel inspired by this case study? feel free to get in touch with your ideas.</p><a href='' title='Contact Aaron regarding an idea you may have.' class='default_button'>Get in contact</a></div></section>
 	<!-- Start of portfolio section -->
 

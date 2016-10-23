@@ -21,6 +21,7 @@
 <script type="text/javascript" src="../vendors/three.js"></script>
 <script type="text/javascript" src="../vendors/Projector.js"></script>
 <script type="text/javascript" src="../vendors/CanvasRenderer.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqNwu6p2rptNyJRCvU8DZKtj2pl6z31Z4"></script>
 <script src="../js/main.js"></script>
 </body>
 </html>
