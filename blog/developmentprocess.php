@@ -41,7 +41,7 @@
 				<link rel="manifest" href="images/favicons/manifest.json">
 		
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.4">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.5">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>

@@ -40,9 +40,9 @@
 				<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
 				<link rel="manifest" href="images/favicons/manifest.json">
 
-	
+
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.4">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.5">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
@@ -68,22 +68,48 @@
 	<section class='blog_container clear '>
 		<div class='container'>
 
-<article class='full_article'><span class='new_tag'>New</span> <span class='timestamp'>WEDNESDAY, DECEMBER 17, 2014</span>
+<article class='full_article'><span class='new_tag'>New</span> <span class='timestamp'><time datetime="2016-10-23 20:53">Sunday, October 23, 2016</time></span>
 <h2>A look under the hood: Website performance and optimization</h2>
 <span class='line'></span>
 <h3>Code Validation</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare. </p>
+<p>Validation of code is one of the most common practices to follow – allowing the web to be truly accessible to all!  Yet there are still plenty of websites that have simple validation errors rendering the whole website a UX disaster. Every website I make; I try my utmost best to ensure every element is valid, semantic and accessible. A few ways I validated my code during the development of this website were as follows: </p>
 <ul>
-	<li><a href='' title=''>CSS Lint</a></li>
-		<li><a href='' title=''>HTML Validator</a></li>
-		<li><a href='' title=''>JS Validator</a></li>
+	<li><a href='http://csslint.net/' title='check the validity of your css code.'>CSS Lint</a></li>
+		<li><a href='https://validator.w3.org/' title='check the validity of your html code.'>HTML Validator</a></li>
+		<li><a href='http://www.jslint.com/' title='check the validity of your javascript.'>JS Validator</a></li>
 </ul>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare.</p>
-
+<p>All of these services are free to use and take little to no time to conduct a check on all of your code. </p>
+<h4>“Well I just use grunt or gulp for that…”</h4>
+<p>Great! Me too. It’s still always good practice to run your code through a manual service because you can actually see your getting the best output. In addition to it not only being the best it can be - you also get to check those boxes during your WCAG report.</p>
+<figure>
+<img src='../images/underthehood/htmlvalidator.jpg' alt='validator screen report on W3C validator.'>
+<figcaption>Screenshot of W3C validator output for this website.</figcaption>
+</figure>
 <h3>Page Optimization</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare.</p>
+<p>There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression. Now this may already be enabled on your server and therefore, wouldn’t make a difference. If it isn’t then Gzipping your website has the potential to bring down file sizes by 70+%. A server file like .htaccess has the power to make your website exceptionally fast.</p>
+<figure>
+<img src='../images/underthehood/googlepagespeed.jpg' alt='Google speed report showing 97 out of 100'>
+<figcaption>Report taken from Google pagespeed showing 97 out of 100 score.</figcaption>
+</figure>
+	 <p>Be warned however, you shouldn’t go poking around if you haven’t read up on what your doing.</p><p> Another great optimization technique in .htaccess is enabling expiry times on your content (e.g. images, icons etc.. ) Doing this enables content to be cached for a longer period of time and therefore regular visitors may not need to re-load certain assets.  There are also the standard optimization techniques that are performed on every project but less attention is given to them as they’ve been automated using Grunt. These techniques include minifying CSS and Javascript, Concatenating files where possible and optimizing images to be a lower file size.</p>
+<span class='code_example'>heres an example of some code in my .htaccess file:-</span>
+<pre class='code code-js'><label>code:</label><code>
+	AddOutputFilterByType DEFLATE text/plain
+	AddOutputFilterByType DEFLATE text/html
+	AddOutputFilterByType DEFLATE text/xml
+	AddOutputFilterByType DEFLATE text/css
+	AddOutputFilterByType DEFLATE application/xml
+	AddOutputFilterByType DEFLATE application/xhtml+xml
+	AddOutputFilterByType DEFLATE application/rss+xml
+	AddOutputFilterByType DEFLATE application/javascript
+	AddOutputFilterByType DEFLATE application/x-javascript
+	AddOutputFilterByType DEFLATE image/x-icon image/svg+xml application/vnd.ms-fontobject application/x-font-ttf font/opentype
+	AddOutputFilterByType DEFLATE application/x-font-ttf
+	AddOutputFilterByType DEFLATE font/opentype font/truetype font/eot
+</code></pre>
+
 <h3>SEO Integration</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare.</p>
+<p>SEO is something I’m relatively new to myself but never the less I conducted some research and implemented some search engine optimization techniques to the best of my ability. One such technique was the use of the Open Graph protocol. This protocol enables websites such as Facebook to use content from your website that you pick, opposed to Facebook guessing which content to pick. By doing this you widen the scope for sharing articles and other sharable website content. I also used the Twitter cards Meta data to enable customisation in regards to twitter. Google Analytics was attached to my website along with an SEOsitecheckup to measure how well my website was performing – these tools however will be used for the long term maintenance of my SEO performance.</p>
 </article>
 
 </div>

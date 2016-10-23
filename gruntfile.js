@@ -62,7 +62,17 @@ module.exports = function(grunt) {
     options: {
       url: 'aaronmcguire.co.uk'
     }
-  }
+  },
+  browserSync: {
+    dev: {
+        bsFiles: {
+            src : 'styles/stylesheet.min.css'
+        },
+        options: {
+            proxy: "aaronmcguirecouk.dev"
+        }
+    }
+}
 
 
     });
@@ -72,6 +82,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-pagespeed');
     grunt.loadNpmTasks('grunt-pa11y');
+    grunt.loadNpmTasks('grunt-browser-sync');
+
 
 
 

@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.4">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.5">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -67,7 +67,7 @@
 	<section class='blog_container clear '>
 		<div class='container'>
 
-<article><span class='new_tag'>New</span> <span class='timestamp'>WEDNESDAY, DECEMBER 17, 2014</span>
+<article><span class='new_tag'>New</span> <span class='timestamp'><time datetime="2016-10-23 20:53">Sunday, October 23, 2016</time></span>
 <a href='blog/underthehood.php' title='Aarons approach to website performance optimization.'><h2>A look under the hood: Website performance and optimisation</h2></a><span class='line'></span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare.</p><p>Etiam mi lacus, molestie feugiat bibendum nec, cursus a dui. Nam a ligula efficitur, dignissim massa a, lacinia diam. Phasellus felis odio, condimentum id ante nec, elementum hendrerit dui. Sed vehicula lectus felis, id viverra sem pellentesque vitae. Praesent euismod tempor tristique. Curabitur eget ante et augue rhoncus pharetra congue at felis. Aenean sit amet tincidunt nulla. Cras sit amet justo sit amet erat posuere finibus. Cras faucibus, lacus sit amet posuere gravida, lacus odio tristique quam, id vulputate neque ligula sit amet diam. Ut rutrum volutpat quam vitae tempus.</p><a href='blog/underthehood.php' class='default_button' title='Aarons approach to website performance optimization.'>Read Article</a></article>
 
 <aside><div class='widget'><h3>Social Media</h3>
