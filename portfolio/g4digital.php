@@ -7,7 +7,7 @@
 <!-- standard meta-->
 				<meta name="description" content="G4 Digital casestudy, a project for University.">
 				<meta name="keywords" content="G4 Digital, user personas, usability testing, group work, group 4, parallax">
-				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+				<meta name="viewport" content="width=device-width,   maximum-scale=1.0,  initial-scale=1.0, user-scalable=yes" />
 <!--  social media meta-->
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="G4 Digital| Casestudy | Aaron McGuire" />
@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.5">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.6">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>

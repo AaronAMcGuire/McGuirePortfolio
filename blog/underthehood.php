@@ -2,23 +2,23 @@
 <html lang='en-gb'>
 <head>
 <meta charset="utf-8">
-				<title> Blog | A look under the hood: Website performance and optimization </title>
+				<title> Blog | A look under the hood: Website performance and optimisation </title>
 
 <!-- standard meta-->
-				<meta name="description" content="Aaron talks about his web optimization and performance methods">
-				<meta name="keywords" content="SEO, Optimization, Performance, Page speed, Google speed, Search engine optimization, Google rankings ">
-				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+				<meta name="description" content="Aaron talks about his web optimisation and performance methods">
+				<meta name="keywords" content="SEO, optimisation, Performance, Page speed, Google speed, Search engine optimisation, Google rankings ">
+				<meta name="viewport" content="width=device-width,   maximum-scale=1.0,  initial-scale=1.0, user-scalable=yes" />
 <!--  social media meta-->
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="A look under the hood: Website performance and optimization " />
-				<meta property="og:description" content="Aaron talks about his web optimization and performance methods" />
+				<meta property="og:title" content="A look under the hood: Website performance and optimisation " />
+				<meta property="og:description" content="Aaron talks about his web optimisation and performance methods" />
 				<meta property="og:image" content='http://www.aaronmcguire.co.uk/new/images/metabg.jpg'/>
 				<meta property="og:site_name" content="Aaron McGuire" />
 <!--  Twitter meta -->
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@_aaronmcguire" />
-				<meta name="twitter:title" content="A look under the hood: Website performance and optimization" />
-				<meta name="twitter:description" content="Aaron talks about his web optimization and performance methods" />
+				<meta name="twitter:title" content="A look under the hood: Website performance and optimisation" />
+				<meta name="twitter:description" content="Aaron talks about his web optimisation and performance methods" />
 				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metabg.jpg" />
 <!-- Chrome frame color-->
 				<meta name="theme-color" content="#ff425d">
@@ -42,14 +42,14 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.5">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.6">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
 <!-- Include Google Analytics -->
 <?php include_once("../includes/analyticstracking.php") ?>
 <section class="hero small">
-<div class='hero_content gradient'><h2>A look under the hood: Website performance and optimization</h2>
+<div class='hero_content gradient'><h2>A look under the hood: Website performance and optimisation</h2>
 <span class='arrow bounce'></span>
 </div>
 
@@ -69,10 +69,10 @@
 		<div class='container'>
 
 <article class='full_article'><span class='new_tag'>New</span> <span class='timestamp'><time datetime="2016-10-23 20:53">Sunday, October 23, 2016</time></span>
-<h2>A look under the hood: Website performance and optimization</h2>
+<h2>A look under the hood: Website performance and optimisation</h2>
 <span class='line'></span>
 <h3>Code Validation</h3>
-<p>Validation of code is one of the most common practices to follow – allowing the web to be truly accessible to all!  Yet there are still plenty of websites that have simple validation errors rendering the whole website a UX disaster. Every website I make; I try my utmost best to ensure every element is valid, semantic and accessible. A few ways I validated my code during the development of this website were as follows: </p>
+<p>Validation of code is one of the most common practices to follow – allowing the web to be truly accessible to all!  Yet there are still plenty of websites that have simple validation errors rendering the whole website a UX disaster. Every website I make, I try my utmost best to ensure every element is valid, semantic and accessible. A few ways I validated my code during the development of this website were as follows: </p>
 <ul>
 	<li><a href='http://csslint.net/' title='check the validity of your css code.'>CSS Lint</a></li>
 		<li><a href='https://validator.w3.org/' title='check the validity of your html code.'>HTML Validator</a></li>
@@ -85,13 +85,13 @@
 <img src='../images/underthehood/htmlvalidator.jpg' alt='validator screen report on W3C validator.'>
 <figcaption>Screenshot of W3C validator output for this website.</figcaption>
 </figure>
-<h3>Page Optimization</h3>
+<h3>Page optimisation</h3>
 <p>There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression. Now this may already be enabled on your server and therefore, wouldn’t make a difference. If it isn’t then Gzipping your website has the potential to bring down file sizes by 70+%. A server file like .htaccess has the power to make your website exceptionally fast.</p>
 <figure>
 <img src='../images/underthehood/googlepagespeed.jpg' alt='Google speed report showing 97 out of 100'>
 <figcaption>Report taken from Google pagespeed showing 97 out of 100 score.</figcaption>
 </figure>
-	 <p>Be warned however, you shouldn’t go poking around if you haven’t read up on what your doing.</p><p> Another great optimization technique in .htaccess is enabling expiry times on your content (e.g. images, icons etc.. ) Doing this enables content to be cached for a longer period of time and therefore regular visitors may not need to re-load certain assets.  There are also the standard optimization techniques that are performed on every project but less attention is given to them as they’ve been automated using Grunt. These techniques include minifying CSS and Javascript, Concatenating files where possible and optimizing images to be a lower file size.</p>
+	 <p>Be warned however, you shouldn’t go poking around if you haven’t read up on what your doing.</p><p> Another great optimisation technique in .htaccess is enabling expiry times on your content (e.g. images, icons etc.. ). Doing this enables content to be cached for a longer period of time and therefore regular visitors may not need to re-load certain assets.  There are also the standard optimisation techniques that are performed on every project but less attention is given to them as they’ve been automated using Grunt. These techniques include minifying CSS and Javascript, Concatenating files where possible and optimizing images to be a lower file size.</p>
 <span class='code_example'>heres an example of some code in my .htaccess file:-</span>
 <pre class='code code-js'><label>code:</label><code>
 	AddOutputFilterByType DEFLATE text/plain
@@ -109,7 +109,7 @@
 </code></pre>
 
 <h3>SEO Integration</h3>
-<p>SEO is something I’m relatively new to myself but never the less I conducted some research and implemented some search engine optimization techniques to the best of my ability. One such technique was the use of the Open Graph protocol. This protocol enables websites such as Facebook to use content from your website that you pick, opposed to Facebook guessing which content to pick. By doing this you widen the scope for sharing articles and other sharable website content. I also used the Twitter cards Meta data to enable customisation in regards to twitter. Google Analytics was attached to my website along with an SEOsitecheckup to measure how well my website was performing – these tools however will be used for the long term maintenance of my SEO performance.</p>
+<p>SEO is something I’m relatively new to myself but never the less I conducted some research and implemented some search engine optimisation techniques to the best of my ability. One such technique was the use of the Open Graph protocol. This protocol enables websites such as Facebook to use content from your website that you pick, opposed to Facebook guessing which content to pick. By doing this you widen the scope for sharing articles and other sharable website content. I also used the Twitter cards Meta data to enable customisation in regards to twitter. Google Analytics was attached to my website along with an SEOsitecheckup to measure how well my website was performing. These tools however will be used for the long term maintenance of my SEO performance.</p>
 </article>
 
 </div>

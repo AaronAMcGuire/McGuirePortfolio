@@ -7,7 +7,7 @@
 <!-- standard meta-->
 				<meta name="description" content="Portfolio of Front end web developer Aaron McGuire, with personal work and interesting blog posts ">
 				<meta name="keywords" content="Web Developer, Ux, Ui, Photography, Aaron McGuire, Mcg, Aaron, Front end, photography, horses, sorted, article, detailing ">
-				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+				<meta name="viewport" content="width=device-width,   maximum-scale=1.0,  initial-scale=1.0, user-scalable=yes" />
 <!--  social media meta-->
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Aaron McGuire Front end web developer" />
@@ -43,7 +43,7 @@
 
 
 <!-- Main stylesheet -->
-<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.5"/>
+<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.6"/>
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -104,8 +104,8 @@ console.log(skills);
 			<div class='latest_posts'><h2>Latest Posts</h2>
 
 				<article role='article' class='post_data'><a href='blog/keepupdigital.php' title='Aarons struggle keeping up in the digital industry'><h3>Digital Industry: Drowning in a sea of new tech</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='blog/keepupdigital.php' title='Aarons struggle keeping up in the digital industry'>Read More</a><span class='line'></span></article>
-				<article role='article' class='post_data'><a href='blog/underthehood.php' title='Aarons approach to website performance optimization.'><h3>A look under the hood: Website perfomance and optimisation</h3></a><span class='meta_date'>26th September 2016</span><p>
-There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression </p><a href='blog/underthehood.php' title='Aarons approach to website performance optimization.'>Read More</a><span class='line'></span></article>
+				<article role='article' class='post_data'><a href='blog/underthehood.php' title='Aarons approach to website performance optimisation.'><h3>A look under the hood: Website perfomance and optimisation</h3></a><span class='meta_date'>26th September 2016</span><p>
+There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression </p><a href='blog/underthehood.php' title='Aarons approach to website performance optimisation.'>Read More</a><span class='line'></span></article>
 
 
 			</div>
@@ -113,10 +113,12 @@ There’s a range of things I’ve done to keep my page optimized. You too could
 
 		<div class='popular_posts'>
 			<h2>Popular Posts</h2>
+
+			<article role='article' class='post_data'><a href='blog/underthehood.php' title='Aarons approach to website performance optimisation.'><h3>A look under the hood: Website perfomance and optimisation</h3></a><span class='meta_date'>26th September 2016</span><p>
+There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression. </p><a href='blog/underthehood.php' title='Aarons approach to website performance optimisation.'>Read More</a><span class='line'></span></article>
 			<article role='article' class='post_data'><a href='blog/developmentprocess.php' title='Aarons process of development.'><h3>The making of this website.</h3></a><span class='meta_date'>26th September 2016</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tellus lectus, sed viverra dolor fringilla et. Fusce lobortis fringilla leo, eu lacinia massa tincidunt sit amet. </p><a href='blog/developmentprocess.php' title='Aarons process of development.'>Read More</a><span class='line'></span></article>
 
-			<article role='article' class='post_data'><a href='blog/underthehood.php' title='Aarons approach to website performance optimization.'><h3>A look under the hood: Website perfomance and optimisation</h3></a><span class='meta_date'>26th September 2016</span><p>
-There’s a range of things I’ve done to keep my page optimized. You too could implement these into your own personal website. One such optimisation technique comes straight from Google page speed’s website. Enabling Gzip compression </p><a href='blog/underthehood.php' title='Aarons approach to website performance optimization.'>Read More</a><span class='line'></span></article>
+
 
 		</div>
 

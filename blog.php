@@ -7,7 +7,7 @@
 <!-- standard meta-->
 				<meta name="description" content="All of Aarons blog posts - All things technological.">
 				<meta name="keywords" content="Web Developer, Ux, Ui, Photography, Aaron McGuire, Mcg, Aaron, Front end, Stockport, MMU, Metropolitan, University, Manchester ">
-				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+				<meta name="viewport" content="width=device-width,   maximum-scale=1.0,  initial-scale=1.0, user-scalable=yes user-scalable=yes" />
 <!--  social media meta-->
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="All of Aarons blog posts - All things technological." />
@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.5">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.6">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -68,7 +68,20 @@
 		<div class='container'>
 
 <article><span class='new_tag'>New</span> <span class='timestamp'><time datetime="2016-10-23 20:53">Sunday, October 23, 2016</time></span>
-<a href='blog/underthehood.php' title='Aarons approach to website performance optimization.'><h2>A look under the hood: Website performance and optimisation</h2></a><span class='line'></span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare.</p><p>Etiam mi lacus, molestie feugiat bibendum nec, cursus a dui. Nam a ligula efficitur, dignissim massa a, lacinia diam. Phasellus felis odio, condimentum id ante nec, elementum hendrerit dui. Sed vehicula lectus felis, id viverra sem pellentesque vitae. Praesent euismod tempor tristique. Curabitur eget ante et augue rhoncus pharetra congue at felis. Aenean sit amet tincidunt nulla. Cras sit amet justo sit amet erat posuere finibus. Cras faucibus, lacus sit amet posuere gravida, lacus odio tristique quam, id vulputate neque ligula sit amet diam. Ut rutrum volutpat quam vitae tempus.</p><a href='blog/underthehood.php' class='default_button' title='Aarons approach to website performance optimization.'>Read Article</a></article>
+<a href='blog/underthehood.php' title='Aarons approach to website performance optimisation.'><h2>A look under the hood: Website performance and optimisation</h2></a><span class='line'></span><h3>Code Validation</h3>
+<p>Validation of code is one of the most common practices to follow – allowing the web to be truly accessible to all!  Yet there are still plenty of websites that have simple validation errors rendering the whole website a UX disaster. Every website I make, I try my utmost best to ensure every element is valid, semantic and accessible. A few ways I validated my code during the development of this website were as follows: </p>
+<ul>
+	<li><a href='http://csslint.net/' title='check the validity of your css code.'>CSS Lint</a></li>
+		<li><a href='https://validator.w3.org/' title='check the validity of your html code.'>HTML Validator</a></li>
+		<li><a href='http://www.jslint.com/' title='check the validity of your javascript.'>JS Validator</a></li>
+</ul>
+<p>All of these services are free to use and take little to no time to conduct a check on all of your code. </p>
+<h4>“Well I just use grunt or gulp for that…”</h4>
+<p>Great! Me too. It’s still always good practice to run your code through a manual service because you can actually see your getting the best output. In addition to it not only being the best it can be - you also get to check those boxes during your WCAG report.</p>
+<figure>
+<img src='../images/underthehood/htmlvalidator.jpg' alt='validator screen report on W3C validator.'>
+<figcaption>Screenshot of W3C validator output for this website.</figcaption>
+</figure><a href='blog/underthehood.php' class='default_button' title='Aarons approach to website performance optimisation.'>Read Article</a></article>
 
 <aside><div class='widget'><h3>Social Media</h3>
 	<a href='https://www.facebook.com/AaronAndrewMcguire#' title='Aarons Facebook page'><img src='images/facebook.svg' width='40' alt=''></a>

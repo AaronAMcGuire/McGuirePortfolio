@@ -7,7 +7,7 @@
 <!-- standard meta-->
 				<meta name="description" content="H20 case study, the development of a logo">
 				<meta name="keywords" content="H20, Water, Scandinavian, Branding, Research, Vector, Logo">
-				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+				<meta name="viewport" content="width=device-width,   maximum-scale=1.0,  initial-scale=1.0, user-scalable=yes" />
 <!--  social media meta-->
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="H20 | Casestudy | Aaron McGuire" />
@@ -41,7 +41,7 @@
 				<link rel="manifest" href="images/favicons/manifest.json">
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.5">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.6">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>

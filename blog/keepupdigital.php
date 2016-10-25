@@ -7,7 +7,7 @@
 <!-- standard meta-->
 				<meta name="description" content="Keeping up-to-date with the ever changing industry">
 				<meta name="keywords" content="Report, Statistics, Semantics, Up-to-date, Web Developer, Digital Industry, Competetive">
-				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+				<meta name="viewport" content="width=device-width,   maximum-scale=1.0,  initial-scale=1.0, user-scalable=yes" />
 <!--  social media meta-->
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Digital Industry: Staying relevant as a student" />
@@ -40,9 +40,9 @@
 				<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
 				<link rel="manifest" href="images/favicons/manifest.json">
 
-				
+
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.5">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.6">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
@@ -69,7 +69,7 @@
 		<div class='container'>
 
 <article class='full_article'><span class='new_tag'>New</span> <span class='timestamp'>WEDNESDAY, DECEMBER 17, 2014</span>
-<h2>A look under the hood: Website performance and optimization</h2>
+<h2>A look under the hood: Website performance and optimisation</h2>
 <span class='line'></span>
 <h3>Code Validation</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare. </p>
@@ -80,7 +80,7 @@
 </ul>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare.</p>
 
-<h3>Page Optimization</h3>
+<h3>Page optimisation</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare.</p>
 <h3>SEO Integration</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare.</p>

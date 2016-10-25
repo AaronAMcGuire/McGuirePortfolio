@@ -33391,7 +33391,7 @@
 
 						}
 
-						// potential future optimization: skip this if propertyIndex is already an integer
+						// potential future optimisation: skip this if propertyIndex is already an integer
 						// and convert the integer string to a true integer.
 
 						targetObject = targetObject.skeleton.bones;
@@ -33474,7 +33474,7 @@
 				// access a sub element of the property array (only primitives are supported right now)
 
 				if ( propertyName === "morphTargetInfluences" ) {
-					// potential optimization, skip this if propertyIndex is already an integer, and convert the integer string to a true integer.
+					// potential optimisation, skip this if propertyIndex is already an integer, and convert the integer string to a true integer.
 
 					// support resolving morphTarget names into indices.
 					if ( ! targetObject.geometry ) {
