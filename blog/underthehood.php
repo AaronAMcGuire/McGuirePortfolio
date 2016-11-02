@@ -12,14 +12,14 @@
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="A look under the hood: Website performance and optimisation " />
 				<meta property="og:description" content="Aaron talks about his web optimisation and performance methods" />
-				<meta property="og:image" content='http://www.aaronmcguire.co.uk/new/images/metabg.jpg'/>
+				<meta property="og:image" content='http://aaronmcguire.co.uk/images/metaimages/underthehoodmetabg.jpg'/>
 				<meta property="og:site_name" content="Aaron McGuire" />
 <!--  Twitter meta -->
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@_aaronmcguire" />
 				<meta name="twitter:title" content="A look under the hood: Website performance and optimisation" />
 				<meta name="twitter:description" content="Aaron talks about his web optimisation and performance methods" />
-				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metabg.jpg" />
+				<meta name="twitter:image" content="http://aaronmcguire.co.uk/images/metaimages/underthehoodmetabg.jpg" />
 <!-- Chrome frame color-->
 				<meta name="theme-color" content="#ff425d">
 				<meta name="msapplication-navbutton-color" content="#ff425d">
@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.6">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.9">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
@@ -64,7 +64,7 @@
 </ul></div></div>
 
 
-<main>
+<main id='maincontent'>
 	<section class='blog_container clear '>
 		<div class='container'>
 

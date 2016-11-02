@@ -12,14 +12,14 @@
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Get in touch | Aaron McGuire | Front end web developer" />
 				<meta property="og:description" content="Have a question or enquiry? Drop Aaron a message." />
-				<meta property="og:image" content='http://www.aaronmcguire.co.uk/new/images/metabg.jpg'/>
+				<meta property="og:image" content='http://aaronmcguire.co.uk/images/metaimages/contactmetabg.jpg'/>
 				<meta property="og:site_name" content="Aaron McGuire" />
 <!--  Twitter meta -->
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@_aaronmcguire" />
 				<meta name="twitter:title" content="Aaron McGuire Portfolio" />
 				<meta name="twitter:description" content="Have a question or enquiry? Drop Aaron a message. or Tweet me!" />
-				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metabg.jpg" />
+				<meta name="twitter:image" content="http://aaronmcguire.co.uk/images/metaimages/contactmetabg.jpg" />
 <!-- Chrome frame color-->
 				<meta name="theme-color" content="#ff425d">
 				<meta name="msapplication-navbutton-color" content="#ff425d">
@@ -42,13 +42,13 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.6">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.9">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
 <!-- Include Google Analytics -->
 <?php include_once("includes/analyticstracking.php") ?>
-<section class="p_static hero small ">
+<section id='maincontent' class="p_static hero small ">
 <div class='hero_content gradient'><h2 class='xl'>Get in touch</h2>
 <p>Have a question? or maybe you have an interesting project you need help on! drop me a line.</p>
 <span class='arrow bounce'></span>
@@ -70,11 +70,11 @@
 		</div>
 		<div class='input_items'>
 			<label for='email'>Email:</label>
-			<input name="emailaddress" placeholder="Enter your email" type="email" required/>
+			<input name="email" placeholder="Enter your email" type="email" required/>
 		</div>
 		<div class='input_items'>
 			<label for='message'>Message:</label>
-	    <textarea rows="4" cols="50" name="subject" placeholder="Please enter your message" class="message" required></textarea>
+	    <textarea rows="4" cols="50" name="message" placeholder="Please enter your message" class="message" required></textarea>
 		</div>
 	    <input class='default_button' name="submit" type="submit" value="Send" />
 	</form>

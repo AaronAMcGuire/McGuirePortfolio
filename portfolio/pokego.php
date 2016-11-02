@@ -12,14 +12,14 @@
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Pokego | Casestudy | Aaron McGuire" />
 				<meta property="og:description" content="Pokego case study showing each stage of development" />
-				<meta property="og:image" content='http://www.aaronmcguire.co.uk/new/images/metabg.jpg'/>
+				<meta property="og:image" content='http://aaronmcguire.co.uk/images/metaimages/pokegometabg.jpg'/>
 				<meta property="og:site_name" content="Aaron McGuire" />
 <!--  Twitter meta -->
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@_aaronmcguire" />
 				<meta name="twitter:title" content="Pokego | Casestudy | Aaron McGuire" />
 				<meta name="twitter:description" content="Pokego case study showing each stage of development" />
-				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metabg.jpg" />
+				<meta name="twitter:image" content="http://aaronmcguire.co.uk/images/metaimages/pokegometabg.jpg" />
 <!-- Chrome frame color-->
 				<meta name="theme-color" content="#ff425d">
 				<meta name="msapplication-navbutton-color" content="#ff425d">
@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.6">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.9">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
@@ -63,18 +63,18 @@
 </ul></div></div>
 
 
-<main class='project_pokego'>
+<main class='project_pokego' id='maincontent'>
   <section class='intro'><div class='container'><h2>Project Initiation</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sem porttitor, iaculis tellus eget, placerat tortor. Integer quis augue fermentum metus molestie volutpat. Donec mollis, tellus pellentesque hendrerit dictum, nibh lorem convallis ante, id fermentum ante diam eu lectus. Aenean suscipit finibus varius. Cras sagittis at ligula aliquet dictum. Curabitur vel pretium quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum vitae dui aliquet, porta ipsum sed, sollicitudin massa. Etiam imperdiet, nunc quis pharetra convallis, tellus nibh maximus lorem, quis accumsan risus lectus sed nisl. Donec a finibus tortor. Mauris mollis tempor odio vel dictum. Vestibulum orci nunc, posuere vitae interdum et, venenatis tempus justo.</p><a href='http://www.aaronmcguire.co.uk/sortedhorses' class='default_button style3' title=''>View live website</a></div></section>
+  <p>Aaron created this project for fun in the hopes of understanding a little more about Angular Js. He took note of how huge Pokémon Go was, so decided it might be of use for people to search through a list of Pokémon – finding snippets of information about each one. The core concepts of the Angular Js side came from a great educational Youtuber called <a href='https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg' title='Educational Youtube channel'>The Net Ninja</a>.</p><a href='http://aaronmcguire.co.uk/PokemonGoGuide/' class='default_button style3' title='Angular Js Pokemon Go searchable pokedex'>View live website</a></div></section>
   <section class='evidence'>
-    <div><img src='../images/evidence/pokegocode.jpg' alt='Code taken from pokemon go website on white background'></div>
-      <div><img src='../images/evidence/pokegomobile.jpg' alt='Iphone 6 on wooden desk showing pokego website'></div>
-        <div><img src='../images/evidence/pokegowebsite.jpg' alt='Pokego website shown in browser'></div>
+    <div><img src='../images/casestudy/pokego/pokegocode.jpg' alt='Code taken from pokemon go website on white background'></div>
+      <div><img src='../images/casestudy/pokego/pokegomobile.jpg' alt='Iphone 6 on wooden desk showing pokego website'></div>
+        <div><img src='../images/casestudy/pokego/pokegowebsite.jpg' alt='Pokego website shown in browser'></div>
 
         </section>
         <section class='intro altstyle'><div class='container'><h2>Design Process</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sem porttitor, iaculis tellus eget, placerat tortor. Integer quis augue fermentum metus molestie volutpat. Donec mollis, tellus pellentesque hendrerit dictum, nibh lorem convallis ante, id fermentum ante diam eu lectus. Aenean suscipit finibus varius. Cras sagittis at ligula aliquet dictum. Curabitur vel pretium quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum vitae dui aliquet, porta ipsum sed, sollicitudin massa. Etiam imperdiet, nunc quis pharetra convallis, tellus nibh maximus lorem, quis accumsan risus lectus sed nisl. Donec a finibus tortor. Mauris mollis tempor odio vel dictum. Vestibulum orci nunc, posuere vitae interdum et, venenatis tempus justo.</p></div></section>
-<section class='casestudy small_section '><div class='content subject'><p>Feel inspired by this case study? feel free to get in touch with your ideas.</p><a href='' title='Contact Aaron regarding an idea you may have.' class='default_button'>Get in contact</a></div></section>
+        <p>Aaron’s design process for this project was relatively simple. The Pokémon Go app already had a nice user interface - it was simply replicating the style guide in a form that could be used on a web app. Aaron took the Pokémon sprites from a database and added them to a JSON file. He then used the simple green and white colour scheme and mocked up a quick wireframe. This was then transferred over into a coded version before being place in a Github repository.</p></div></section>
+<section class='casestudy small_section '><div class='content subject'><p>Feel inspired by this case study? feel free to get in touch with your ideas.</p><a href='../contact.php' title='Contact Aaron regarding an idea you may have.' class='default_button'>Get in contact</a></div></section>
 	<!-- Start of portfolio section -->
 
 	<!-- end of section -->

@@ -12,14 +12,14 @@
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="All of Aarons blog posts - All things technological." />
 				<meta property="og:description" content="Everything there is to know about Aaron, qualifications and skill sets." />
-				<meta property="og:image" content='http://www.aaronmcguire.co.uk/new/images/metabg.jpg'/>
+				<meta property="og:image" content='http://aaronmcguire.co.uk/images/metaimages/blogmetabg.jpg'/>
 				<meta property="og:site_name" content="Aaron McGuire" />
 <!--  Twitter meta -->
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@_aaronmcguire" />
 				<meta name="twitter:title" content="Aaron McGuire's Blog" />
 				<meta name="twitter:description" content="All of Aarons blog posts - All things technological." />
-				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metabg.jpg" />
+				<meta name="twitter:image" content="http://aaronmcguire.co.uk/images/metaimages/blogmetabg.jpg" />
 <!-- Chrome frame color-->
 				<meta name="theme-color" content="#ff425d">
 				<meta name="msapplication-navbutton-color" content="#ff425d">
@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.6">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.9">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -64,7 +64,7 @@
 
 
 <main>
-	<section class='blog_container clear '>
+	<section id='maincontent' class='blog_container clear '>
 		<div class='container'>
 
 <article><span class='new_tag'>New</span> <span class='timestamp'><time datetime="2016-10-23 20:53">Sunday, October 23, 2016</time></span>
@@ -84,9 +84,9 @@
 </figure><a href='blog/underthehood.php' class='default_button' title='Aarons approach to website performance optimisation.'>Read Article</a></article>
 
 <aside><div class='widget'><h3>Social Media</h3>
-	<a href='https://www.facebook.com/AaronAndrewMcguire#' title='Aarons Facebook page'><img src='images/facebook.svg' width='40' alt=''></a>
-	<a href='https://twitter.com/_AaronMcguire' title='Aarons Twitter page'><img src='images/twitter.svg' width='40' alt=''></a>
-	<a href='https://www.flickr.com/photos/135412837@N06/' title='Aarons Flickr page'><img src='images/flickr.svg' width='40' alt=''></a>
+	<a href='https://www.facebook.com/AaronAndrewMcguire#' title='Aarons Facebook page'><img src='../images/icons/facebook.svg' width='40' alt='facebook'></a>
+	<a href='https://twitter.com/_AaronMcguire' title='Aarons Twitter page'><img src='../images/icons/twitter.svg' width='40' alt='twitter'></a>
+	<a href='https://www.flickr.com/photos/135412837@N06/' title='Aarons Flickr page'><img src='../images/icons/flickr.svg' width='40' alt='flickr'></a>
 </div>
 <div class='widget'>
 	<a class="twitter-timeline"  href="https://twitter.com/_AaronMcguire" data-widget-id="655833910983720960"></a>
@@ -97,10 +97,10 @@
 
 
 
-<article><span class='timestamp'>WEDNESDAY, DECEMBER 17, 2014</span>
-<a href='blog/developmentprocess.php' title='Aarons process of development.'><h2>The development process</h2></a><span class='line'></span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus turpis eros, a ullamcorper tortor laoreet sed. Nullam risus mauris, eleifend sit amet orci ac, rhoncus pellentesque lectus. Phasellus sit amet massa ultrices, ultricies elit eu, egestas quam. Duis eget bibendum ante. Phasellus ornare pellentesque finibus. Aliquam at nisl arcu. Aliquam volutpat purus felis, sed maximus turpis ornare convallis.</p><p>Etiam mi lacus, molestie feugiat bibendum nec, cursus a dui. Nam a ligula efficitur, dignissim massa a, lacinia diam. Phasellus felis odio, condimentum id ante nec, elementum hendrerit dui. Sed vehicula lectus felis, id viverra sem pellentesque vitae. Praesent euismod tempor tristique. Curabitur eget ante et augue rhoncus pharetra congue at felis. Aenean sit amet tincidunt nulla. Cras sit amet justo sit amet erat posuere finibus. Cras faucibus, lacus sit amet posuere gravida, lacus odio tristique quam, id vulputate neque ligula sit amet diam. Ut rutrum volutpat quam vitae tempus.</p><a href='blog/developmentprocess.php' class='default_button' title='Aarons process of development.'>Read Article</a></article>
+<article><span class='timestamp'><time datetime="2016-10-30 14:37">Sunday, October 30, 2016</time></span>
+<a href='blog/developmentprocess.php' title='Aarons process of development.'><h2>The development process</h2></a><span class='line'></span><p>There’s nothing quite like starting a new web project, new ideas and new tools to use. In this post I’ll describe in detail my process from start to finish – including research, design and development!</p><h3>Research:</h3><p>Considered the most important aspect of the whole project, research was my first port of call. Like any other project I start out by looking at possible competition. These competitors ranged from industry professionals to fellow students. I looking at websites such as Awwwards and Cssdesignawards to find the ‘best’ websites out there. Coming across some awe-inspiring websites such as wwrk but also websites that simply lacked usability. It’s very important to check the usability of these websites as more commonly than not these websites look fantastic but need an operations manual to use them ‘correctly’. A good technique adopted along side a competitor analysis is to analyse possible design trends – This helps later on in the design phase. </p><a href='blog/developmentprocess.php' class='default_button' title='Aarons process of development.'>Read Article</a></article>
 
-<article><span class='timestamp'>WEDNESDAY, DECEMBER 17, 2014</span>
+<article><span class='timestamp'><time datetime="2016-11-02 18:02">Wednesday, November 2, 2016</time></span>
 <a href='blog/keepupdigital.php'  title='Aarons struggle keeping up in the digital industry'><h2>Digital Industry: Staying relevant as a student</h2></a><span class='line'></span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus turpis eros, a ullamcorper tortor laoreet sed. Nullam risus mauris, eleifend sit amet orci ac, rhoncus pellentesque lectus. Phasellus sit amet massa ultrices, ultricies elit eu, egestas quam. Duis eget bibendum ante. Phasellus ornare pellentesque finibus. Aliquam at nisl arcu. Aliquam volutpat purus felis, sed maximus turpis ornare convallis.</p><p>Etiam mi lacus, molestie feugiat bibendum nec, cursus a dui. Nam a ligula efficitur, dignissim massa a, lacinia diam. Phasellus felis odio, condimentum id ante nec, elementum hendrerit dui. Sed vehicula lectus felis, id viverra sem pellentesque vitae. Praesent euismod tempor tristique. Curabitur eget ante et augue rhoncus pharetra congue at felis. Aenean sit amet tincidunt nulla. Cras sit amet justo sit amet erat posuere finibus. Cras faucibus, lacus sit amet posuere gravida, lacus odio tristique quam, id vulputate neque ligula sit amet diam. Ut rutrum volutpat quam vitae tempus.</p><a href='blog/keepupdigital.php' class='default_button' title='Aarons struggle keeping up in the digital industry'>Read Article</a></article>
 
 </div>

@@ -12,14 +12,14 @@
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="SortedHorses | Casestudy | Aaron McGuire" />
 				<meta property="og:description" content="SortedHorses case study showing each stage of development" />
-				<meta property="og:image" content='http://www.aaronmcguire.co.uk/new/images/metabg.jpg'/>
+				<meta property="og:image" content='http://aaronmcguire.co.uk/images/metaimages/sortedhorsesmetabg.jpg'/>
 				<meta property="og:site_name" content="Aaron McGuire" />
 <!--  Twitter meta -->
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@_aaronmcguire" />
 				<meta name="twitter:title" content="SortedHorses | Casestudy | Aaron McGuire" />
 				<meta name="twitter:description" content="SortedHorses case study showing each stage of development" />
-				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metabg.jpg" />
+				<meta name="twitter:image" content="http://aaronmcguire.co.uk/images/metaimages/sortedhorsesmetabg.jpg" />
 <!-- Chrome frame color-->
 				<meta name="theme-color" content="#ff425d">
 				<meta name="msapplication-navbutton-color" content="#ff425d">
@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.6">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.9">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
@@ -63,18 +63,18 @@
 </ul></div></div>
 
 
-<main class='project_sortedhorses'>
+<main class='project_sortedhorses' id='maincontent'>
   <section class='intro'><div class='container'><h2>Project Initiation</h2>
-  <p>Mark from SortedHorses came to Aaron with an idea; he had identified a gap in an existing market that he believed could be greatly improved upon. Aaron conducted a competitor analysis to see the possible problems that may be faced entering the market and identify good and bad competitors. The primary problem identified was a lot of websites were very data heavy.  Mark’s idea was to improve on these data heavy website by generating colourful and interactive charts. It was up-to Aaron to implement these in a way that looked professional but were accessible.</p><a href='http://www.aaronmcguire.co.uk/sortedhorses' class='default_button style3' title=''>View live website</a></div></section>
+  <p>Mark from SortedHorses came to Aaron with an idea; he had identified a gap in an existing market that he believed could be greatly improved upon. Aaron conducted a competitor analysis to see the possible problems that may be faced entering the market and identify good and bad competitors. The primary problem identified was a lot of websites were very data heavy.  Mark’s idea was to improve on these data heavy website by generating colourful and interactive charts. It was up-to Aaron to implement these in a way that looked professional but were accessible.</p><a href='http://www.aaronmcguire.co.uk/sortedhorses' class='default_button style3' title='Sorted horses horse racing tips'>View live website</a></div></section>
   <section class='evidence'>
-    <div><img src='../images/evidence/sortedhorseswireframe.jpg' alt='website wireframes drawn in black ink on paper'></div>
-      <div><img src='../images/evidence/sortedhorsessite.jpg' alt='SortedHorses website showing the introduction'></div>
-        <div><img src='../images/evidence/sortedhorsesgraphs.jpg' alt='Data from Sortedhorses in graph display'></div>
+    <div><img src='../images/casestudy/sortedhorses/sortedhorseswireframe.jpg' alt='website wireframes drawn in black ink on paper'></div>
+      <div><img src='../images/casestudy/sortedhorses/sortedhorsessite.jpg' alt='SortedHorses website showing the introduction'></div>
+        <div><img src='../images/casestudy/sortedhorses/sortedhorsesgraphs.jpg' alt='Data from Sortedhorses in graph display'></div>
 
         </section>
         <section class='intro altstyle'><div class='container'><h2>Design Process</h2>
         <p>Aaron’s design process started once he had all of his research completed, Identifying a target market was the first step, in this case it was decided people aged over 25 would be the ideal target market. Despite being a large target market the use of personas identified possible pit-falls to overcome. Upon completing Aaron then started sketching paper wireframes to identify layouts. Once done the paper wireframes were made into high-fidelity wireframes. Once other aspects were in place and agreed with the client Aaron began to code the website in iterations making sure to get in touch with the client every step.</p></div></section>
-<section class='casestudy small_section '><div class='content subject'><p>Feel inspired by this case study? feel free to get in touch with your ideas.</p><a href='' title='Contact Aaron regarding an idea you may have.' class='default_button'>Get in contact</a></div></section>
+<section class='casestudy small_section '><div class='content subject'><p>Feel inspired by this case study? feel free to get in touch with your ideas.</p><a href='../contact.php' title='Contact Aaron regarding an idea you may have.' class='default_button'>Get in contact</a></div></section>
 	<!-- Start of portfolio section -->
 
 	<!-- end of section -->

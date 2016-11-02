@@ -12,14 +12,14 @@
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="All of Aarons work from Web development to Design and Photography" />
 				<meta property="og:description" content="Everything there is to know about Aaron, qualifications and skill sets." />
-				<meta property="og:image" content='http://www.aaronmcguire.co.uk/new/images/metabg.jpg'/>
+				<meta property="og:image" content='http://aaronmcguire.co.uk/images/metaimages/portfoliometabg.jpg'/>
 				<meta property="og:site_name" content="Aaron McGuire" />
 <!--  Twitter meta -->
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@_aaronmcguire" />
 				<meta name="twitter:title" content="Aaron McGuire Portfolio" />
 				<meta name="twitter:description" content="All of Aarons work from Web development to Design and Photography " />
-				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metabg.jpg" />
+				<meta name="twitter:image" content="http://aaronmcguire.co.uk/images/metaimages/portfoliometabg.jpg" />
 <!-- Chrome frame color-->
 				<meta name="theme-color" content="#ff425d">
 				<meta name="msapplication-navbutton-color" content="#ff425d">
@@ -40,9 +40,9 @@
 				<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
 				<link rel="manifest" href="images/favicons/manifest.json">
 
-				
+
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.6">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.9">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -64,18 +64,18 @@
 <main>
 
 	<!-- Start of portfolio section -->
-	<section class='portfolio'>
-		<div class='portfolio_item'><img src='images/sortedhorsesthumbnail.jpg' alt='mobile phone version of sorted horses'><a href='portfolio/sortedhorses.php' title='Case study for Sortedhorses website'><div class='overlay'><h3>Sorted Horses</h3><span class='tag'>Web</span></div></a> </div>
+	<section class='portfolio' id='maincontent'>
+		<div class='portfolio_item'><img src='images/thumbnails/sortedhorsesthumbnail.jpg' alt='mobile phone version of sorted horses'><a href='portfolio/sortedhorses.php' title='Case study for Sortedhorses website'><div class='overlay'><h3>Sorted Horses</h3><span class='tag'>Web</span></div></a> </div>
 
-			<div class='portfolio_item'><img src='images/g4digitalthumbnail.jpg' alt='g4 digital logo'><a href='portfolio/g4digital.php' title='project specification for university work'><div class='overlay'><h3>G4 Digital</h3><span class='tag'>Web</span></div></a> </div>
+			<div class='portfolio_item'><img src='images/thumbnails/g4digitalthumbnail.jpg' alt='g4 digital logo'><a href='portfolio/g4digital.php' title='project specification for university work'><div class='overlay'><h3>G4 Digital</h3><span class='tag'>Web</span></div></a> </div>
 
-				<div class='portfolio_item'><img src='images/pokegothumbnail.jpg' alt='ipad showing pokemon go website'><a href='portfolio/pokego.php' title='Personally initiated project'><div class='overlay'><h3>AngularJs Pokedex</h3><span class='tag'>Web</span></div> </a></div>
+				<div class='portfolio_item'><img src='images/thumbnails/pokegothumbnail.jpg' alt='ipad showing pokemon go website'><a href='portfolio/pokego.php' title='Personally initiated project'><div class='overlay'><h3>AngularJs Pokedex</h3><span class='tag'>Web</span></div> </a></div>
 
-					<div class='portfolio_item'><img src='images/horsecarriagethumbnail.jpg' alt='horse and carriage mockup'><a href='portfolio/horseandcarriage.php' title='Javascript Project for university'><div class='overlay'><h3>Horse &amp; Carriage</h3><span class='tag'>Web</span></div></a> </div>
+					<div class='portfolio_item'><img src='images/thumbnails/horsecarriagethumbnail.jpg' alt='horse and carriage mockup'><a href='portfolio/horseandcarriage.php' title='Javascript Project for university'><div class='overlay'><h3>Horse &amp; Carriage</h3><span class='tag'>Web</span></div></a> </div>
 
-						<div class='portfolio_item'><img src='images/h20logo.jpg' alt='h20 logo mockup'><a href='portfolio/h20.php' title='Information about h20 logo'><div class='overlay'><h3>H20 Logo</h3><span class='tag'>Graphic</span></div></a> </div>
+						<div class='portfolio_item'><img src='images/thumbnails/h20logothumbnail.jpg' alt='h20 logo mockup'><a href='portfolio/h20.php' title='Information about h20 logo'><div class='overlay'><h3>H20 Logo</h3><span class='tag'>Graphic</span></div></a> </div>
 
-							<div class='portfolio_item'><img src='images/mmuico.jpg' alt='Info comms website mockup'><a href='portfolio/mmuico.php' title='full project specification of info comms website'><div class='overlay'><h3>Information Communications</h3><span class='tag'>Web, Design</span></div></a> </div>
+							<div class='portfolio_item'><img src='images/thumbnails/mmuicothumbnail.jpg' alt='Info comms website mockup'><a href='portfolio/mmuico.php' title='full project specification of info comms website'><div class='overlay'><h3>Information Communications</h3><span class='tag'>Web, Design</span></div></a> </div>
 
 	</section>
 	<!-- end of section -->

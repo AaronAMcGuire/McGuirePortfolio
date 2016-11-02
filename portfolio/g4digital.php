@@ -12,14 +12,14 @@
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="G4 Digital| Casestudy | Aaron McGuire" />
 				<meta property="og:description" content="G4 Digital casestudy, a project for University." />
-				<meta property="og:image" content='http://www.aaronmcguire.co.uk/new/images/metabg.jpg'/>
+				<meta property="og:image" content='http://aaronmcguire.co.uk/images/metaimages/g4digitalmetabg.jpg'/>
 				<meta property="og:site_name" content="Aaron McGuire" />
 <!--  Twitter meta -->
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@_aaronmcguire" />
 				<meta name="twitter:title" content="G4 Digital | Casestudy | Aaron McGuire" />
 				<meta name="twitter:description" content="G4 Digital casestudy, a project for University." />
-				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metabg.jpg" />
+				<meta name="twitter:image" content="http://aaronmcguire.co.uk/images/metaimages/g4digitalmetabg.jpg" />
 <!-- Chrome frame color-->
 				<meta name="theme-color" content="#ff425d">
 				<meta name="msapplication-navbutton-color" content="#ff425d">
@@ -42,13 +42,13 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.6">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.9">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
 <!-- Include Google Analytics -->
 <?php include_once("../includes/analyticstracking.php") ?>
-<section class="sortedhorses hero small ">
+<section class="g4digital hero small ">
 <div class='hero_content gradient'><h2>G4 Digital</h2>
 <p>A University project initiated to house all require documents from a development project.</p>
 <span class='arrow bounce'></span>
@@ -63,18 +63,18 @@
 </ul></div></div>
 
 
-<main>
+<main id='maincontent'>
   <section class='intro'><div class='container'><h2>Project Initiation</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sem porttitor, iaculis tellus eget, placerat tortor. Integer quis augue fermentum metus molestie volutpat. Donec mollis, tellus pellentesque hendrerit dictum, nibh lorem convallis ante, id fermentum ante diam eu lectus. Aenean suscipit finibus varius. Cras sagittis at ligula aliquet dictum. Curabitur vel pretium quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum vitae dui aliquet, porta ipsum sed, sollicitudin massa. Etiam imperdiet, nunc quis pharetra convallis, tellus nibh maximus lorem, quis accumsan risus lectus sed nisl. Donec a finibus tortor. Mauris mollis tempor odio vel dictum. Vestibulum orci nunc, posuere vitae interdum et, venenatis tempus justo.</p><a href='http://www.aaronmcguire.co.uk/sortedhorses' class='default_button style3' title=''>View live website</a></div></section>
+  <p>This project was initiated as a sub-site, used to host the documentation and evidence from the <a href='mmuico.php' title='Casestudy for second year uni project.'>MMU Ico</a> website. There was no analysis for Aaron to conduct as all teams were given a standard website to host files. Aaron and his team however had been adhering to a document style guide created during the projects initiation.</p><a href='http://aaronmcguire.co.uk/group4/' class='default_button style3' title='G4 Digital documentation website'>View live website</a></div></section>
   <section class='evidence'>
-    <div><img src='../images/evidence/g4digitalmobile.jpg' alt='G4 Digital website shown in mobile view'></div>
-        <div><img src='../images/evidence/g4digitalwebsite.jpg' alt='G4 Digital as shown in the browser'></div>
-				  <div><img src='../images/evidence/g4digitalcode.jpg' alt='Code taken from the G4 Digital website on black'></div>
+    <div><img src='../images/casestudy/g4digital/g4digitalmobile.jpg' alt='G4 Digital website shown in mobile view'></div>
+        <div><img src='../images/casestudy/g4digital/g4digitalwebsite.jpg' alt='G4 Digital as shown in the browser'></div>
+				  <div><img src='../images/casestudy/g4digital/g4digitalcode.jpg' alt='Code taken from the G4 Digital website on black'></div>
 
         </section>
         <section class='intro altstyle'><div class='container'><h2>Design Process</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sem porttitor, iaculis tellus eget, placerat tortor. Integer quis augue fermentum metus molestie volutpat. Donec mollis, tellus pellentesque hendrerit dictum, nibh lorem convallis ante, id fermentum ante diam eu lectus. Aenean suscipit finibus varius. Cras sagittis at ligula aliquet dictum. Curabitur vel pretium quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum vitae dui aliquet, porta ipsum sed, sollicitudin massa. Etiam imperdiet, nunc quis pharetra convallis, tellus nibh maximus lorem, quis accumsan risus lectus sed nisl. Donec a finibus tortor. Mauris mollis tempor odio vel dictum. Vestibulum orci nunc, posuere vitae interdum et, venenatis tempus justo.</p></div></section>
-<section class='casestudy small_section '><div class='content subject'><p>Feel inspired by this case study? feel free to get in touch with your ideas.</p><a href='' title='Contact Aaron regarding an idea you may have.' class='default_button'>Get in contact</a></div></section>
+        <p>The design process was relatively quick and simple. Aaron took the style guide created during the evidence creation and generated a simple, professional look. There were no wireframes drawn up or sitemaps generated. The overall design and build of this parallax website took a few hours to create from start to finish and used simple html and css.</p></div></section>
+<section class='casestudy small_section '><div class='content subject'><p>Feel inspired by this case study? feel free to get in touch with your ideas.</p><a href='../contact.php' title='Contact Aaron regarding an idea you may have.' class='default_button'>Get in contact</a></div></section>
 	<!-- Start of portfolio section -->
 
 	<!-- end of section -->

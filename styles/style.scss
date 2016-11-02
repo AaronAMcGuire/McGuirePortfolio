@@ -262,6 +262,7 @@ header {
       padding:0 2rem;
       display: flex;
       justify-content: space-between;
+      align-items: center;
     }
 }
 
@@ -350,7 +351,7 @@ background-color: transparent;
 
 .small{
 .gradient{
-  background:url('../images/herostatic.png');
+  background:url('../images/banners/herostatic.png');
   background-attachment: fixed;
 }
   .hero_content{
@@ -360,10 +361,48 @@ background-color: transparent;
   overflow:hidden;
   position: relative;
 }
+.pokego{
+  .gradient{
+    background:url('../images/banners/pokegobanner.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+}
+.h20{
+  .gradient{
+    background:url('../images/banners/h20banner.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
 
+}
+.hac{
+  .gradient{
+    background:url('../images/banners/hacbanner.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+}
+.infocomms{
+  .gradient{
+    background:url('../images/banners/infocommsbanner.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+}
+.g4digital{
+  .gradient{
+    background:url('../images/banners/g4digitalbanner.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+}
 .sortedhorses{
   .gradient{
-    background:url('../images/sortedhorses.jpg');
+    background:url('../images/banners/sortedhorses.jpg');
     background-position: center center;
     background-size: cover;
   }
@@ -371,7 +410,7 @@ background-color: transparent;
 }
 .p_static{
   .gradient{
-    background:url('../images/portfolioherostatic.jpg');
+    background:url('../images/banners/portfolioherostatic.jpg');
   }
 }
 
@@ -421,7 +460,6 @@ background-color: transparent;
 .small_hero{
   height:600px;
 width:100%;
-background:url('../images/abouthero.jpg');
   .hero_content{
     padding:10rem 0;
     height:500px;
@@ -449,9 +487,7 @@ background:url('../images/abouthero.jpg');
     padding: 0.5rem 0;
     background: rgb(240,240,240);
 
-    .casestudy{
-      background:orange!important;
-    }
+
     .default_button {
         display: inline-block;
 
@@ -869,7 +905,7 @@ text-decoration: underline;
   width:100%;
   height:auto;
   padding:8rem 0;
-  background:url(../images/crossword.png);
+  background:url(../images/textures/crossword.png);
 
   p{
     color:rgb(50,50,50);
@@ -1164,10 +1200,6 @@ footer{
 
 
   }
-  .gradient{
-background:url(../images/diagmonds.png);
-
-  }
 .background{
   display:none;
 }
@@ -1186,30 +1218,9 @@ background:url(../images/diagmonds.png);
             z-index: 3000;
         }
     }
-    header{
 
-      nav{
-        width:100%;
-      ul{
-        width:100%;
-        display: block;
-
-
-        li{
-
-
-        }
-      }
-      }
-    }
-    a{
-h1 {
-
-        display: none;
-    }
-  }
     .gradient{
-  background:url(../images/mobilehero.jpg);
+  background:url(../images/banners/mobilehero.jpg);
   background-position: center;
   background-size: cover;
     }
@@ -1232,7 +1243,12 @@ h1 {
   }
   }
 }
-@media screen and (max-width:713px) {
+@media screen and (max-width:730px) {
+  header{
+    h1{
+      display:none;
+    }
+  }
   article{
     h2{
       font-size:3rem;

@@ -148,3 +148,9 @@ if (screen && screen.width > 768) {
 
       }
 }
+function skillsFunction() {
+  var name =  "Aaron McGuire";
+  var age = "22";
+  var skills = "HTML, SASS, Javascript, Grunt, Git, PHP";
+  console.log(name + age + skills);
+}

@@ -19,7 +19,7 @@
 				<meta name="twitter:site" content="@_aaronmcguire" />
 				<meta name="twitter:title" content="Aaron McGuire Portfolio" />
 				<meta name="twitter:description" content="Portfolio of Front end web developer Aaron McGuire, with personal work and interersting blog posts " />
-				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metabg.jpg" />
+				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metaimages/metabg.jpg" />
 <!-- Chrome frame color-->
 				<meta name="theme-color" content="#ff425d">
 				<meta name="msapplication-navbutton-color" content="#ff425d">
@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.6">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.9">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>

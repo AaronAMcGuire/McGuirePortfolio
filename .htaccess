@@ -38,5 +38,9 @@ ExpiresByType text/css "access 1 month"
 ExpiresByType text/html "access 1 month"
 ExpiresByType text/x-javascript "access 1 month"
 ExpiresDefault "access 1 month"
+ExpiresByType application/x-font-ttf "access plus 1 year"
+ExpiresByType application/x-font-opentype "access plus 1 year"
+ExpiresByType application/x-font-woff "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
 </IfModule>
 ## EXPIRES CACHING ##

@@ -3,14 +3,14 @@
 		<div class='footer_content_box'><h3>Thank you</h3><p>For taking the time to look through my portfolio, feel free to ask any questions or provide some tips!</p></div>
 
 <div class='footer_content_box'><h3>Contact Me</h3><ul>
-	<li>T. 00 0000 00 00</li>
-	<li>E. aaron.mcguire0@gmail.com</li>
+	<li>T. <a href='tel:07851978035'>07851978035</a></li>
+	<li>E. <a href='mailto:aaron.mcguire0@gmail.com'>aaron.mcguire0@gmail.com</a></li>
 	<li>Tweet me <a href='https://twitter.com/_AaronMcguire' title='Aarons Twitter page'>@_aaronmcguire</a></li>
 </ul></div>
 <div class='footer_content_box'><h3>About Me</h3><p>Aaron McGuire, Front end web developer give me a shout!</p>
-	<a href='https://www.facebook.com/AaronAndrewMcguire#' title='Aarons Facebook page'><img src='../images/facebook.svg' width='40' alt=''></a>
-	<a href='https://twitter.com/_AaronMcguire' title='Aarons Twitter page'><img src='../images/twitter.svg' width='40' alt=''></a>
-	<a href='https://www.flickr.com/photos/135412837@N06/' title='Aarons Flickr page'><img src='../images/flickr.svg' width='40' alt=''></a>
+	<a href='https://www.facebook.com/AaronAndrewMcguire#' title='Aarons Facebook page'><img src='../images/icons/facebook.svg' width='40' alt='facebook'></a>
+	<a href='https://twitter.com/_AaronMcguire' title='Aarons Twitter page'><img src='../images/icons/twitter.svg' width='40' alt='twitter'></a>
+	<a href='https://www.flickr.com/photos/135412837@N06/' title='Aarons Flickr page'><img src='../images/icons/flickr.svg' width='40' alt='flickr'></a>
 </div></div>
 
 	</footer>

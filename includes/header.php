@@ -3,7 +3,7 @@
 <a class='hidden' href="#mainnav">Skip to main navigation</a>
 <div class='global_container'>
 	<div class='mobile_menu'>
-	<button role='button' class="menu-toggle hamburger hamburger--collapse" type="button">
+	<button role='button' name='element' class="menu-toggle hamburger hamburger--collapse" type="button">
 	<span class="hamburger-box">
 		<span class="hamburger-inner"></span>
 	</span>

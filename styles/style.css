@@ -210,7 +210,8 @@ header {
   header .container {
     padding: 0 2rem;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
 
 .emp {
   background: transparent;
@@ -271,18 +272,43 @@ header {
   overflow: hidden;
   position: relative; }
   .small .gradient {
-    background: url("../images/herostatic.png");
+    background: url("../images/banners/herostatic.png");
     background-attachment: fixed; }
   .small .hero_content {
     height: 500px; }
 
+.pokego .gradient {
+  background: url("../images/banners/pokegobanner.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+.h20 .gradient {
+  background: url("../images/banners/h20banner.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+.hac .gradient {
+  background: url("../images/banners/hacbanner.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+.infocomms .gradient {
+  background: url("../images/banners/infocommsbanner.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+.g4digital .gradient {
+  background: url("../images/banners/g4digitalbanner.jpg");
+  background-position: center center;
+  background-size: cover; }
+
 .sortedhorses .gradient {
-  background: url("../images/sortedhorses.jpg");
+  background: url("../images/banners/sortedhorses.jpg");
   background-position: center center;
   background-size: cover; }
 
 .p_static .gradient {
-  background: url("../images/portfolioherostatic.jpg"); }
+  background: url("../images/banners/portfolioherostatic.jpg"); }
 
 .background {
   position: relative;
@@ -326,8 +352,7 @@ header {
 
 .small_hero {
   height: 600px;
-  width: 100%;
-  background: url("../images/abouthero.jpg"); }
+  width: 100%; }
   .small_hero .hero_content {
     padding: 10rem 0;
     height: 500px;
@@ -357,8 +382,6 @@ header {
   height: auto;
   padding: 0.5rem 0;
   background: #f0f0f0; }
-  .small_section .casestudy {
-    background: orange !important; }
   .small_section .default_button {
     display: inline-block; }
   .small_section p {
@@ -682,7 +705,7 @@ pre.code-js code {
   width: 100%;
   height: auto;
   padding: 8rem 0;
-  background: url(../images/crossword.png); }
+  background: url(../images/textures/crossword.png); }
   .blog_posts p {
     color: #323232; }
   .blog_posts h2 {
@@ -868,9 +891,6 @@ footer {
     width: 100%;
     padding: 3rem; }
 
-  .gradient {
-    background: url(../images/diagmonds.png); }
-
   .background {
     display: none; }
 
@@ -882,17 +902,8 @@ footer {
     padding: 4rem 0;
     z-index: 3000; }
 
-  header nav {
-    width: 100%; }
-    header nav ul {
-      width: 100%;
-      display: block; }
-
-  a h1 {
-    display: none; }
-
   .gradient {
-    background: url(../images/mobilehero.jpg);
+    background: url(../images/banners/mobilehero.jpg);
     background-position: center;
     background-size: cover; }
 
@@ -904,7 +915,10 @@ footer {
 
   .altstyle p {
     columns: 1; } }
-@media screen and (max-width: 713px) {
+@media screen and (max-width: 730px) {
+  header h1 {
+    display: none; }
+
   article h2 {
     font-size: 3rem; }
   article h3 {

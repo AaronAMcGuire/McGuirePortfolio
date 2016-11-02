@@ -12,14 +12,14 @@
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="MMU Ico | Casestudy | Aaron McGuire" />
 				<meta property="og:description" content="MMU Ico University project case study from start to finish" />
-				<meta property="og:image" content='http://www.aaronmcguire.co.uk/new/images/metabg.jpg'/>
+				<meta property="og:image" content='http://aaronmcguire.co.uk/images/metaimages/mmuicometabg.jpg'/>
 				<meta property="og:site_name" content="Aaron McGuire" />
 <!--  Twitter meta -->
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@_aaronmcguire" />
 				<meta name="twitter:title" content="MMU Ico | Casestudy | Aaron McGuire" />
 				<meta name="twitter:description" content="MMU Ico University project case study from start to finish" />
-				<meta name="twitter:image" content="http://www.aaronmcguire.co.uk/new/images/metabg.jpg" />
+				<meta name="twitter:image" content="http://aaronmcguire.co.uk/images/metaimages/mmuicometabg.jpg" />
 <!-- Chrome frame color-->
 				<meta name="theme-color" content="#ff425d">
 				<meta name="msapplication-navbutton-color" content="#ff425d">
@@ -42,14 +42,14 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.6">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.9">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
 <!-- Include Google Analytics -->
 <?php include_once("../includes/analyticstracking.php") ?>
-<section class="sortedhorses hero small ">
-<div class='hero_content gradient'><h2>MMU Ico</h2>
+<section class="infocomms hero small ">
+<div class='hero_content gradient'><h2>MMU Info Comms</h2>
 <p>A second year University project. To rebrand an already existing Information Communications website. </p>
 <span class='arrow bounce'></span>
 </div>
@@ -63,18 +63,18 @@
 </ul></div></div>
 
 
-<main class='project_mmuico'>
+<main class='project_mmuico' id='maincontent'>
   <section class='intro'><div class='container'><h2>Project Initiation</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sem porttitor, iaculis tellus eget, placerat tortor. Integer quis augue fermentum metus molestie volutpat. Donec mollis, tellus pellentesque hendrerit dictum, nibh lorem convallis ante, id fermentum ante diam eu lectus. Aenean suscipit finibus varius. Cras sagittis at ligula aliquet dictum. Curabitur vel pretium quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum vitae dui aliquet, porta ipsum sed, sollicitudin massa. Etiam imperdiet, nunc quis pharetra convallis, tellus nibh maximus lorem, quis accumsan risus lectus sed nisl. Donec a finibus tortor. Mauris mollis tempor odio vel dictum. Vestibulum orci nunc, posuere vitae interdum et, venenatis tempus justo.</p><a href='http://www.aaronmcguire.co.uk/sortedhorses' class='default_button style3' title=''>View live website</a></div></section>
+  <p>Aaron worked as part of a 5-person team during this second year project. All of the work hosted on the G4 Digital website is what was submitted as supporting evidence towards the development this website. The project followed a structured plan in which - each team member would be assigned a piece of work to do by Aaron. Wireframes, user personas, user journeys and site-maps were all part of the initial development project.</p><a href='http://wsd.aaronmcguire.co.uk/' class='default_button style3' title='Information communications website'>View live website</a></div></section>
   <section class='evidence'>
-    <div><img src='../images/evidence/mmuicowireframe.jpg' alt='high-fidelity wireframe of mmu ico website'></div>
-      <div><img src='../images/evidence/mmuicowebsite.jpg' alt='website of mmu ico as shown in the browser'></div>
-        <div><img src='../images/evidence/mmuicositeplan.jpg' alt='proposed site map plan'></div>
+    <div><img src='../images/casestudy/mmuico/mmuicowireframe.jpg' alt='high-fidelity wireframe of mmu ico website'></div>
+      <div><img src='../images/casestudy/mmuico/mmuicowebsite.jpg' alt='website of mmu ico as shown in the browser'></div>
+        <div><img src='../images/casestudy/mmuico/mmuicositeplan.jpg' alt='proposed site map plan'></div>
 
         </section>
         <section class='intro altstyle'><div class='container'><h2>Design Process</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sem porttitor, iaculis tellus eget, placerat tortor. Integer quis augue fermentum metus molestie volutpat. Donec mollis, tellus pellentesque hendrerit dictum, nibh lorem convallis ante, id fermentum ante diam eu lectus. Aenean suscipit finibus varius. Cras sagittis at ligula aliquet dictum. Curabitur vel pretium quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum vitae dui aliquet, porta ipsum sed, sollicitudin massa. Etiam imperdiet, nunc quis pharetra convallis, tellus nibh maximus lorem, quis accumsan risus lectus sed nisl. Donec a finibus tortor. Mauris mollis tempor odio vel dictum. Vestibulum orci nunc, posuere vitae interdum et, venenatis tempus justo.</p></div></section>
-<section class='casestudy small_section '><div class='content subject'><p>Feel inspired by this case study? feel free to get in touch with your ideas.</p><a href='' title='Contact Aaron regarding an idea you may have.' class='default_button'>Get in contact</a></div></section>
+        <p>Although development of the website was completed by only Aaron – each of the group members contributed towards the design process. Starting with Wireframes. Each person sketched what they initially thought the website should look like. Once this was done we arranged a sprint meeting - combining our ideas into one layout. This layout was then split into tasks and each member was assigned with gathering different resources e.g. gather media, write content.</p></div></section>
+<section class='casestudy small_section '><div class='content subject'><p>Feel inspired by this case study? feel free to get in touch with your ideas.</p><a href='../contact.php' title='Contact Aaron regarding an idea you may have.' class='default_button'>Get in contact</a></div></section>
 	<!-- Start of portfolio section -->
 
 	<!-- end of section -->

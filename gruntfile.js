@@ -58,11 +58,17 @@ module.exports = function(grunt) {
                 }
             }
         },
-        pa11y: {
-    options: {
-      url: 'aaronmcguire.co.uk'
-    }
+        accessibility: {
+  options: {
+    accessibilityLevel: 'WCAG2A'
   },
+  test: {
+    options: {
+      urls: ['http://aaronmcguirecouk.dev']
+    },
+    src: ['aaronmcguirecouk/*.php']
+  }
+},
   browserSync: {
     dev: {
         bsFiles: {
@@ -72,7 +78,16 @@ module.exports = function(grunt) {
             proxy: "aaronmcguirecouk.dev"
         }
     }
-}
+},
+autoprefixer: {
+    options: {
+       safe: true
+    },
+    your_target: {
+      // Target-specific file lists and/or options go here.
+    'styles/style.css': 'styles/stylesheet.min.css'
+    },
+  },
 
 
     });
@@ -81,9 +96,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-criticalcss');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-pagespeed');
-    grunt.loadNpmTasks('grunt-pa11y');
     grunt.loadNpmTasks('grunt-browser-sync');
-
+    grunt.loadNpmTasks('grunt-accessibility');
+    grunt.loadNpmTasks('grunt-autoprefixer');
 
 
 
