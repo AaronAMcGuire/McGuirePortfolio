@@ -16,7 +16,7 @@ module.exports = function(grunt) {
                 separator: ';',
             },
             dist: {
-                src: ['vendors/swiper.min.js', 'js/script.js'],
+                src: ['js/script.js'],
                 dest: 'js/main.js',
             },
         },
@@ -27,23 +27,11 @@ module.exports = function(grunt) {
             },
             target: {
                 files: {
-                    'styles/stylesheet.min.css': ['vendors/hamburgers.min.css', 'styles/fonts.css', 'styles/style.css']
+                    'styles/stylesheet.min.css': ['vendors/hamburgers.min.css','styles/style.css']
                 }
             }
         },
-        criticalcss: {
-            custom: {
-                options: {
-                    url: "http://www.aaronmcguire.co.uk",
-                    width: 1200,
-                    height: 900,
-                    outputfile: "styles/critical.css",
-                    filename: "styles/stylesheet.min.css", // Using path.resolve( path.join( ... ) ) is a good idea here
-                    buffer: 800 * 1024,
-                    ignoreConsole: true
-                }
-            }
-        },
+
         pagespeed: {
             options: {
                 nokey: true,
@@ -79,26 +67,16 @@ module.exports = function(grunt) {
         }
     }
 },
-autoprefixer: {
-    options: {
-       safe: true
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    'styles/style.css': 'styles/stylesheet.min.css'
-    },
-  },
+
 
 
     });
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-criticalcss');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-pagespeed');
     grunt.loadNpmTasks('grunt-browser-sync');
     grunt.loadNpmTasks('grunt-accessibility');
-    grunt.loadNpmTasks('grunt-autoprefixer');
 
 
 

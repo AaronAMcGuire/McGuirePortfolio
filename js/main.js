@@ -6,48 +6,8 @@ var $hamburger=$(".hamburger");
 $hamburger.on("click",function(a)
 {$hamburger.toggleClass("is-active"),
 $("header").toggleClass("menu_open"),
-$("menu_toggle").text("close"),
 $("body").toggleClass("overflow")
 });
-
-var $animation_elements = $('.animation-element');
-var $window = $(window);
-
-function check_if_in_view() {
-  var window_height = $window.height();
-  var window_top_position = $window.scrollTop();
-  var window_bottom_position = (window_top_position + window_height);
-
-  $.each($animation_elements, function() {
-    var $element = $(this);
-    var element_height = $element.outerHeight();
-    var element_top_position = $element.offset().top;
-    var element_bottom_position = (element_top_position + element_height);
-
-    //check to see if this current container is within viewport
-    if ((element_bottom_position >= window_top_position) &&
-      (element_top_position <= window_bottom_position)) {
-      $element.addClass('in-view');
-    } else {
-      $element.removeClass('in-view');
-    }
-  });
-}
-
-$window.on('scroll resize', check_if_in_view);
-$window.trigger('scroll');
-
-
-$(document).ready(function() {
-    $('.overlay').each(function () {
-      var colors = ["#B92E22","#252333","#C03220","#D46748","#930408"];
-      var rand = Math.floor(Math.random()*colors.length);
-        $(this).css("background-color", colors[rand]);
-    });
-});
-
-
-
 if (screen && screen.width > 768) {
 
       var SEPARATION = 100, AMOUNTX = 50, AMOUNTY = 50;
@@ -147,10 +107,4 @@ if (screen && screen.width > 768) {
         count += 0.1;
 
       }
-}
-function skillsFunction() {
-  var name =  "Aaron McGuire";
-  var age = "22";
-  var skills = "HTML, SASS, Javascript, Grunt, Git, PHP";
-  console.log(name + age + skills);
 }

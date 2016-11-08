@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Lora-Regular';
+  src: url("../fonts/Lora-Regular.ttf");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Lora-Regular.ttf") format("embedded-opentype"), url("../fonts/Lora-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Omnes';
+  src: url("../fonts/Omnes.ttf");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Omnes.ttf") format("embedded-opentype"), url("../fonts/Omnes.ttf") format("truetype"); }
 * {
   margin: 0;
   padding: 0; }
@@ -12,10 +22,6 @@ html {
   height: auto;
   font-family: 'Omnes';
   -webkit-font-smoothing: antialiased; }
-
-/* Prevent user scrolling on mobile menu */
-.overflow {
-  overflow: auto; }
 
 /* DEFAULT STYLES */
 html {
@@ -108,32 +114,6 @@ h2 {
   background: transparent;
   color: #ff425d; }
 
-.outline {
-  border: 1px solid #969696;
-  background: none;
-  color: #969696;
-  width: 150px; }
-
-.outline:hover {
-  background: #ff425d;
-  color: white;
-  border-color: transparent; }
-
-.outline-rv {
-  background: #ff425d; }
-
-.outline-rv:hover {
-  border: 1px solid #969696;
-  background: none;
-  color: #969696;
-  width: 150px; }
-
-.logo {
-  width: 400px;
-  height: 144px;
-  position: relative;
-  z-index: 2; }
-
 .line {
   display: block;
   width: 90%;
@@ -159,6 +139,10 @@ h2 {
 a:-webkit-any-link {
   text-decoration: none; }
 
+a:link {
+  text-decoration: none; }
+
+/* a:link fixes problem on h1 in firefox & webkit for chrome */
 header {
   z-index: 9999;
   position: absolute;
@@ -251,7 +235,8 @@ header {
   background: #dfdfdf;
   width: 100%;
   height: 80vh;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
   .hero h2 {
     color: white;
     z-index: 2;
@@ -276,39 +261,6 @@ header {
     background-attachment: fixed; }
   .small .hero_content {
     height: 500px; }
-
-.pokego .gradient {
-  background: url("../images/banners/pokegobanner.jpg");
-  background-position: center center;
-  background-size: cover; }
-
-.h20 .gradient {
-  background: url("../images/banners/h20banner.jpg");
-  background-position: center center;
-  background-size: cover; }
-
-.hac .gradient {
-  background: url("../images/banners/hacbanner.jpg");
-  background-position: center center;
-  background-size: cover; }
-
-.infocomms .gradient {
-  background: url("../images/banners/infocommsbanner.jpg");
-  background-position: center center;
-  background-size: cover; }
-
-.g4digital .gradient {
-  background: url("../images/banners/g4digitalbanner.jpg");
-  background-position: center center;
-  background-size: cover; }
-
-.sortedhorses .gradient {
-  background: url("../images/banners/sortedhorses.jpg");
-  background-position: center center;
-  background-size: cover; }
-
-.p_static .gradient {
-  background: url("../images/banners/portfolioherostatic.jpg"); }
 
 .background {
   position: relative;
@@ -385,7 +337,7 @@ header {
   .small_section .default_button {
     display: inline-block; }
   .small_section p {
-    color: #969696;
+    color: #646464;
     width: 100%;
     margin-bottom: 0; }
   .small_section .content {
@@ -441,7 +393,7 @@ header {
     .about .container .default_link:hover {
       text-decoration: underline; }
     .about .container p {
-      color: #969696;
+      color: #646464;
       max-width: 800px; }
     .about .container span {
       color: #646464; }
@@ -479,7 +431,7 @@ pre.code label {
   pointer-events: none; }
 
 pre.code code {
-  font-family: "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+  font-family: "Courier New",Courier,monospace;
   display: block;
   margin: 0 0 0 60px;
   padding: 15px 16px 14px;
@@ -512,7 +464,7 @@ pre.code-js code {
   color: #424770; }
 
 .code_example {
-  color: #969696;
+  color: #646464;
   font-style: italic; }
 
 /* END OF ABOUT */
@@ -528,51 +480,90 @@ pre.code-js code {
   flex-wrap: wrap;
   background: whitesmoke; }
   .portfolio .portfolio_item {
-    width: 30%;
-    height: auto;
-    margin: 0.5rem;
-    position: relative;
-    overflow: hidden; }
-    .portfolio .portfolio_item img {
-      width: 100%;
-      height: auto;
-      transform: scale(1.1);
-      transition: 500ms ease-in-out; }
-  .portfolio .overlay {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    font-size: 16px;
+    margin: 10px 1%;
+    max-width: 30%;
+    overflow: hidden;
+    position: relative; }
+  .portfolio .portfolio_item * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+  .portfolio .portfolio_item img {
+    max-width: 100%;
+    vertical-align: top;
+    position: relative; }
+  .portfolio .portfolio_item figcaption {
+    padding: 25px 20px 25px;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    left: 0;
-    top: 0;
-    color: white;
     width: 100%;
-    min-height: 100%;
+    bottom: 0;
+    z-index: 1; }
+  .portfolio .portfolio_item figcaption:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #252333;
+    content: '';
+    opacity: 0.95;
+    z-index: -1; }
+  .portfolio .portfolio_item .date {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #392071;
+    font-size: 1.4rem;
+    font-weight: 700;
+    min-height: 48px;
+    min-width: 48px;
+    padding: 10px 0;
+    position: absolute;
+    right: 15px;
     text-align: center;
-    display: none;
-    transition: opacity 200ms ease-in-out;
-    opacity: 0; }
-  .portfolio .portfolio_item:hover .overlay {
-    display: flex;
-    animation: fadeIn 350ms ease-in-out;
-    opacity: 1; }
-  .portfolio .portfolio_item:hover .overlay .tag,
-  .portfolio .portfolio_item:hover .overlay h3 {
-    animation-delay: 1s;
-    animation: portfolioUp 200ms ease-in-out; }
-  .portfolio .portfolio_item:hover img {
-    transform: scale(1.3); }
+    text-transform: uppercase;
+    top: -25px; }
+  .portfolio .portfolio_item .date span {
+    display: block;
+    line-height: 14px; }
+  .portfolio .portfolio_item .date .month {
+    font-size: 1rem; }
+  .portfolio .portfolio_item h3 {
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 2rem; }
+  .portfolio .portfolio_item p {
+    font-size: 1.4rem; }
+  .portfolio .portfolio_item a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1; }
+  .portfolio .portfolio_item:hover img,
+  .portfolio .portfolio_item.hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
 
 .intro {
   padding: 6rem 0;
+  color: white;
   display: flex; }
+  .intro a {
+    text-decoration: underline;
+    color: white; }
   .intro .container {
     max-width: 900px;
     display: flex;
     flex-direction: column; }
   .intro .default_button {
-    align-self: flex-end; }
+    align-self: flex-end;
+    text-decoration: none; }
   .intro h2 {
     color: white; }
   .intro p {
@@ -587,6 +578,7 @@ pre.code-js code {
 
 .evidence {
   width: 100%;
+  height: auto;
   overflow: auto;
   height: auto;
   display: flex; }
@@ -595,6 +587,9 @@ pre.code-js code {
     height: auto;
     display: block;
     flex-grow: 1; }
+
+.p_static .gradient {
+  background: url(../images/banners/portfolioherostatic.jpg); }
 
 .project_sortedhorses .intro {
   background: #DC143C; }
@@ -630,6 +625,7 @@ pre.code-js code {
       background: white;
       -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
       width: 100%;
+      height: auto;
       height: auto;
       margin-bottom: 2rem;
       text-align: center; }
@@ -703,6 +699,7 @@ pre.code-js code {
 
 .blog_posts {
   width: 100%;
+  height: auto;
   height: auto;
   padding: 8rem 0;
   background: url(../images/textures/crossword.png); }
@@ -781,16 +778,12 @@ footer {
   float: left;
   display: block; }
 
-#map {
-  width: 100%;
-  height: 500px; }
-
 .contact {
   width: 100%;
   height: auto; }
   .contact .input_items {
     display: inline-block;
-    margin: 1rem;
+    margin: 2rem;
     text-align: left; }
   .contact label {
     font-size: 2.2rem;
@@ -808,7 +801,7 @@ footer {
     font-size: 2rem;
     padding: 1rem;
     font-family: 'Omnes';
-    border: 1px solid #969696;
+    border: 1px solid #646464;
     box-sizing: border-box; }
 
 /* ANIMATIONS START */
@@ -833,19 +826,11 @@ footer {
     opacity: 0; }
   to {
     opacity: 1; } }
-@keyframes portfolioUp {
-  from {
-    opacity: 0;
-    transform: matrix(1, 0, 0, 1, 0, 50);
-    -ms-transform: matrix(1, 0, 0, 1, 0, 50);
-    -webkit-transform: matrix(1, 0, 0, 1, 0, 50); }
-  to {
-    opacity: 1;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    -ms-transform: matrix(1, 0, 0, 1, 0, 0);
-    -webkit-transform: matrix(1, 0, 0, 1, 0, 0); } }
 /* ANIMATION END */
 @media screen and (max-width: 1200px) {
+  .portfolio .portfolio_item {
+    max-width: 40%; }
+
   .blog_posts .container {
     justify-content: space-around; }
   .blog_posts .latest_posts,
@@ -882,8 +867,12 @@ footer {
     padding: 0;
     box-sizing: border-box; } }
 @media screen and (max-width: 900px) {
+  .portfolio .portfolio_item {
+    max-width: 45%; }
+
   .blog_container aside {
     width: 100%;
+    height: auto;
     height: auto;
     margin: 2rem 0;
     order: 1; }
@@ -893,9 +882,6 @@ footer {
 
   .background {
     display: none; }
-
-  .portfolio .portfolio_item {
-    width: 48%; }
 
   .small_section .content {
     flex-wrap: wrap;
@@ -919,6 +905,9 @@ footer {
   header h1 {
     display: none; }
 
+  .portfolio .portfolio_item {
+    min-width: 90%; }
+
   article h2 {
     font-size: 3rem; }
   article h3 {
@@ -934,9 +923,6 @@ footer {
     padding: 2rem; }
     .about .container p {
       text-align: justify; }
-
-  .portfolio .portfolio_item {
-    width: 80%; }
 
   .overflow {
     overflow: hidden; }

@@ -25,24 +25,24 @@
 				<meta name="msapplication-navbutton-color" content="#ff425d">
 				<meta name="apple-mobile-web-app-status-bar-style" content="#ff425d">
 <!--  fav icons APPLE | Android | PC -->
-				<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
-				<link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
-				<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
-				<link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
-				<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
-				<link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
-				<link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
-				<link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
-				<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
-				<link rel="icon" type="image/png" sizes="192x192"  href="images/favicons/android-icon-192x192.png">
-				<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-				<link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
-				<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
-				<link rel="manifest" href="images/favicons/manifest.json">
+<link rel="apple-touch-icon" sizes="57x57" href="../images/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../images/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../images/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../images/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../images/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../images/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../images/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../images/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../images/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../images/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../images/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16x16.png">
+<link rel="manifest" href="../images/favicons/manifest.json">
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=1.9">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=2.5">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
@@ -50,7 +50,7 @@
 <?php include_once("../includes/analyticstracking.php") ?>
 <section class="hero small">
 <div class='hero_content gradient'><h2>Digital Industry: Staying relevant as a student</h2>
-<span class='arrow bounce'></span>
+<a href='#maincontent' title='go to main content on page'><span class='arrow bounce'></span></a>
 </div>
 
 
@@ -69,21 +69,27 @@
 		<div class='container'>
 
 <article class='full_article'><span class='new_tag'>New</span> <span class='timestamp'>WEDNESDAY, DECEMBER 17, 2014</span>
-<h2>A look under the hood: Website performance and optimisation</h2>
+<h2>Digital Industry: Staying relevant as a student</h2>
 <span class='line'></span>
 <h3>Code Validation</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare. </p>
-<ul>
-	<li><a href='' title=''>CSS Lint</a></li>
-		<li><a href='' title=''>HTML Validator</a></li>
-		<li><a href='' title=''>JS Validator</a></li>
-</ul>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare.</p>
+<p>Every now and then things change – it’s a given, a way of life but when those changes mean your reading product documentations every two minutes and constantly adapting your skills, is the digital world really all worth it? Well, of course! Who else is going to make websites that adhere to every WCAG guideline ever invented? As it stands there are double the staff aged between 31 and 41 in the digital industry than those between 18 and 24 (Digital Skills Festival, 2016). Personally this for me was a huge shock, as there’s whole companies dedicated to developing products for younger people and yet there’s a lack of those people within the industry. This brought to question my own obstacles with the industry. Maybe the dilemmas I get into now are discouraging younger people to be involved in the digital industry. Other than University, how do young people even break into the digital industry? On a personal note - my first break into the real world of digital work came from my Twitter page as I was lucky enough to be offered a placement at <a href='http://www.supremo.tv' title='Web development agency located in Manchester' class='default_link'>Supremo</a>. This I feel highlights the importance of having an active and professional social media presence - as you could have potential future employers scouting your profile at any time.  Despite my delight, I did find myself wondering if I was really ready. However I did take the opportunity to learn all of their tools, which in turn helped me understand how an agency functions on a day to day basis.  </p>
 
-<h3>Page optimisation</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare.</p>
-<h3>SEO Integration</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare, purus vel placerat varius, nibh leo iaculis est, nec porttitor dui tellus quis urna. Pellentesque eget aliquam sapien, ac fermentum dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent tempus congue arcu, non maximus enim tincidunt non. Nullam metus mi, mollis quis nisi quis, placerat maximus ipsum. Curabitur ut mauris vel lorem gravida convallis. Phasellus urna est, feugiat quis mattis vel, convallis ac ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras hendrerit quis erat a facilisis. Nam interdum ante vitae dolor aliquet, non fermentum eros sagittis. Vestibulum eu feugiat ligula. Curabitur ultricies faucibus mattis. Aenean cursus, velit in bibendum posuere, magna quam molestie dui, eget efficitur augue mi quis diam. Integer bibendum vestibulum purus quis sagittis. Integer volutpat mauris eget augue rhoncus ornare.</p>
+<h3>Problems faced</h3>
+<p>One constant problem I face is trying to create something original. Scrolling through Dribbble or Behance for design ideas starts to feel more and more like cheating. <a href='https://www.youtube.com/watch?v=taAm6RT3t7I&feature=youtu.be' title='Mental health in tech talk.'>A talk by Chris Murphy</a> on Mental Health in tech touches on the term ‘Imposter Syndrome’. He gives a great analogy for this term that relates to me personally: “imagine you’re building a tower of cards and just waiting for someone to come over at any time and topple it.” In my case the tower represents a website I’m building and I’m waiting to be called out for my code.  Although none of my code is copied and I understand every line, there’s still a fear that I’m never going to be truly ready for industry. What doesn't help is that tools are forever changing. There are a thousand different ways to complete one task and every week a different way becomes industry standard. Overcoming these problems requires you to take a step out of the role your currently in. Take a look at everything you have achieved during your project and compare it to past projects, analyse everything and see how far you’ve come. These problems are likely to be more consequential once I start working as the working hour’s leave less time for self-reflection and it therefore may become a problem. </p>
+
+
+<p>A positive to come from all the blood, sweat and html is that I’m in one of the best places, there is a ratio 3:2 of males to females in the digital industry. Manchester Metropolitan University also has a 23% recruitment rate from all local universities. All of these statistics for me as a young male studying at Manchester Met are perfect. There are never ending opportunities provided by our lecturers such as:
+<ul>
+<li>NUX</li>
+<li>WordCamp</li>
+</ul>
+</p>
+<p>These events are just the tip of the iceberg, we are also privileged enough to be given talks by a number of leading professionals in the digital industry. These talks usually comprise of getting the most out of our time in University and exactly what we need to do to progress within the digital sector. These companies and people include but are not limited to:</p>
+<ul>
+<li>BBC</li>
+<li>Code Computer Love</li>
+</ul>
+<p>Staying relevant and updated with everything in the digital industry is a never-ending battle. What makes it worth it - is knowing the technologies you use are brand new and could be used in a way that completely re-shapes the web as we know it. </p>
 </article>
 
 </div>

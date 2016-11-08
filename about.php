@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.9">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=2.5">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -51,7 +51,7 @@
 <section class="hero small">
 <div class='hero_content gradient'><h2 class='xl'>About Me</h2>
 <p>Where I'm from, what I do, where I go and lots of other personal facts about me!</p>
-<span class='arrow bounce'></span>
+<a href='#maincontent' title='go to main content on page'><span class='arrow bounce'></span></a>
 </div>
 </section>
 <div class='breadcrumb'><div class='container'><ul>

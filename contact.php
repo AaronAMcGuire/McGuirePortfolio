@@ -42,16 +42,16 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.9">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=2.5">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
 <!-- Include Google Analytics -->
 <?php include_once("includes/analyticstracking.php") ?>
-<section id='maincontent' class="p_static hero small ">
+<section class="p_static hero small ">
 <div class='hero_content gradient'><h2 class='xl'>Get in touch</h2>
 <p>Have a question? or maybe you have an interesting project you need help on! drop me a line.</p>
-<span class='arrow bounce'></span>
+<a href='#maincontent' title='go to main content on page'><span class='arrow bounce'></span></a>
 </div>
 </section>
 <div class='breadcrumb'><div class='container'><ul>
@@ -59,7 +59,7 @@
 <li><span class='bread_arrow'></span></li>
 <li>Get in touch</li>
 </ul></div></div>
-<main>
+<main id='maincontent'>
 	<section class='about '>
 	  <div class='container'>
 		<h2>Message me directly</h2><span class='line'></span><p>If your interested in getting in touch feel free to use the form below to do so</p>
@@ -82,7 +82,6 @@
 
 
 	</section>
-	<section><div id='map'></div></section>
 </main>
 
 

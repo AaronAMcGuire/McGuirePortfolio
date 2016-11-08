@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=1.9">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=2.5">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -51,7 +51,7 @@
 <section class="hero small">
 <div class='hero_content gradient'><h2 class='xl'>Blog</h2>
 <p>From how this very website was made to coping in the digital industry, Aaron discusses all in his blog posts!</p>
-<span class='arrow bounce'></span>
+<a href='#maincontent' title='go to main content on page'><span class='arrow bounce'></span></a>
 </div>
 
 
@@ -89,7 +89,7 @@
 	<a href='https://www.flickr.com/photos/135412837@N06/' title='Aarons Flickr page'><img src='../images/icons/flickr.svg' width='40' alt='flickr'></a>
 </div>
 <div class='widget'>
-	<a class="twitter-timeline"  href="https://twitter.com/_AaronMcguire" data-widget-id="655833910983720960"></a>
+	<a class="twitter-timeline" data-height="1000" href="https://twitter.com/_AaronMcguire" data-widget-id="655833910983720960"></a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </div>
@@ -98,10 +98,13 @@
 
 
 <article><span class='timestamp'><time datetime="2016-10-30 14:37">Sunday, October 30, 2016</time></span>
-<a href='blog/developmentprocess.php' title='Aarons process of development.'><h2>The development process</h2></a><span class='line'></span><p>There’s nothing quite like starting a new web project, new ideas and new tools to use. In this post I’ll describe in detail my process from start to finish – including research, design and development!</p><h3>Research:</h3><p>Considered the most important aspect of the whole project, research was my first port of call. Like any other project I start out by looking at possible competition. These competitors ranged from industry professionals to fellow students. I looking at websites such as Awwwards and Cssdesignawards to find the ‘best’ websites out there. Coming across some awe-inspiring websites such as wwrk but also websites that simply lacked usability. It’s very important to check the usability of these websites as more commonly than not these websites look fantastic but need an operations manual to use them ‘correctly’. A good technique adopted along side a competitor analysis is to analyse possible design trends – This helps later on in the design phase. </p><a href='blog/developmentprocess.php' class='default_button' title='Aarons process of development.'>Read Article</a></article>
+<a href='blog/developmentprocess.php' title='Aarons process of development.'><h2>The development process</h2></a><span class='line'></span><p>There’s nothing quite like starting a new web project, new ideas and new tools to use. In this post I’ll describe in detail my process from start to finish – including research, design and development!</p><h3>Research:</h3><p>Considered the most important aspect of the whole project, research was my first port of call. Like any other project I start out by looking at possible competition. These competitors ranged from industry professionals to fellow students. I looking at websites such as Awwwards and Cssdesignawards to find the ‘best’ websites out there. Coming across some awe-inspiring websites such as wwrk but also websites that simply lacked usability. It’s very important to check the usability of these websites as more commonly than not these websites look fantastic but need an operations manual to use them ‘correctly’. A good technique adopted along side a competitor analysis is to analyse possible design trends – This helps later on in the design phase. <figure>
+<img src='../images/developmentprocess/wireframes.jpg' alt='pen drawn wireframes drawn on paper'>
+<figcaption>Wireframes of Aarons homepage drawn using fineliner.</figcaption>
+</figure></p><a href='blog/developmentprocess.php' class='default_button' title='Aarons process of development.'>Read Article</a></article>
 
 <article><span class='timestamp'><time datetime="2016-11-02 18:02">Wednesday, November 2, 2016</time></span>
-<a href='blog/keepupdigital.php'  title='Aarons struggle keeping up in the digital industry'><h2>Digital Industry: Staying relevant as a student</h2></a><span class='line'></span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus turpis eros, a ullamcorper tortor laoreet sed. Nullam risus mauris, eleifend sit amet orci ac, rhoncus pellentesque lectus. Phasellus sit amet massa ultrices, ultricies elit eu, egestas quam. Duis eget bibendum ante. Phasellus ornare pellentesque finibus. Aliquam at nisl arcu. Aliquam volutpat purus felis, sed maximus turpis ornare convallis.</p><p>Etiam mi lacus, molestie feugiat bibendum nec, cursus a dui. Nam a ligula efficitur, dignissim massa a, lacinia diam. Phasellus felis odio, condimentum id ante nec, elementum hendrerit dui. Sed vehicula lectus felis, id viverra sem pellentesque vitae. Praesent euismod tempor tristique. Curabitur eget ante et augue rhoncus pharetra congue at felis. Aenean sit amet tincidunt nulla. Cras sit amet justo sit amet erat posuere finibus. Cras faucibus, lacus sit amet posuere gravida, lacus odio tristique quam, id vulputate neque ligula sit amet diam. Ut rutrum volutpat quam vitae tempus.</p><a href='blog/keepupdigital.php' class='default_button' title='Aarons struggle keeping up in the digital industry'>Read Article</a></article>
+<a href='blog/keepupdigital.php'  title='Aarons struggle keeping up in the digital industry'><h2>Digital Industry: Staying relevant as a student</h2></a><span class='line'></span><p>Every now and then things change – it’s a given, a way of life but when those changes mean your reading product documentations every two minutes and constantly adapting your skills, is the digital world really all worth it? Well, of course! Who else is going to make websites that adhere to every WCAG guideline ever invented? As it stands there are double the staff aged between 31 and 41 in the digital industry than those between 18 and 24 (Digital Skills Festival, 2016). Personally this for me was a huge shock, as there’s whole companies dedicated to developing products for younger people and yet there’s a lack of those people within the industry. This brought to question my own obstacles with the industry. Maybe the dilemmas I get into now are discouraging younger people to be involved in the digital industry. Other than University, how do young people even break into the digital industry? On a personal note - my first break into the real world of digital work came from my Twitter page as I was lucky enough to be offered a placement at Supremo. This I feel highlights the importance of having an active and professional social media presence - as you could have potential future employers scouting your profile at any time.  Despite my delight, I did find myself wondering if I was really ready. However I did take the opportunity to learn all of their tools, which in turn helped me understand how an agency functions on a day to day basis. </p><a href='blog/keepupdigital.php' class='default_button' title='Aarons struggle keeping up in the digital industry'>Read Article</a></article>
 
 </div>
 </section></main>

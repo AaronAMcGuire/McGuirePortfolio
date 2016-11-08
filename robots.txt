@@ -5,3 +5,9 @@ Disallow: /kasa/
 Disallow: /PokemonGoGuide/
 Disallow: /group4/
 Disallow: /enc/
+Disallow: /sortedhorses
+Disallow: /hac
+Disallow: /kasa
+Disallow: /PokemonGoGuide
+Disallow: /group4
+Disallow: /enc
