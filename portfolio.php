@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=2.5">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=3.3">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -66,85 +66,85 @@
 	<!-- Start of portfolio section -->
 	<section class='portfolio' id='maincontent'>
 
-
+<a href="portfolio/sortedhorses.php" title='Case study for Sortedhorses website'>
 			<figure class="portfolio_item">
 		  <div class="image"><img src="images/thumbnails/sortedhorsesthumbnail.jpg" alt="mobile phone version of sorted horses" /></div>
 		  <figcaption>
-		    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+		    <div class="date"><span class="day">12</span><span class="month">Sep</span></div>
 		    <h3>SortedHorses</h3>
 		    <p>
 
 		    Final year University project. Work alongside a real world client to generate a better website.
 		    </p>
 		  </figcaption>
-		  <a href="portfolio/sortedhorses.php" title='Case study for Sortedhorses website'></a>
+
 		</figure>
-
-
+  </a>
+<a href="portfolio/g4digital.php" title='project specification for university work'>
 		<figure class="portfolio_item">
 		<div class="image"><img src="images/thumbnails/g4digitalthumbnail.jpg" alt="g4 digital logo" /></div>
 		<figcaption>
-			<div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+			<div class="date"><span class="day">17</span><span class="month">Jun</span></div>
 			<h3>G4 Digital</h3>
 			<p>
 
 				A University project initiated to house all require documents from a development project.
 			</p>
 		</figcaption>
-		<a href="portfolio/g4digital.php" title='project specification for university work'></a>
 		</figure>
-
+		</a>
+	<a href="portfolio/pokego.php" title='Personally initiated project'>
 		<figure class="portfolio_item">
 		<div class="image"><img src="images/thumbnails/pokegothumbnail.jpg" alt="ipad showing pokemon go website" /></div>
 		<figcaption>
-			<div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+			<div class="date"><span class="day">17</span><span class="month">Aug</span></div>
 			<h3>AngularJs Pokedex</h3>
 			<p>
 
 				Self-initiated project to practice Angular Js and develop a useful web app.
 			</p>
 		</figcaption>
-		<a href="portfolio/pokego.php" title='Personally initiated project'></a>
 		</figure>
-
+</a>
+<a href="portfolio/horseandcarriage.php" title='Javascript Project for university'>
 		<figure class="portfolio_item">
 		<div class="image"><img src="images/thumbnails/horsecarriagethumbnail.jpg" alt="horse and carriage mockup" /></div>
 		<figcaption>
-			<div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+			<div class="date"><span class="day">17</span><span class="month">Jun</span></div>
 			<h3>Horse &amp; Carriage</h3>
 			<p>
 
 						Second year Javascript project. To generate a pub menu that updates based on the day of the week.
 			</p>
 		</figcaption>
-		<a href="portfolio/horseandcarriage.php" title='Javascript Project for university'></a>
 		</figure>
-
+	</a>
+	<a href="portfolio/h20.php" title='Information about h20 logo'>
 		<figure class="portfolio_item">
 		<div class="image"><img src="images/thumbnails/h20logothumbnail.jpg" alt="h20 logo mockup" /></div>
 		<figcaption>
-			<div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+			<div class="date"><span class="day">22</span><span class="month">Jul</span></div>
 			<h3>H20 Logo</h3>
 			<p>
 		An A-level Graphic design assignment to create branding for a water bottle.
 
 			</p>
 		</figcaption>
-		<a href="portfolio/h20.php" title='Information about h20 logo'></a>
 		</figure>
-
+</a>
+<a href="portfolio/mmuico.php" title='full project specification of info comms website'>
 		<figure class="portfolio_item">
 		<div class="image"><img src="images/thumbnails/mmuicothumbnail.jpg" alt="Info comms website mockup" /></div>
 		<figcaption>
-			<div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+			<div class="date"><span class="day">14</span><span class="month">Jun</span></div>
 			<h3>Information Communications</h3>
 			<p>
 
 				A second year University project. To rebrand an already existing Information Communications website.
 			</p>
 		</figcaption>
-		<a href="portfolio/mmuico.php" title='full project specification of info comms website'></a>
 		</figure>
+			</a>
 	</section>
 	<!-- end of section -->
 	</main>

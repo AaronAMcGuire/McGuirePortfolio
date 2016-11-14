@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=2.5">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=3.3">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
@@ -73,7 +73,7 @@
 
         </section>
         <section class='intro altstyle'><div class='container'><h2>Design Process</h2>
-        <p>The design process was relatively quick and simple. Aaron took the style guide created during the evidence creation and generated a simple, professional look. There were no wireframes drawn up or sitemaps generated. The overall design and build of this parallax website took a few hours to create from start to finish and used simple html and css.</p></div></section>
+        <p>The design process was relatively quick and simple. Aaron took the style guide created during the evidence creation and generated a simple, professional look. There were no wireframe's drawn up or sitemap's generated. The overall design and build of this parallax website took a few hours to create from start to finish and used simple html and css.</p></div></section>
 <section class='casestudy small_section '><div class='content subject'><p>Feel inspired by this case study? feel free to get in touch with your ideas.</p><a href='../contact.php' title='Contact Aaron regarding an idea you may have.' class='default_button'>Get in contact</a></div></section>
 	<!-- Start of portfolio section -->
 

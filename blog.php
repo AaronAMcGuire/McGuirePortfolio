@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=2.5">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=3.3">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -67,44 +67,29 @@
 	<section id='maincontent' class='blog_container clear '>
 		<div class='container'>
 
-<article><span class='new_tag'>New</span> <span class='timestamp'><time datetime="2016-10-23 20:53">Sunday, October 23, 2016</time></span>
+<article><span class='new_tag'>New</span> <span class='timestamp'><time datetime="2016-10-30 20:53">Sunday, October 30, 2016</time></span>
 <a href='blog/underthehood.php' title='Aarons approach to website performance optimisation.'><h2>A look under the hood: Website performance and optimisation</h2></a><span class='line'></span><h3>Code Validation</h3>
 <p>Validation of code is one of the most common practices to follow – allowing the web to be truly accessible to all!  Yet there are still plenty of websites that have simple validation errors rendering the whole website a UX disaster. Every website I make, I try my utmost best to ensure every element is valid, semantic and accessible. A few ways I validated my code during the development of this website were as follows: </p>
-<ul>
-	<li><a href='http://csslint.net/' title='check the validity of your css code.'>CSS Lint</a></li>
-		<li><a href='https://validator.w3.org/' title='check the validity of your html code.'>HTML Validator</a></li>
-		<li><a href='http://www.jslint.com/' title='check the validity of your javascript.'>JS Validator</a></li>
-</ul>
-<p>All of these services are free to use and take little to no time to conduct a check on all of your code. </p>
-<h4>“Well I just use grunt or gulp for that…”</h4>
-<p>Great! Me too. It’s still always good practice to run your code through a manual service because you can actually see your getting the best output. In addition to it not only being the best it can be - you also get to check those boxes during your WCAG report.</p>
 <figure>
 <img src='../images/underthehood/htmlvalidator.jpg' alt='validator screen report on W3C validator.'>
 <figcaption>Screenshot of W3C validator output for this website.</figcaption>
 </figure><a href='blog/underthehood.php' class='default_button' title='Aarons approach to website performance optimisation.'>Read Article</a></article>
-
-<aside><div class='widget'><h3>Social Media</h3>
-	<a href='https://www.facebook.com/AaronAndrewMcguire#' title='Aarons Facebook page'><img src='../images/icons/facebook.svg' width='40' alt='facebook'></a>
-	<a href='https://twitter.com/_AaronMcguire' title='Aarons Twitter page'><img src='../images/icons/twitter.svg' width='40' alt='twitter'></a>
-	<a href='https://www.flickr.com/photos/135412837@N06/' title='Aarons Flickr page'><img src='../images/icons/flickr.svg' width='40' alt='flickr'></a>
-</div>
-<div class='widget'>
-	<a class="twitter-timeline" data-height="1000" href="https://twitter.com/_AaronMcguire" data-widget-id="655833910983720960"></a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-</div>
-</aside>
+<!-- Include aside -->
+<?php include_once "includes/aside.php"; ?>
 
 
 
-<article><span class='timestamp'><time datetime="2016-10-30 14:37">Sunday, October 30, 2016</time></span>
-<a href='blog/developmentprocess.php' title='Aarons process of development.'><h2>The development process</h2></a><span class='line'></span><p>There’s nothing quite like starting a new web project, new ideas and new tools to use. In this post I’ll describe in detail my process from start to finish – including research, design and development!</p><h3>Research:</h3><p>Considered the most important aspect of the whole project, research was my first port of call. Like any other project I start out by looking at possible competition. These competitors ranged from industry professionals to fellow students. I looking at websites such as Awwwards and Cssdesignawards to find the ‘best’ websites out there. Coming across some awe-inspiring websites such as wwrk but also websites that simply lacked usability. It’s very important to check the usability of these websites as more commonly than not these websites look fantastic but need an operations manual to use them ‘correctly’. A good technique adopted along side a competitor analysis is to analyse possible design trends – This helps later on in the design phase. <figure>
+<article><span class='timestamp'><time datetime="2016-10-25 14:37">Tuesday, October 25, 2016</time></span>
+<a href='blog/developmentprocess.php' title='Aarons process of development.'><h2>The best development process?</h2></a><span class='line'></span><h3>Research:</h3><p>Considered the most important aspect of the whole project, research was my first port of call. Like any other project I start out by looking at possible competition. These competitors ranged from industry professionals to fellow students. I looking at websites such as Awwwards and Cssdesignawards to find the ‘best’ websites out there. Coming across some awe-inspiring websites such as wwrk but also websites that simply lacked usability. It’s very important to check the usability of these websites as more commonly than not these websites look fantastic but need an operations manual to use them ‘correctly’. A good technique adopted along side a competitor analysis is to analyse possible design trends – This helps later on in the design phase. <figure>
 <img src='../images/developmentprocess/wireframes.jpg' alt='pen drawn wireframes drawn on paper'>
 <figcaption>Wireframes of Aarons homepage drawn using fineliner.</figcaption>
-</figure></p><a href='blog/developmentprocess.php' class='default_button' title='Aarons process of development.'>Read Article</a></article>
+</figure><a href='blog/developmentprocess.php' class='default_button' title='Aarons process of development.'>Read Article</a></article>
 
-<article><span class='timestamp'><time datetime="2016-11-02 18:02">Wednesday, November 2, 2016</time></span>
-<a href='blog/keepupdigital.php'  title='Aarons struggle keeping up in the digital industry'><h2>Digital Industry: Staying relevant as a student</h2></a><span class='line'></span><p>Every now and then things change – it’s a given, a way of life but when those changes mean your reading product documentations every two minutes and constantly adapting your skills, is the digital world really all worth it? Well, of course! Who else is going to make websites that adhere to every WCAG guideline ever invented? As it stands there are double the staff aged between 31 and 41 in the digital industry than those between 18 and 24 (Digital Skills Festival, 2016). Personally this for me was a huge shock, as there’s whole companies dedicated to developing products for younger people and yet there’s a lack of those people within the industry. This brought to question my own obstacles with the industry. Maybe the dilemmas I get into now are discouraging younger people to be involved in the digital industry. Other than University, how do young people even break into the digital industry? On a personal note - my first break into the real world of digital work came from my Twitter page as I was lucky enough to be offered a placement at Supremo. This I feel highlights the importance of having an active and professional social media presence - as you could have potential future employers scouting your profile at any time.  Despite my delight, I did find myself wondering if I was really ready. However I did take the opportunity to learn all of their tools, which in turn helped me understand how an agency functions on a day to day basis. </p><a href='blog/keepupdigital.php' class='default_button' title='Aarons struggle keeping up in the digital industry'>Read Article</a></article>
+<article><span class='timestamp'><time datetime="2016-11-02 18:02">Sunday, October 22, 2016</time></span>
+<a href='blog/keepupdigital.php'  title='Aarons struggle keeping up in the digital industry'><h2>Digital Industry: Staying relevant as a student</h2></a><span class='line'></span><p>Every now and then things change – it’s a given, a way of life but when those changes mean your reading product documentations every two minutes and constantly adapting your skills, is the digital world really all worth it? Well, of course! Who else is going to make websites that adhere to every WCAG guideline ever invented? As it stands there are double the staff aged between 31 and 41 in the digital industry than those between 18 and 24 (Digital Skills Festival, 2016). Personally this for me was a huge shock, as there’s whole companies dedicated to developing products for younger people and yet there’s a lack of those people within the industry. <figure>
+<img src='../images/keepupdigital/xkcdcomicstackoverflow.png' alt='Comic from xkcd about web development problems'>
+<figcaption>Comic referring to coding troubles</figcaption>
+</figure><a href='blog/keepupdigital.php' class='default_button' title='Aarons struggle keeping up in the digital industry'>Read Article</a></article>
 
 </div>
 </section></main>

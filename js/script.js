@@ -1,5 +1,26 @@
+var scrollpos = window.scrollY;
+var header = document.getElementById("header");
 
-$(document).ready(function(){$(window).scroll(function(){$(window).scrollTop()>220&&$("header").addClass("header_fix"),$(window).scrollTop()<220&&$("header").removeClass("header_fix")})});
+function add_class_on_scroll() {
+    header.classList.add("header_fix");
+}
+
+function remove_class_on_scroll() {
+    header.classList.remove("header_fix");
+}
+
+window.addEventListener('scroll', function(){
+    //Here you forgot to update the value
+    scrollpos = window.scrollY;
+
+    if(scrollpos > 220){
+        add_class_on_scroll();
+    }
+    else {
+        remove_class_on_scroll();
+    }
+});
+
 
 
 var $hamburger=$(".hamburger");
@@ -8,6 +29,10 @@ $hamburger.on("click",function(a)
 $("header").toggleClass("menu_open"),
 $("body").toggleClass("overflow")
 });
+
+
+
+
 if (screen && screen.width > 768) {
 
       var SEPARATION = 100, AMOUNTX = 50, AMOUNTY = 50;
@@ -108,3 +133,19 @@ if (screen && screen.width > 768) {
 
       }
 }
+window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));

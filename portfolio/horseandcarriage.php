@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=2.5">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=3.3">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
@@ -73,7 +73,7 @@
 
         </section>
         <section class='intro altstyle'><div class='container'><h2>Design Process</h2>
-        <p>Design for this project had no reflection on Aaron’s mark – there was a template given that contained some inline CSS styles however, Aaron felt that it would be beneficial to understand the possibilities in regards to styling non static elements. Looking at some other pub websites, Aaron took inspiration and combined a simple layout. This then got developed into the final website.</p></div></section>
+        <p>Design for this project had no reflection on Aaron’s mark – there was a template given that contained some in-line CSS styles however, Aaron felt that it would be beneficial to understand the possibilities in regards to styling non static elements. Looking at some other pub websites, Aaron took inspiration and combined a simple layout. This then got developed into the final website.</p></div></section>
 <section class='casestudy small_section '><div class='content subject'><p>Feel inspired by this case study? feel free to get in touch with your ideas.</p><a href='../contact.php' title='Contact Aaron regarding an idea you may have.' class='default_button'>Get in contact</a></div></section>
 	<!-- Start of portfolio section -->
 

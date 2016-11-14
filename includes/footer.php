@@ -10,7 +10,9 @@
 <div class='footer_content_box'><h3>About Me</h3><p>Aaron McGuire, Front end web developer give me a shout!</p>
 	<a href='https://www.facebook.com/AaronAndrewMcguire#' title='Aarons Facebook page'><img src='../images/icons/facebook.svg' width='40' alt='facebook'></a>
 	<a href='https://twitter.com/_AaronMcguire' title='Aarons Twitter page'><img src='../images/icons/twitter.svg' width='40' alt='twitter'></a>
+	<a href='https://github.com/AaronAMcGuire' title='Aarons Github page'><img src='../images/icons/github.svg' width='40' alt='github'></a>
 	<a href='https://www.flickr.com/photos/135412837@N06/' title='Aarons Flickr page'><img src='../images/icons/flickr.svg' width='40' alt='flickr'></a>
+
 </div></div>
 
 	</footer>
@@ -19,6 +21,7 @@
 
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js'></script>
+<script id="dsq-count-scr" src="//aaronmcguire.disqus.com/count.js" async></script>
 <script type="text/javascript" src="../vendors/Projector.js"></script>
 <script type="text/javascript" src="../vendors/CanvasRenderer.js"></script>
 <script src="../js/main.js"></script>

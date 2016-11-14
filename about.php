@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=2.5">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=3.3">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>

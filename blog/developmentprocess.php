@@ -2,7 +2,7 @@
 <html lang='en-gb'>
 <head>
 <meta charset="utf-8">
-				<title> Blog | The development process</title>
+				<title> Blog | The best development process?</title>
 
 <!-- standard meta-->
 				<meta name="description" content="Aaron talks about his website development process">
@@ -41,14 +41,14 @@
 <link rel="manifest" href="../images/favicons/manifest.json">
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=2.5">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=3.3">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
 <!-- Include Google Analytics -->
 <?php include_once("../includes/analyticstracking.php") ?>
 <section class="hero small">
-<div class='hero_content gradient'><h2>The development process</h2>
+<div class='hero_content gradient'><h2>The best development process?</h2>
 <a href='#maincontent' title='go to main content on page'><span class='arrow bounce'></span></a>
 </div>
 
@@ -59,7 +59,7 @@
 <li><span class='bread_arrow'></span></li>
 <li><a href='../blog.php' title='See all of Aarons blog posts.'>Blog</a></li>
 <li><span class='bread_arrow'></span></li>
-<li>The development process</li>
+<li>The best development process?</li>
 </ul></div></div>
 
 
@@ -67,12 +67,12 @@
 	<section class='blog_container clear '>
 		<div class='container'>
 
-<article class='full_article'><span class='new_tag'>New</span> <span class='timestamp'><time datetime="2016-10-30 14:37">Sunday, October 30, 2016</time></span>
-<h2>The development process</h2>
+<article class='full_article'><span class='timestamp'><time datetime="2016-10-25 14:37">Tuesday, October 25, 2016</time></span>
+<h2>The best development process?</h2>
 <span class='line'></span>
 <p>There’s nothing quite like starting a new web project, new ideas and new tools to use. In this post I’ll describe in detail my process from start to finish – including research, design and development!</p>
 <h3>Research</h3>
-<p>Considered the most important aspect of the whole project, research was my first port of call. Like any other project I start out by looking at possible competition. These competitors ranged from industry professionals to fellow students. I looking at websites such as <a href='www.awwwards.com' title='The awards for design, creativity and innovation on the Internet'>Awwwards</a> and <a href='http://www.cssdesignawards.com/' title='Website awards &amp; inspiration'>Cssdesignawards</a> to find the ‘best’ websites out there. Coming across some awe-inspiring websites such as <a href='http://waaark.com/' title='Web development agency'>waaark</a> but also websites that simply lacked usability. It’s very important to check the usability of these websites as more commonly than not these websites look fantastic but need an operations manual to use them ‘correctly’. A good technique adopted along side a competitor analysis is to analyse possible design trends – This helps later on in the design phase. </p>
+<p>Considered the most important aspect of the whole project, research was my first port of call. Like any other project I start out by looking at possible competition. These competitors ranged from industry professionals to fellow students. I looked at websites such as <a href='www.awwwards.com' title='The awards for design, creativity and innovation on the Internet'>Awwwards</a> and <a href='http://www.cssdesignawards.com/' title='Website awards &amp; inspiration'>Cssdesignawards</a> to find the ‘best’ websites out there. Coming across some awe-inspiring websites such as <a href='http://waaark.com/' title='Web development agency'>waaark</a> but also websites that simply lacked usability. It’s very important to check the usability of these websites as more commonly than not they look fantastic but need an operations manual to use them ‘correctly’. A good technique adopted along side a competitor analysis is to analyse possible design trends – This helps later on in the design phase. </p>
 
 
 <p>Once the competitor analysis had been completed, creating an information architecture for the site was the next step as commonly stated “No matter how beautiful your website is, if customers can’t find what they need, your brand loses value.” <a href='http://shop.oreilly.com/product/9780596527341.do' title='Information architecture book'>(Morville and Rosenfeld)</a>. Having done a portfolio in my previous two years in University I had already established a solid information architecture that I could stick with.</p>
@@ -89,19 +89,43 @@
 <h3>Development</h3>
 <p>This process for me is always the most fun and at the same time most infuriating. Fun because you get to take everything you’ve done up to now and code it into an amazing user experience. Infuriating because half way through the project, another technology comes out that you could’ve used! – discussed <a href='http://aaronmcguire.co.uk/blog/keepupdigital.php' title='Keeping  up in the digital industry'>here</a> in another of my blog posts.</p>
 <p>The development process for me starts by creating a virtual host – this host is used to test the website for the remainder of the project. Once done I initialise a Github repo to act as version control – this can be found here <a href='https://github.com/AaronAMcGuire/McGuirePortfolio' title='Github Repository for Aarons website'>McGuirePortfolio.</a> </p>
-<p>After these setup features had been organised it was time to get some coding done. The first step was to create some grunt task – these included tasks such as page speed checker, accessibility WCAG checks, CSS minify and JavaScript concatenations. Sass was the next step, creating the required files and using the terminal to watch my files for any changes. </p>
-<p>The above tasks can be completed in around ten minutes leaving the rest of the time to code the website. Despite the majority of the website being coded in semantic HTML 5. I converted my pages into PHP so I could include my main elements such as the header and footer in all documents. Doing this decreases code repetition and also decreases the likely hood of an error occurring due to a manual copy and paste mistake.</p>
+<p>After these setup features had been organised it was time to get some coding done. The first step was to create some grunt tasks – these included tasks such as PageSpeed checkers, accessibility WCAG checks, CSS minify and JavaScript concatenations. Sass was the next step, creating the required files and using the terminal to watch my files for any changes. </p>
+<p>The above tasks can be completed in around ten minutes leaving the rest of the time to code the website. Despite the majority of the website being coded in semantic HTML 5, I converted my pages into PHP so I could include my main elements such as the header and footer in all documents. Doing this decreases code repetition and also decreases the likely hood of an error occurring due to a manual copy and paste mistake.</p>
 <figure>
 <img src='../images/developmentprocess/phpincludes.jpg' alt='Code screenshot of PHP includes'>
 <figcaption>Screenshot shows the PHP includes tag being used</figcaption>
 </figure>
 <h4>Bibliography:</h4>
 <span><a href='http://shop.oreilly.com/product/9780596527341.do' title='Information Architecture book'>Morville, Peter and Louis Rosenfeld. Information Architecture For The World Wide Web. Sebastopol, CA: O'Reilly, 2007. Print.</a></span>
-</article>
 
+<div class='share'>
+	<h3>Like the article? Share it!</h3>
+	<span class='line'></span>
+<a href="https://twitter.com/share" class="twitter-share-button share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="fb-share-button share-button" data-href="http://aaronmcguire.co.uk/blog/developmentprocess.php" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faaronmcguire.co.uk%2Fblog%2Fdevelopmentprocess.php&amp;src=sdkpreparse">Share</a></div>
 </div>
-</section></main>
+
+</article>
+</div>
+</section>
+
+<div class='comment_block'>
+<div id="disqus_thread" class='post'>
+<script>
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//aaronmcguire.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</div>
+<section class='casestudy small_section '><div class='content subject'><p>Like this post? Head on over to my article about optimisation and performance</p><a href='../blog/underthehood.php' title='website optimisation and performance blog post' class='default_button'>Under the hood</a></div></section></main>
 
 
 <!-- Include footer-->
+
 <?php include_once "../includes/footer.php"; ?>

@@ -41,7 +41,7 @@
 <link rel="manifest" href="../images/favicons/manifest.json">
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=2.5">
+				<link rel="stylesheet" type="text/css" href="../styles/stylesheet.min.css?v=3.3">
 </head>
 <!-- Include header -->
 <?php include_once "../includes/header.php"; ?>
@@ -64,7 +64,7 @@
 
 <main class='project_h20' id='maincontent'>
   <section class='intro'><div class='container'><h2>Project Initiation</h2>
-  <p>Aaron was assigned the task of creating a Scandinavian based logo for a water bottle company. This project was assigned to Aaron during his A-levels. This project achieved Aaron an A* in his Graphic Design A-level overall. The initiation of the project started with some background research on Scandinavian culture – This lead onto an analysis of other similar logos and colour swatches being taken.</p><a href='#' class='default_button style3' title=''>View whole project</a></div></section>
+  <p>Aaron was assigned the task of creating a Scandinavian based logo for a water bottle company. This project was assigned to Aaron during his A-levels. This project achieved Aaron an A* in his Graphic Design A-level overall. The initiation of the project started with some background research on Scandinavian culture – This lead onto an analysis of other similar logos and colour swatches being taken.</p></div></section>
   <section class='evidence'>
     <div><img src='../images/casestudy/h20/h20swatches.jpg' alt='Colour swatches taken from competitors logos'></div>
       <div><img src='../images/casestudy/h20/h20prototype.jpg' alt='Design mock-up of h20 logo ideas'></div>

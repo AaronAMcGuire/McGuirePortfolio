@@ -42,7 +42,7 @@
 
 
 <!-- Main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=2.5">
+				<link rel="stylesheet" type="text/css" href="styles/stylesheet.min.css?v=3.3">
 </head>
 <!-- Include header -->
 <?php include_once "includes/header.php"; ?>
@@ -63,18 +63,18 @@
 	<section class='about '>
 	  <div class='container'>
 		<h2>Message me directly</h2><span class='line'></span><p>If your interested in getting in touch feel free to use the form below to do so</p>
-		<form class='contact'>
+		<form class='contact' method="post" action="includes/sendform.php">
 			<div class='input_items'>
 			<label for='name'>Name:</label>
-			<input name="name" placeholder="Enter your name" required/>
+			<input id='name' name="name" placeholder="Enter your Name" required/>
 		</div>
 		<div class='input_items'>
 			<label for='email'>Email:</label>
-			<input name="email" placeholder="Enter your email" type="email" required/>
+			<input id='email' name="email" placeholder="Enter your email" type="email" required/>
 		</div>
 		<div class='input_items'>
-			<label for='message'>Message:</label>
-	    <textarea rows="4" cols="50" name="message" placeholder="Please enter your message" class="message" required></textarea>
+			<label for='comments'>Message:</label>
+	    <textarea rows="4" cols="50" id='comments' name="comments" placeholder="Please enter your message" class="message" required></textarea>
 		</div>
 	    <input class='default_button' name="submit" type="submit" value="Send" />
 	</form>
